@@ -3,65 +3,73 @@
 
 //Default BC core font scheme
 h1, .h1{
-	font-family: $default_font_family;
+	font-family: $alternate_font_family_1;
 	font-size: 48px;
 	font-weight: 700;
-	text-transform: none;
-	line-height: 48px;
+	text-transform: Capitalization;
+	line-height: 50px;
 	letter-spacing: default;
 	color: $primary_color;
 }
 
 h2, .h2{
-	font-family: $default_font_family;
-	font-size: 36px;
-	font-weight: 500;
-	text-transform: uppercase;
-	line-height: 36px;
+	font-family: $alternate_font_family_1;
+	font-size: 38px;
+	font-weight: 600;
+	text-transform: Capitalization;
+	line-height: 48px;
 	letter-spacing: default;
 	color: $primary_color;
 }
 
 h3, .h3{
-	font-family: $default_font_family;
-	font-size: 30px;
+	font-family: $alternate_font_family_1;
+	font-size: 36px;
 	font-weight: 300;
-	text-transform: uppercase;
+	text-transform: Capitalization;
+	line-height: 40px;
+	letter-spacing: default;
+	color: $secondary_color;
+}
+
+h4, .h4{
+	font-family: $alternate_font_family_1;
+	font-size: 34px;
+	font-weight: 600;
+	text-transform: Capitalization;
 	line-height: 36px;
 	letter-spacing: default;
 	color: $primary_color;
 }
 
-h4, .h4{
-	font-family: $default_font_family;
-	font-size: 24px;
-	font-weight: 400;
-	text-transform: none;
-	line-height: 30px;
-	letter-spacing: default;
-	color: $primary_color;
-}
-
 h5, .h5{
-	font-family: $default_font_family;
-	font-size: 18px;
-	font-weight: 400; 
-	text-transform: none;
-	line-height: 24px;
+	font-family: $alternate_font_family_1;
+	font-size: 30px;
+	font-weight: 600; 
+	text-transform: Capitalization;
+	line-height: 36px;
 	letter-spacing: default;
-	color: $primary_color;
+	color: $white_color;
 }
 
 h6, .h6{
-	font-family: $default_font_family;
-	font-size: 16px;
-	font-weight: 400;
-	text-transform: none;
-	line-height: 18px;
+	font-family: $alternate_font_family_1;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: Capitalization;
+	line-height: 20px;
 	letter-spacing: default;
 	color: $primary_color;
 }
-
+h7, .h7{
+	font-family: $default_font_family;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: Capitalization;
+	line-height: 20px;
+	letter-spacing: default;
+	color: $primary_color;
+}
 p, .p{
 	font-family: $default_font_family;
 	font-size: 20px;
