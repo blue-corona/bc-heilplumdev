@@ -4,7 +4,7 @@
 @import "styles/bc_gravity_forms";
 @import "styles/bc_navbar";
 @import "styles/bc_swiper";
-
+@import "styles/bc_bootstrap_override";
 .no_hover_underline:hover{
 	text-decoration:none;
 }
@@ -310,3 +310,8 @@ p a:hover{color:$primary_color; text-decoration: none; font-weight: inherit;}
 	}
 	
 }
+
+
+
+
+

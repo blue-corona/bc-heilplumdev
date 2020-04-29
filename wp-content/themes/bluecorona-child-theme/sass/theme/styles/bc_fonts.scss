@@ -1,5 +1,11 @@
-@import "fonts_backup"; //Remove this for new themes
+
+@import "fonts_backup";
 @import "bc_fonts_mobile";
+ //Remove this for new themes
+/*@import "bc_fonts_mobile";
+*/
+
+
 
 //Default BC core font scheme
 h1, .h1{
@@ -61,7 +67,7 @@ h6, .h6{
 	letter-spacing: default;
 	color: $primary_color;
 }
-h7, .h7{
+ .h7{
 	font-family: $default_font_family;
 	font-size: 16px;
 	font-weight: 400;
@@ -129,9 +135,12 @@ p, .p{
 .bc_letter_spacing_25 { letter-spacing: 25px; }
 .bc_letter_spacing_36 { letter-spacing: 36px; }
 
-body, ::placeholder, button {
-  font-family: $default_font_family;
-  font-weight: 400;
-  line-height: 36px;
-  color: $success_color;
+body, ::placeholder  {
+ 	font-family: $default_font_family;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 36px;
+	letter-spacing: default;
+	color: $primary_color;
 }

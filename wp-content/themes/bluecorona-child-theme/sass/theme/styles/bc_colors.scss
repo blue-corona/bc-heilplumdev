@@ -62,6 +62,20 @@
 		color: #000000 !important; 
 	}
 }
+.bc_color_1 { 
+	color: $bc_color_1; 
+	&--imp{
+		@extend .bc_color_black;
+		color: $bc_color_1!important; 
+	}
+}
+.bc_color_2 { 
+	color: $bc_color_2; 
+	&--imp{
+		@extend .bc_color_black;
+		color: $bc_color_2 !important; 
+	}
+}
  
  .bc_color_white { 
 	color: $white_color; 
@@ -79,7 +93,10 @@
 .bc_color_warning_bg { background-color: $warning_color; }
 .bc_color_success_bg { background-color: $success_color; }
 .bc_color_info_bg { background-color: $info_color; }
-.bc_color_black_bg { background-color: #000000; }
+.bc_color_black_bg { background-color: $quaternary_color; }
+.bc_color_1_bg { background-color: $bc_color_1; }
+.bc_color_2_bg { background-color: $bc_color_2; }
+
 
 //Classes for hover color
 .bc_color_primary_hover { &:hover{ color: $primary_color !important; } }
@@ -90,7 +107,9 @@
 .bc_color_warning_hover { &:hover{ color: $warning_color !important; } }
 .bc_color_success_hover { &:hover{ color: $success_color !important; } }
 .bc_color_info_hover { &:hover{ color: $info_color !important; } }
-.bc_color_black_hover { &:hover{ color: #000000 !important; } }
+.bc_color_black_hover { &:hover{ color: $quaternary_color !important; } }
+.bc_color_1_hover { &:hover{ color: $bc_color_1 !important; } }
+.bc_color_2_hover { &:hover{ color: $bc_color_2 !important; } }
 
 //Classes for hover bg color
 .bc_color_primary_hover_bg { &:hover{ background-color: $primary_color; } }
@@ -101,4 +120,6 @@
 .bc_color_warning_hover_bg { &:hover{ background-color: $warning_color; } }
 .bc_color_success_hover_bg { &:hover{ background-color: $success_color; } }
 .bc_color_info_hover_bg { &:hover{ background-color: $info_color; } }
-.bc_color_black_hover_bg { &:hover{ background-color: #000000; } }
+.bc_color_black_hover_bg { &:hover{ background-color: $quaternary_color; } }
+.bc_color_1_hover_bg { &:hover{ background-color: $bc_color_1; } }
+.bc_color_2_hover_bg { &:hover{ background-color: $bc_color_2; } }
