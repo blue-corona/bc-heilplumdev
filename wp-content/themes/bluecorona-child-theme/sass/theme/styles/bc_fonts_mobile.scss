@@ -3,10 +3,10 @@
 
 h1, .h1{
 	font-family: $alternate_font_family_1;
-	font-size: 32px;
+	font-size: 32px!important;
 	font-weight: 700;
 	text-transform: Capitalization;
-	line-height: 37px;
+	line-height: 37px!important;
 	letter-spacing: default;
 	color: $primary_color;
 }
@@ -60,7 +60,7 @@ h6, .h6{
 	letter-spacing: default;
 	color: $primary_color;
 }
-h7, .h7{
+ .h7{
 	font-family: $default_font_family;
 	font-size: 22px;
 	font-weight: 400;

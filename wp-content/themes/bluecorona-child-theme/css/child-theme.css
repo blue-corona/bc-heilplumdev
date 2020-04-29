@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 /*!
  * Bootstrap v4.1.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -7980,19 +7980,19 @@ a.skip-link {
   font-size: 16px !important; }
 
 .bc_locations_secondary_text {
-  color: #29265f; }
+  color: #3170b0; }
 
 .bc_coupon_heading {
   font-size: 2.25rem; }
 
 .bc_alternate_font_white {
-  font-family: "Oswald ";
+  font-family: "Oswald", sans-serif;
   color: #70a3d7;
   font-weight: 400; }
 
 .bc_alternate_font_blue {
   color: #29265f;
-  font-family: "Oswald ";
+  font-family: "Oswald", sans-serif;
   font-weight: 400; }
 
 .bc_primary_heading_blue {
@@ -8027,15 +8027,15 @@ footer > p {
 
 @media only screen and (max-width: 768px) {
   h1, .h1 {
-    font-family: "Oswald ";
-    font-size: 32px;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px !important;
     font-weight: 700;
     text-transform: Capitalization;
-    line-height: 37px;
+    line-height: 37px !important;
     letter-spacing: default;
     color: #29265f; }
   h2, .h2 {
-    font-family: "Oswald ";
+    font-family: "Oswald", sans-serif;
     font-size: 26px;
     font-weight: 600;
     text-transform: Capitalization;
@@ -8043,7 +8043,7 @@ footer > p {
     letter-spacing: default;
     color: #29265f; }
   h3, .h3 {
-    font-family: "Oswald ";
+    font-family: "Oswald", sans-serif;
     font-size: 22px;
     font-weight: 300;
     text-transform: Capitalization;
@@ -8051,7 +8051,7 @@ footer > p {
     letter-spacing: default;
     color: #70a3d7; }
   h4, .h4 {
-    font-family: "Oswald ";
+    font-family: "Oswald", sans-serif;
     font-size: 34px;
     font-weight: 600;
     text-transform: Capitalization;
@@ -8059,7 +8059,7 @@ footer > p {
     letter-spacing: default;
     color: #29265f; }
   h5, .h5 {
-    font-family: "Oswald ";
+    font-family: "Oswald", sans-serif;
     font-size: 32px;
     font-weight: 600;
     text-transform: Capitalization;
@@ -8067,14 +8067,14 @@ footer > p {
     letter-spacing: default;
     color: #ffffff; }
   h6, .h6 {
-    font-family: "Oswald ";
+    font-family: "Oswald", sans-serif;
     font-size: 22px;
     font-weight: 700;
     text-transform: Capitalization;
     line-height: 24px;
     letter-spacing: default;
     color: #29265f; }
-  h7, .h7 {
+  .h7 {
     font-family: "Open Sans";
     font-size: 22px;
     font-weight: 400;
@@ -8153,8 +8153,10 @@ footer > p {
   .bc_sm_letter_spacing_36 {
     letter-spacing: 36px !important; } }
 
+/*@import "bc_fonts_mobile";
+*/
 h1, .h1 {
-  font-family: "Oswald ";
+  font-family: "Oswald", sans-serif;
   font-size: 48px;
   font-weight: 700;
   text-transform: Capitalization;
@@ -8163,7 +8165,7 @@ h1, .h1 {
   color: #29265f; }
 
 h2, .h2 {
-  font-family: "Oswald ";
+  font-family: "Oswald", sans-serif;
   font-size: 38px;
   font-weight: 600;
   text-transform: Capitalization;
@@ -8172,7 +8174,7 @@ h2, .h2 {
   color: #29265f; }
 
 h3, .h3 {
-  font-family: "Oswald ";
+  font-family: "Oswald", sans-serif;
   font-size: 36px;
   font-weight: 300;
   text-transform: Capitalization;
@@ -8181,7 +8183,7 @@ h3, .h3 {
   color: #70a3d7; }
 
 h4, .h4 {
-  font-family: "Oswald ";
+  font-family: "Oswald", sans-serif;
   font-size: 34px;
   font-weight: 600;
   text-transform: Capitalization;
@@ -8190,7 +8192,7 @@ h4, .h4 {
   color: #29265f; }
 
 h5, .h5 {
-  font-family: "Oswald ";
+  font-family: "Oswald", sans-serif;
   font-size: 30px;
   font-weight: 600;
   text-transform: Capitalization;
@@ -8199,7 +8201,7 @@ h5, .h5 {
   color: #ffffff; }
 
 h6, .h6 {
-  font-family: "Oswald ";
+  font-family: "Oswald", sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-transform: Capitalization;
@@ -8207,7 +8209,7 @@ h6, .h6 {
   letter-spacing: default;
   color: #29265f; }
 
-h7, .h7 {
+.h7 {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
@@ -8229,7 +8231,7 @@ p, .p {
   font-family: "Open Sans"; }
 
 .bc_font_alt_1 {
-  font-family: "Oswald "; }
+  font-family: "Oswald", sans-serif; }
 
 .bc_font_alt_2 {
   font-family: " "; }
@@ -8330,29 +8332,41 @@ p, .p {
 .bc_letter_spacing_36 {
   letter-spacing: 36px; }
 
-body, ::-webkit-input-placeholder, button {
+body, ::-webkit-input-placeholder {
   font-family: "Open Sans";
+  font-size: 20px;
   font-weight: 400;
+  text-transform: none;
   line-height: 36px;
-  color: #33a457; }
+  letter-spacing: default;
+  color: #29265f; }
 
-body, ::-moz-placeholder, button {
+body, ::-moz-placeholder {
   font-family: "Open Sans";
+  font-size: 20px;
   font-weight: 400;
+  text-transform: none;
   line-height: 36px;
-  color: #33a457; }
+  letter-spacing: default;
+  color: #29265f; }
 
-body, ::-ms-input-placeholder, button {
+body, ::-ms-input-placeholder {
   font-family: "Open Sans";
+  font-size: 20px;
   font-weight: 400;
+  text-transform: none;
   line-height: 36px;
-  color: #33a457; }
+  letter-spacing: default;
+  color: #29265f; }
 
-body, ::placeholder, button {
+body, ::placeholder {
   font-family: "Open Sans";
+  font-size: 20px;
   font-weight: 400;
+  text-transform: none;
   line-height: 36px;
-  color: #33a457; }
+  letter-spacing: default;
+  color: #29265f; }
 
 .bc_color_primary, .bc_color_primary--imp {
   color: #29265f; }
@@ -8365,9 +8379,9 @@ body, ::placeholder, button {
     color: #70a3d7 !important; }
 
 .bc_color_tertiary, .bc_color_tertiary--imp {
-  color: #af252b; }
+  color: #dddddd; }
   .bc_color_tertiary--imp {
-    color: #af252b !important; }
+    color: #dddddd !important; }
 
 .bc_color_quaternary, .bc_color_quaternary--imp {
   color: #000000; }
@@ -8380,9 +8394,9 @@ body, ::placeholder, button {
     color: #af252b !important; }
 
 .bc_color_warning, .bc_color_warning--imp {
-  color: #29265f; }
+  color: #3170b0; }
   .bc_color_warning--imp {
-    color: #29265f !important; }
+    color: #3170b0 !important; }
 
 .bc_color_success, .bc_color_success--imp {
   color: #33a457; }
@@ -8394,10 +8408,20 @@ body, ::placeholder, button {
   .bc_color_info--imp {
     color: #70a3d7 !important; }
 
-.bc_color_black, .bc_color_black--imp, .bc_color_white--imp {
+.bc_color_black, .bc_color_black--imp, .bc_color_1--imp, .bc_color_2--imp, .bc_color_white--imp {
   color: #000000; }
   .bc_color_black--imp {
     color: #000000 !important; }
+
+.bc_color_1 {
+  color: #69161A; }
+  .bc_color_1--imp {
+    color: #69161A !important; }
+
+.bc_color_2 {
+  color: #2C2B2B; }
+  .bc_color_2--imp {
+    color: #2C2B2B !important; }
 
 .bc_color_white {
   color: #ffffff; }
@@ -8411,7 +8435,7 @@ body, ::placeholder, button {
   background-color: #70a3d7; }
 
 .bc_color_tertiary_bg {
-  background-color: #af252b; }
+  background-color: #dddddd; }
 
 .bc_color_quaternary_bg {
   background-color: #000000; }
@@ -8420,7 +8444,7 @@ body, ::placeholder, button {
   background-color: #af252b; }
 
 .bc_color_warning_bg {
-  background-color: #29265f; }
+  background-color: #3170b0; }
 
 .bc_color_success_bg {
   background-color: #33a457; }
@@ -8431,6 +8455,12 @@ body, ::placeholder, button {
 .bc_color_black_bg {
   background-color: #000000; }
 
+.bc_color_1_bg {
+  background-color: #69161A; }
+
+.bc_color_2_bg {
+  background-color: #2C2B2B; }
+
 .bc_color_primary_hover:hover {
   color: #29265f !important; }
 
@@ -8438,7 +8468,7 @@ body, ::placeholder, button {
   color: #70a3d7 !important; }
 
 .bc_color_tertiary_hover:hover {
-  color: #af252b !important; }
+  color: #dddddd !important; }
 
 .bc_color_quaternary_hover:hover {
   color: #000000 !important; }
@@ -8447,7 +8477,7 @@ body, ::placeholder, button {
   color: #af252b !important; }
 
 .bc_color_warning_hover:hover {
-  color: #29265f !important; }
+  color: #3170b0 !important; }
 
 .bc_color_success_hover:hover {
   color: #33a457 !important; }
@@ -8458,6 +8488,12 @@ body, ::placeholder, button {
 .bc_color_black_hover:hover {
   color: #000000 !important; }
 
+.bc_color_1_hover:hover {
+  color: #69161A !important; }
+
+.bc_color_2_hover:hover {
+  color: #2C2B2B !important; }
+
 .bc_color_primary_hover_bg:hover {
   background-color: #29265f; }
 
@@ -8465,7 +8501,7 @@ body, ::placeholder, button {
   background-color: #70a3d7; }
 
 .bc_color_tertiary_hover_bg:hover {
-  background-color: #af252b; }
+  background-color: #dddddd; }
 
 .bc_color_quaternary_hover_bg:hover {
   background-color: #000000; }
@@ -8474,7 +8510,7 @@ body, ::placeholder, button {
   background-color: #af252b; }
 
 .bc_color_warning_hover_bg:hover {
-  background-color: #29265f; }
+  background-color: #3170b0; }
 
 .bc_color_success_hover_bg:hover {
   background-color: #33a457; }
@@ -8484,6 +8520,12 @@ body, ::placeholder, button {
 
 .bc_color_black_hover_bg:hover {
   background-color: #000000; }
+
+.bc_color_1_hover_bg:hover {
+  background-color: #69161A; }
+
+.bc_color_2_hover_bg:hover {
+  background-color: #2C2B2B; }
 
 .floating_labels_wrapper {
   margin: 0px 0px !important;
@@ -8528,7 +8570,7 @@ body, ::placeholder, button {
   display: block !important; }
 
 .fixed_labels_wrapper .gform_title {
-  font-family: "Oswald ";
+  font-family: "Oswald", sans-serif;
   font-size: 26pt !important;
   text-align: left;
   color: #00395e; }
@@ -8771,7 +8813,7 @@ ul.gform_fields li::before {
   .bc_nav_container .dropdown li:focus, .bc_nav_container .dropdown .dropdown-item:focus {
     background-color: #29265f; }
   .bc_nav_container .dropdown li:hover, .bc_nav_container .dropdown .dropdown-item:hover {
-    background-color: #af252b; }
+    background-color: #dddddd; }
     @media (hover: none), only screen and (max-width: 991px) {
       .bc_nav_container .dropdown li:hover, .bc_nav_container .dropdown .dropdown-item:hover {
         background-color: #ffffff00 !important; } }
@@ -8781,7 +8823,7 @@ ul.gform_fields li::before {
       color: #70a3d7; }
 
 .navbar-toggler-icon {
-  color: #af252b; }
+  color: #dddddd; }
 
 .dropdown-menu {
   border-radius: 0px;
@@ -8948,6 +8990,34 @@ ul.gform_fields li::before {
 
 .bc_hero_swiper .swiper-pagination-bullet-active {
   background: #116eab; }
+
+.btn {
+  color: #ffffff !important;
+  font-family: "Oswald", sans-serif !important;
+  -webkit-box-shadow: 0 0 32px 1px rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0 32px 1px rgba(0, 0, 0, 0.15) !important;
+  padding: 1rem;
+  font-size: 24px !important; }
+
+.btn-error {
+  background: #af252b !important; }
+  .btn-error:hover {
+    background: #69161A !important; }
+
+.btn-secondary {
+  background: #70a3d7 !important; }
+  .btn-secondary:hover {
+    background: #3170b0 !important; }
+
+.navigation {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 36px; }
+
+.p-80 {
+  padding: 80px !important; }
 
 .no_hover_underline:hover {
   text-decoration: none; }
@@ -9144,7 +9214,7 @@ div {
     display: block !important; } }
 
 p a {
-  color: #af252b;
+  color: #dddddd;
   font-weight: inherit; }
 
 p a:hover {

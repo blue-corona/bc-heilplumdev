@@ -1,0 +1,41 @@
+
+.btn{
+
+	color: $white_color !important;
+	font-family: $alternate_font_family_1 !important;
+	box-shadow: 0 0 32px 1px rgba(0,0,0,0.15) !important;
+	padding: 1rem;
+	font-size: 24px!important;
+}
+
+.btn-error{
+	background: $error_color !important;
+	
+	
+	&:hover{
+		background:$bc_color_1 !important;
+	}
+}
+
+.btn-secondary{
+
+background: $secondary_color !important;
+
+&:hover{
+		background:$warning_color !important;
+	}
+}
+
+.navigation{
+
+
+  color: $quaternary_color;
+  font-family: $default_font_family;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.p-80{
+	padding: 80px!important;
+}
