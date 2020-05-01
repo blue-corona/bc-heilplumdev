@@ -3,22 +3,46 @@
         <div class="container px-4 pt-4">
             <div class="row text-center text-lg-left text-md-left">
                 <div class="col-md-6 col-xs-12 col-lg-6 col-sm-12 m-auto">
-                    <?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_image_overlay_text', false);?>
+                    <!-- <?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_image_overlay_text', false);?> -->
 
-                    <button onclick="window.location.href = '<?php echo get_home_url().bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_button_link', '/promotions')?>';"  class="btn bc_color_primary_bg py-2 mt-2 mb-4 mb-md-0 hero-image bc_color_secondary_hover"> <?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_button_text', 'Schedule Service Today');?> &nbsp;<i aria-hidden="true" class="fa fa-chevron-circle-right"></i></button>
+                  <!--   <button onclick="window.location.href = '<?php echo get_home_url().bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_button_link', '/promotions')?>';"  class="btn bc_color_primary_bg py-2 mt-2 mb-4 mb-md-0 hero-image bc_color_secondary_hover"> <?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_button_text', 'Schedule Service Today');?> &nbsp;<i aria-hidden="true" class="fa fa-chevron-circle-right"></i></button> -->
+
+                 <div class="banner_text bc_color_primary bc_text_55 bc_line_height_50 text-center">From our famil <br>to yours.</div>
+
+
                 </div>
                 <div class="col-md-6 col-xs-12 col-lg-6 col-sm-12 p-4 d-none d-md-block">
-                    <div class=" col-md-12 col-lg-9 col-sm-12 col-xs-12 offset-lg-2">
-                        <div class="bc_color_info_bg d-flex py-3 px-4">
+                    <div class=" col-md-12 col-lg-12 col-sm-12 col-xs-12 ">
+                        <div class="bc_color_4_bg d-flex py-3 px-4">
                             <div class="m-auto">
-                                <img alt="icon" class="img-fluid align-self-center mt-n3" src="<?php echo get_template_directory_uri();?>/img/24icon.png">
-                                <span class="bc_color_secondary text-capitalize bc_text_30 bc_font_alt_1 text-center  pt-1">
-                                    Emergency Service
-                                </span>
+                              <!--   <div class="d-flex flex-wrap">
+                                    
+                                         <i class="fal fa-award col-1"></i>
+                                        <p class="bc_text_15 bc_line_height_17 bc_color_3 col-2"> Exceptional Workmanship</p>
+                                    <div class="p-2 col-3"><p class="bc_text_15 bc_line_height_17 bc_color_3 "><i class="fal fa-user-clock"></i> Expert Plumbers</p></div>
+                                    <div class="p-2 col-3"><p class="bc_text_15 bc_line_height_17  bc_color_3"><i class="fal fa-hands-heart"></i>Charity Caring Service</p></div>
+                                    <div class="p-2 col-3"><p class="bc_text_15 bc_line_height_17 bc_color_3 "><i class="fal fa-calendar-star"></i>Status Family Owned Since 1977</p></div>
+
+
+                                </div> -->
+
+                                <ul class="icon_info">
+                                   
+                                    <li><i class="fal fa-award"></i> <p class="bc_text_15 bc_line_height_17 bc_color_3 ">Exceptional Workmanship</p></li> 
+                                     <li>
+                                         
+                                       <i class="fal fa-user-clock"></i><p class="bc_text_15 bc_line_height_17 bc_color_3 "> Expert Plumbers</p>  
+                                     </li> 
+                                      <li><i class="fal fa-hands-heart"></i> <p class="bc_text_15 bc_line_height_17  bc_color_3">Charity Caring Service</p></li> 
+                                       <li><i class="fal fa-calendar-star"></i><p class="bc_text_15 bc_line_height_17 bc_color_3 ">Status Family Owned Since 1977</p></li> 
+
+                                </ul>
+
                             </div>
                         </div>
+                        <div class="requested  bc_text_28 bc_color_3 py-3 px-4 bc_color_white_bg ">Request Service</div>
                         <div class="entry-content bc_hero_form_body">
-                           <?php echo do_shortcode('[gravityform id=2 ajax=true]')?>
+                           <?php echo do_shortcode('[gravityform id=1 ajax=true]')?>
                         </div>
                     </div>
                 </div>
