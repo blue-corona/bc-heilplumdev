@@ -107,4 +107,4 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	</main>
 
-	<?php get_footer(); ?>
+<?php get_footer(); ?>
