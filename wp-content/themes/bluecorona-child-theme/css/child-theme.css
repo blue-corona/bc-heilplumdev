@@ -8926,6 +8926,11 @@ input:hover[type=button], input:hover[type=submit], input:hover[type=reset], but
   background-color: #69161A !important;
   color: #ffffff !important; }
 
+.ginput_container_consent label {
+  text-transform: lowercase !important;
+  font-size: 12px !important;
+  color: #666666 !important; }
+
 .bc_nav_container {
   background-color: #29265f; }
   @media (hover: none), only screen and (max-width: 991px) {
@@ -9810,7 +9815,8 @@ div.logo-carousel-free.logo-carousel-free-free-area .slick-prev {
 .bc_hero_container {
   background-image: url("../img/banner.jpg"); }
   .bc_hero_container .bc_hero_form_body {
-    background-color: #fef9f4; }
+    background-color: #fef9f4;
+    margin-top: -27px; }
 
 .bc_landing_page_hero_container {
   background-image: url("../img/landingpage_banner.jpg"); }

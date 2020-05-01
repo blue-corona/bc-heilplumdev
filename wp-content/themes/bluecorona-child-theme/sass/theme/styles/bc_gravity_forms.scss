@@ -356,3 +356,12 @@ input:hover[type=button], input:hover[type=submit], input:hover[type=reset], but
     background-color: $bc_color_1!important;
     color: $white_color!important;
 }
+.ginput_container_consent{
+			label{
+
+				text-transform: lowercase!important;
+				font-size: 12px!important;
+				color: $bc_color_5!important;
+			}
+
+}
