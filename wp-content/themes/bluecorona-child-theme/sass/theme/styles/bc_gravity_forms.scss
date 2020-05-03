@@ -15,9 +15,10 @@
 		    transition: all 0.2s ease;
 		    opacity: 1;
 			line-height: 36px;
-			color:$success_color;
-			font-size: 14px !important;
-			font-weight: 400 !important;
+			color:$bc_color_5;
+			font-size: 12px !important;
+			    font-weight: 700!important;
+             text-transform: uppercase;
 		}
 
 		.gfield{
@@ -42,6 +43,11 @@
 		margin: 0px 0px !important;
 		input {
 			margin-bottom: 10px !important;
+			position: absolute;
+			right: 1%;
+			bottom: 22%;
+			background: $error_color;
+			color: $white_color;
 		}
 	}
 }
@@ -119,6 +125,7 @@
 
 
 .bc_contact_form_full { 
+	position: relative;
 	&.floating_labels {
 		.gfield{
 			padding-top: 32px !important;
@@ -187,6 +194,7 @@
 		}
 
 		input.gform_button.button {
+
 			margin-right: 21px!important;
 			height: 47px !important;
 			margin-top: 1em;
@@ -335,4 +343,16 @@ select{
 
 ul.gform_fields li::before {
  list-style-type: none;
+}
+
+.gform_wrapper {
+	background-color: $white_color;
+}
+
+.ginput_container_consent .gfield_consent_label{
+	margin-top: 0px!important;
+}
+input:hover[type=button], input:hover[type=submit], input:hover[type=reset], button:hover {
+    background-color: $bc_color_1!important;
+    color: $white_color!important;
 }
