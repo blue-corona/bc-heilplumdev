@@ -15,8 +15,8 @@
 		    transition: all 0.2s ease;
 		    opacity: 1;
 			line-height: 36px;
-			color:$success_color;
-			font-size: 14px !important;
+			color:#666666;
+			font-size: 12px !important;
 			font-weight: 400 !important;
 		}
 
@@ -291,7 +291,7 @@
 		li.gfield{
 
 			select {
-				font-size: 14px;
+				font-size: 12px;
 				// background:#ffffff;
 				margin-top: 12px;
 				background: url('../img/br_down.png') no-repeat right #ffffff !important;
@@ -335,4 +335,9 @@ select{
 
 ul.gform_fields li::before {
  list-style-type: none;
+}
+input[type=button], input[type=submit], input[type=reset], button {
+    background-color: #70A3D7 !important;
+    color: #ffffff !important;
+    font-family:$alternate_font_family_1;
 }
