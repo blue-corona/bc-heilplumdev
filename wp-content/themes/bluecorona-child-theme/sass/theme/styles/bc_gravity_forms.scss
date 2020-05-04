@@ -336,8 +336,26 @@ select{
 ul.gform_fields li::before {
  list-style-type: none;
 }
-input[type=button], input[type=submit], input[type=reset], button {
-    background-color: #70A3D7 !important;
-    color: #ffffff !important;
-    font-family:$alternate_font_family_1;
+
+
+.gform_wrapper {
+	background-color: $white_color;
+}
+
+.ginput_container_consent .gfield_consent_label{
+	margin-top: 0px!important;
+}
+input:hover[type=button], input:hover[type=submit], input:hover[type=reset], button:hover {
+    background-color: $bc_color_1!important;
+    color: $white_color!important;
+}
+.ginput_container_consent{
+			label{
+
+				text-transform: lowercase!important;
+				font-size: 12px!important;
+				color: $bc_color_5!important;
+			}
+
+
 }
