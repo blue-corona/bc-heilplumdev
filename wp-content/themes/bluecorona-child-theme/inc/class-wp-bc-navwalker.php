@@ -143,7 +143,7 @@ if ( ! class_exists( 'Bluecorona_WP_Bootstrap_Navwalker' ) ) {
 
 			// Add some additional default classes to the item.
 			$classes[] = 'menu-item-' . $item->ID;
-			$classes[] = 'nav-item m-auto w-100';
+			$classes[] = 'nav-item ';
 
 			// Allow filtering the classes.
 			$classes = apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args, $depth );
