@@ -1,17 +1,21 @@
 @media only screen and (max-width: 768px) {
+
+	.bc_logo_section_bg{
+background-image: none!important;
+	}
 .servies_info{
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	width: 100%;
 	li{
-    background-image: url(../img/service_shape.png);
+    background-image: none!important;
     float: left;
     padding: 0px 0px;
-    margin: 10% 4px;
+    margin: 0px!important;
     width: 100%!important;
     text-align: center;
-    height: 219px;
+    height: auto!important;
     background-repeat: no-repeat;
     background-position: 50% ,50%;
     p{
@@ -20,6 +24,40 @@
     	color: $primary_color;
 
     }
+
+
+    svg{
+    	display: inline-block!important;
+    	font-size: 28px;
+    }
+    .bc-inner_servics{
+               list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    li{
+    float: left!important;
+    width: 32%!important;
+    vertical-align: middle!important;
+    /*border-bottom: 1px solid #000;*/
+    height: 100px;
+    position: relative;
+
+    p{
+
+    	padding: 30% 0!important;
+    	&:hover{
+    		color:$primary_color;
+    	}
+    }
+    svg{
+
+    	    margin: 38% 0;
+    }
+    }
+
+    }
+
 	}
 }
 
@@ -143,4 +181,14 @@ p, .p{
 	.bc_sm_letter_spacing_24 { letter-spacing: 24px !important; }
 	.bc_sm_letter_spacing_25 { letter-spacing: 25px !important; }
 	.bc_sm_letter_spacing_36 { letter-spacing: 36px !important; }
+
+
+
+.banner_text{
+
+	font-size: 32px! important;
+	padding: 20px 0px 40px 0px;
+	line-height: 33px;
+}
+
 }

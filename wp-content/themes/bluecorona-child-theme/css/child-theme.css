@@ -8026,25 +8026,48 @@ footer > p {
   color: white !important; }
 
 @media only screen and (max-width: 768px) {
+  .bc_logo_section_bg {
+    background-image: none !important; }
   .servies_info {
     list-style: none;
     padding: 0;
     margin: 0;
     width: 100%; }
     .servies_info li {
-      background-image: url(../img/service_shape.png);
+      background-image: none !important;
       float: left;
       padding: 0px 0px;
-      margin: 10% 4px;
+      margin: 0px !important;
       width: 100% !important;
       text-align: center;
-      height: 219px;
+      height: auto !important;
       background-repeat: no-repeat;
       background-position: 50% ,50%; }
       .servies_info li p {
         font-family: "Oswald", sans-serif;
         font-weight: 700;
         color: #29265f; }
+      .servies_info li svg {
+        display: inline-block !important;
+        font-size: 28px; }
+      .servies_info li .bc-inner_servics {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%; }
+        .servies_info li .bc-inner_servics li {
+          float: left !important;
+          width: 32% !important;
+          vertical-align: middle !important;
+          /*border-bottom: 1px solid #000;*/
+          height: 100px;
+          position: relative; }
+          .servies_info li .bc-inner_servics li p {
+            padding: 30% 0 !important; }
+            .servies_info li .bc-inner_servics li p:hover {
+              color: #29265f; }
+          .servies_info li .bc-inner_servics li svg {
+            margin: 38% 0; }
   h1, .h1 {
     font-family: "Oswald", sans-serif;
     font-size: 32px !important;
@@ -8170,7 +8193,11 @@ footer > p {
   .bc_sm_letter_spacing_25 {
     letter-spacing: 25px !important; }
   .bc_sm_letter_spacing_36 {
-    letter-spacing: 36px !important; } }
+    letter-spacing: 36px !important; }
+  .banner_text {
+    font-size: 32px !important;
+    padding: 20px 0px 40px 0px;
+    line-height: 33px; } }
 
 /*@import "bc_fonts_mobile";
 */
@@ -8495,6 +8522,11 @@ body, ::placeholder {
   .bc_color_9--imp {
     color: #999999 !important; }
 
+.bc_color_10, .bc_color_10--imp {
+  color: #b5b5b5; }
+  .bc_color_10--imp {
+    color: #b5b5b5 !important; }
+
 .bc_color_white {
   color: #ffffff; }
   .bc_color_white--imp {
@@ -8554,6 +8586,9 @@ body, ::placeholder {
 .bc_color_9_bg {
   background-color: #999999; }
 
+.bc_color_10_bg {
+  background-color: #b5b5b5; }
+
 .bc_color_white_bg {
   background-color: #ffffff; }
 
@@ -8609,7 +8644,10 @@ body, ::placeholder {
   color: #26235C !important; }
 
 .bc_color_9_hover:hover {
-  color: #26235C !important; }
+  color: #999999 !important; }
+
+.bc_color_10_hover:hover {
+  color: #b5b5b5 !important; }
 
 .bc_color_primary_hover_bg:hover {
   background-color: #29265f; }
@@ -8664,6 +8702,9 @@ body, ::placeholder {
 
 .bc_color_9_hover_bg:hover {
   background-color: #999999; }
+
+.bc_color_10_hover_bg:hover {
+  background-color: #b5b5b5; }
 
 .floating_labels_wrapper {
   margin: 0px 0px !important;
@@ -8894,6 +8935,10 @@ body, ::placeholder {
 
 .gform_wrapper ul li.gfield .large, .gform_wrapper ul li.gfield .medium {
   padding: 12px !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  color: #666666 !important;
   border-radius: 4px !important;
   border-style: solid;
   border-width: 1px;
@@ -9261,10 +9306,30 @@ input:hover[type=button], input:hover[type=submit], input:hover[type=reset], but
     text-align: center;
     height: 219px;
     background-repeat: no-repeat; }
+    .servies_info li:hover {
+      background-image: url(../img/service_shape01.png); }
+      .servies_info li:hover P {
+        color: #ffffff; }
     .servies_info li p {
       font-family: "Oswald", sans-serif;
       font-weight: 700;
       color: #29265f; }
+    .servies_info li svg {
+      display: none; }
+    .servies_info li .bc-inner_servics {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%; }
+      .servies_info li .bc-inner_servics li {
+        text-align: center;
+        padding: 0 0;
+        margin: 0% 0px;
+        width: 100%;
+        background-image: none;
+        position: relative;
+        height: auto;
+        min-height: 131px; }
 
 .morelink {
   display: -ms-flexbox;
@@ -9550,8 +9615,8 @@ div.logo-carousel-free.logo-carousel-free-free-area .slick-prev {
   border-radius: 30px;
   -webkit-box-shadow: 4px 0px #000000;
           box-shadow: 4px 0px #000000;
-  -webkit-box-shadow: 0 0 0 1px #2A265E, 0 0 0 4px #2A265E;
-          box-shadow: 0 0 0 1px #2A265E, 0 0 0 4px #2A265E;
+  -webkit-box-shadow: 0 0 0 1p, 0 0 0 4px #2A265E;
+          box-shadow: 0 0 0 1p, 0 0 0 4px #2A265E;
   margin: 10px auto; }
   .testimonial4_slide p {
     color: #000;
