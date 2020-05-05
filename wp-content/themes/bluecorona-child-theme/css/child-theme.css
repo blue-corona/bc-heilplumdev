@@ -8909,6 +8909,20 @@ body, ::placeholder {
   .gform_wrapper ul li.gfield {
     padding-left: 16px; } }
 
+#gform_submit_button_2[type="submit"] {
+  background-color: #70a3d7 !important;
+  color: #ffffff !important;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 24px !important;
+  width: 85% !important;
+  margin: 0px; }
+
+#label_2_11_1 {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600; }
+
 input[type="submit"] {
   background: #f38527;
   padding: 8px 23px;
@@ -8923,7 +8937,7 @@ ul.gform_fields li::before {
   list-style-type: none; }
 
 .gform_wrapper {
-  background-color: #ffffff; }
+  background-color: #29265f; }
 
 .ginput_container_consent .gfield_consent_label {
   margin-top: 0px !important; }

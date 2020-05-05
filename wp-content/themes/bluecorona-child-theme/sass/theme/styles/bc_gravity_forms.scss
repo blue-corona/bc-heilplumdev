@@ -319,7 +319,20 @@
 		}
 	}
 }
-
+#gform_submit_button_2[type="submit"]{
+		background-color: $secondary_color !important;
+		color:$white_color !important;
+		font-family: $alternate_font_family_1 !important;
+		 font-size: 24px !important;
+		 width: 85% !important;
+		 margin: 0px;
+	}
+#label_2_11_1{
+	color: $white_color;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+}
 input[type="submit"]{
 	background:map-get($submit_btn, background);
 	padding:map-get($submit_btn, padding);
@@ -339,7 +352,7 @@ ul.gform_fields li::before {
 
 
 .gform_wrapper {
-	background-color: $white_color;
+	background-color: $primary_color;
 }
 
 .ginput_container_consent .gfield_consent_label{
