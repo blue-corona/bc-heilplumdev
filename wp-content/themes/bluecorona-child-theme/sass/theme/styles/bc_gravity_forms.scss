@@ -329,9 +329,10 @@
 	}
 #label_2_11_1{
 	color: $white_color;
-  font-family: "Open Sans";
-  font-size: 12px;
-  font-weight: 600;
+  font-family: "Open Sans" !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    margin: 9px 10px !important;
 }
 input[type="submit"]{
 	background:map-get($submit_btn, background);
@@ -371,4 +372,14 @@ input:hover[type=button], input:hover[type=submit], input:hover[type=reset], but
 			}
 
 
+}
+.gchoice_2_11_1{left: 13% !important;}
+input[type="checkbox"]{
+	background: #fff !important;
+    border: none !important;
+    font-size: 28px !important;
+    height: 20px;
+    width: 16px !important;
+    opacity: 1;
+    color: #fff!important;
 }

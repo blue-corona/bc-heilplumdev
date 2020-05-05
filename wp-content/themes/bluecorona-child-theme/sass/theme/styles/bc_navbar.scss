@@ -26,6 +26,7 @@ position: relative;
 				color: $secondary_color !important; //Top level link
 				font-family: $alternate_font_family_1;
 				background-color: #ffffff00 !important;
+				line-height: 30px !important;
 				svg { color: #00000000 !important; } // Top level dropdown icon
 			}
 			&:hover{
@@ -205,4 +206,7 @@ position: relative;
 			}
 		}
 	}
+}
+svg.svg-inline--fa.fa-home-lg.fa-w-18 {
+    color: #ffffff !important;
 }
