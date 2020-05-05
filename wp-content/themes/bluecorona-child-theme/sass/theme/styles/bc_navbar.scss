@@ -1,5 +1,6 @@
 // Nav bar color scheme according to theme customizer
 .bc_nav_container{
+	background-color: $primary_color !important;
 	#navbarSupportedContent{
 		@media (hover: none), only screen and (max-width: 991px) {
 			height: auto;
@@ -20,22 +21,33 @@
 	}
 	.navbar-nav{
 		li {
-
+position: relative;
 			a {
-				color: $secondary_color; //Top level link
-				svg { color: $info_color; } // Top level dropdown icon
+				color: $secondary_color !important; //Top level link
+				font-family: $alternate_font_family_1;
+				background-color: #ffffff00 !important;
+				svg { color: #00000000 !important; } // Top level dropdown icon
 			}
 			&:hover{
-				background-color: $info_color;	// Top level dropdown background hover
+				background-color: #ffffff00 !important;	// Top level dropdown background hover
 				@media (hover: none), only screen and (max-width: 991px) {
 					background-color: #ffffff00 !important; // Mobile nav bar Background
 				}		
 				svg { color: $primary_color; } //Top level dropdown icon hover
-				a.nav-link { color: $secondary_color; } // Top level link hover	
+				a.nav-link { color: $secondary_color !important; } // Top level link hover	
+			&::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: " ";
+    border-bottom: 4px solid $secondary_color;
+}
 			}
+			
 		}
 		.dropdown-menu{ 
-			background-color: $info_color; // Dropdown background
+			background-color: #E0E0E0 !important; // Dropdown background
 			@media (hover: none), only screen and (max-width: 991px) {
 				 background-color: #ffffff00 !important; 
 			} 
@@ -44,19 +56,15 @@
 
 	.dropdown {
 		li, .dropdown-item {
-
-
 			a{	
-				color: $secondary_color; // Dropdown link
+				color: $primary_color !important; // Dropdown link
 				svg { // Dropdown icon 
 					color: $primary_color; 
 					@media (hover: none), only screen and (max-width: 991px) {
 						color: $info_color;
 					}
 				} 
-
 			}
-
 			&:focus{
 				background-color:$primary_color;
 				@media (hover: none), only screen and (max-width: 991px) {
@@ -104,8 +112,8 @@
 }
 .navbar-nav{
 	li{
-		padding-top: .5rem;
-		padding-bottom: .5rem;	
+		padding-top: .2rem;
+		padding-bottom: .2rem;	
 	}
 	& > li {
 		padding-left: 10px;
