@@ -123,31 +123,31 @@ get_header();
       <div class="col-xs-6 col-6  text-center bc-mobile-icons01">
         <i class="fal fa-award"></i>
 
-        <p>Exceptional<br>
-        Workmanship</p>
+      <p>Exceptional<br>
+Workmanship</p>
 
-    </div>  
-    <div class="col-xs-6 col-6  text-center bc-mobile-icons02">
-       <i class="fal fa-user-clock"></i>
-       <p>Expert<br>
-       Plumbers</p>
-
-
-   </div> 
-   <div class="col-xs-6 col-6  text-center bc-mobile-icons03">
-    <i class="fal fa-hands-heart"></i>
-    <p>Caring<br>
-    Service</p>
-
-</div> 
-<div class="col-xs-6 col-6  text-center bc-mobile-icons04">
- <i class="fal fa-calendar-star"></i>
- <p>Family Owned<br>
- Since 1977</p>
+      </div>  
+       <div class="col-xs-6 col-6  text-center bc-mobile-icons02">
+           <i class="fal fa-user-clock"></i>
+           <p>Expert<br>
+Plumbers</p>
 
 
-</div> 
-</div>  
+       </div> 
+        <div class="col-xs-6 col-6  text-center bc-mobile-icons03">
+            <i class="fal fa-hands-heart"></i>
+            <p>Caring<br>
+Service</p>
+
+        </div> 
+         <div class="col-xs-6 col-6  text-center bc-mobile-icons04">
+             <i class="fal fa-calendar-star"></i>
+             <p>Family Owned<br>
+Since 1977</p>
+
+
+         </div> 
+  </div>  
 
 </div>
 
@@ -163,7 +163,7 @@ get_header();
                    <h1 class="text-center bc_color_white bc-why_text">Why Choose Heil?</h1>
                </div>
 
-               
+             
                <div class="col-md-6 col-lg-6 col-12 order-xs-2 order-lg-1 order-md-1 order-2">
 
                   <div class="bc_left d-block bc_color_white_bg m-3">
@@ -317,53 +317,53 @@ get_header();
 </div>
 </div>
 <div class="mobile_slider">
-    <div class="container">
+<div class="container">
 
-     <div class="col-lg-12 col-md-12 col-12">
+ <div class="col-lg-12 col-md-12 col-12">
 
-        <h2 class="text-center bc-customer_text">Save on Our Services</h2>
+                <h2 class="text-center bc-customer_text">Save on Our Services</h2>
+            </div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+   
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active col-lg-6 col-md-6 col-12 ">
+                     <div class="coupen_outer">
+                   <div class="couper_inner text-center">
+
+                       <div class="offers">$40 OFF</div>
+                       <p>Any Plumbing Service <br>(Minimum $202)</p>
+                       <p><a href="#">VIEW DETAILS</a></p>
+                   </div> 
+               </div>
     </div>
-    <div id="demo" class="carousel slide" data-ride="carousel">
+    <div class="carousel-item col-lg-6 col-md-6 col-12">
+                 <div class="coupen_outer">
+               <div class="couper_inner text-center">
 
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        
-    </ul>
-    
-    <!-- The slideshow -->
-    <div class="carousel-inner">
-        <div class="carousel-item active col-lg-6 col-md-6 col-12 ">
-         <div class="coupen_outer">
-           <div class="couper_inner text-center">
-
-               <div class="offers">$40 OFF</div>
-               <p>Any Plumbing Service <br>(Minimum $202)</p>
-               <p><a href="#">VIEW DETAILS</a></p>
+                   <div class="offers">$202 OFF</div>
+                   <p>Any Water Heater Replacement<br>(Minimum $1250)</p>
+                   <p><a href="#">VIEW DETAILS</a></p>
+               </div> 
            </div> 
-       </div>
-   </div>
-   <div class="carousel-item col-lg-6 col-md-6 col-12">
-     <div class="coupen_outer">
-       <div class="couper_inner text-center">
+    </div>
+    
+  </div>
 
-           <div class="offers">$202 OFF</div>
-           <p>Any Water Heater Replacement<br>(Minimum $1250)</p>
-           <p><a href="#">VIEW DETAILS</a></p>
-       </div> 
-   </div> 
+  
+  <!-- Left and right controls -->
+ 
 </div>
-
-</div>
-
-
-<!-- Left and right controls -->
-
-</div>
-<div class="col-lg-12 col-md-12 col-12">
-    <p class="text-center btn_testimonials"><a href="#" class="btn btn-secondary">View All Deals</a></p>
-</div>
+    <div class="col-lg-12 col-md-12 col-12">
+        <p class="text-center btn_testimonials"><a href="#" class="btn btn-secondary">View All Deals</a></p>
+    </div>
 
 
 </div>
