@@ -127,6 +127,13 @@
 		color: $bc_color_9 !important; 
 	}
 }
+.bc_color_10 { 
+	color: $bc_color_10; 
+	&--imp{
+		@extend .bc_color_10;
+		color: $bc_color_10 !important; 
+	}
+}
  .bc_color_white { 
 	color: $white_color; 
 	&--imp{
@@ -153,6 +160,7 @@
 .bc_color_7_bg { background-color: $bc_color_7; }
 .bc_color_8_bg { background-color: $bc_color_8; }
 .bc_color_9_bg { background-color: $bc_color_9; }
+.bc_color_10_bg { background-color: $bc_color_10; }
 .bc_color_white_bg { background-color: $white_color; }
 
 
@@ -175,7 +183,8 @@
 .bc_color_6_hover { &:hover{ color: $bc_color_6 !important; } }
 .bc_color_7_hover { &:hover{ color: $bc_color_7 !important; } }
 .bc_color_8_hover { &:hover{ color: $bc_color_8 !important; } }
-.bc_color_9_hover { &:hover{ color: $bc_color_8 !important; } }
+.bc_color_9_hover { &:hover{ color: $bc_color_9 !important; } }
+.bc_color_10_hover { &:hover{ color: $bc_color_10 !important; } }
 
 //Classes for hover bg color
 .bc_color_primary_hover_bg { &:hover{ background-color: $primary_color; } }
@@ -196,3 +205,4 @@
 .bc_color_7_hover_bg { &:hover{ background-color: $bc_color_7; } }
 .bc_color_8_hover_bg { &:hover{ background-color: $bc_color_8; } }
 .bc_color_9_hover_bg { &:hover{ background-color: $bc_color_9; } }
+.bc_color_10_hover_bg { &:hover{ background-color: $bc_color_10; } }

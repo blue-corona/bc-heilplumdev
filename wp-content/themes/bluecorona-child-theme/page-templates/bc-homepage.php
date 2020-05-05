@@ -31,17 +31,50 @@ get_header();
                  <div class="col-lg-12 col-md-12 col-12">
                   <ul class="servies_info">
 
-                      <li><img src="http://localhost/bc-heil/wp-content/themes/bluecorona-child-theme/img/icon-01.png" class="img-fluid">
-                          <p class="bc_text_18  bc_line_height_20">Plumbing<br> Service</p>
+                      <li>
+
+                       <ul class="bc-inner_servics">
+                        <li><img src="http://localhost/bc-heil/wp-content/themes/bluecorona-child-theme/img/icon-01.png" class="img-fluid"></li>
+                        <li> <p class="bc_text_18  bc_line_height_20">Plumbing<br> Service</p></li>
+                        <li><i class="fas fa-arrow-circle-right"></i></li>
+                          </ul>
+
                       </li>
-                      <li><img src="http://localhost/bc-heil/wp-content/themes/bluecorona-child-theme/img/icon-02.png" class="img-fluid">
-                          <p class="bc_text_18  bc_line_height_20">Water &<br> Sewer Lines</p></li>
-                          <li><img src="http://localhost/bc-heil/wp-content/themes/bluecorona-child-theme/img/icon-03.png" class="img-fluid">
-                              <p class="bc_text_18  bc_line_height_20">Water<br>Heaters</p></li>
-                              <li><img src="http://localhost/bc-heil/wp-content/themes/bluecorona-child-theme/img/icon-04.png" class="img-fluid">
-                                  <p class="bc_text_18  bc_line_height_20">Drain<br>Cleaning</p></li>
-                                  <li><img src="http://localhost/bc-heil/wp-content/themes/bluecorona-child-theme/img/icon-05.png" class="img-fluid">
-                                      <p class="bc_text_18  bc_line_height_20">Sewer Video<br>Inspections</p></li>
+                      <li>
+                         <ul class="bc-inner_servics">
+                        <li><img src="http://localhost/bc-heil/wp-content/themes/bluecorona-child-theme/img/icon-02.png" class="img-fluid"></li>
+                          <li><p class="bc_text_18  bc_line_height_20">Water &<br> Sewer Lines</p></li>
+                          <li><i class="fas fa-arrow-circle-right"></i></li>
+                          </ul>
+                      </li>
+
+
+                          <li>
+                            <ul class="bc-inner_servics">
+                            <li><img src="http://localhost/bc-heil/wp-content/themes/bluecorona-child-theme/img/icon-03.png" class="img-fluid"></li>
+                              <li><p class="bc_text_18  bc_line_height_20">Water<br>Heaters</p></li>
+                                             <li><i class="fas fa-arrow-circle-right"></i></li>
+                          </ul>
+
+                          </li>
+                              <li>
+                               <ul class="bc-inner_servics">
+
+                                <li><img src="http://localhost/bc-heil/wp-content/themes/bluecorona-child-theme/img/icon-04.png" class="img-fluid"></li>
+                                  <li><p class="bc_text_18  bc_line_height_20">Drain<br>Cleaning</p></li>
+
+                             <li><i class="fas fa-arrow-circle-right"></i></li>
+                              </ul>
+                               </li>
+                                  <li>
+
+                                     <ul class="bc-inner_servics">
+                                    <li><img src="http://localhost/bc-heil/wp-content/themes/bluecorona-child-theme/img/icon-05.png" class="img-fluid"></li>
+                                     <li> <p class="bc_text_18  bc_line_height_20">Sewer Video<br>Inspections</p></li>
+                                   <li><i class="fas fa-arrow-circle-right"></i></li>
+                                    </ul>
+
+                                  </li>
                                   </ul>
 
                               </div> 

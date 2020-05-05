@@ -306,11 +306,17 @@
 			}
 			.large, .medium{
 				padding:map-get($form_input, padding);
+
+				    text-transform: uppercase;
+                   font-size: 12px;
+                   font-weight: 700;
+                   color: $bc_color_5!important;
 				border:{
 					radius: map-get($form_input, border-radius);
 					style: solid;
 					width: 1px;
 					color: #c1c1c1;
+
 				}
 			}
 			@media only screen and (min-width: 768px) {
