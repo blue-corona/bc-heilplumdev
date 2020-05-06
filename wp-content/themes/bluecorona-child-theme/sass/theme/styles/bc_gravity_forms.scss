@@ -352,9 +352,9 @@ ul.gform_fields li::before {
 }
 
 
-.gform_wrapper {
+/*.gform_wrapper {
 	background-color: $primary_color;
-}
+}*/
 
 .ginput_container_consent .gfield_consent_label{
 	margin-top: 0px!important;
@@ -382,4 +382,76 @@ input[type="checkbox"]{
     width: 16px !important;
     opacity: 1;
     color: #fff!important;
+}
+
+#gform_1{
+	ul{
+		li{
+			padding-left: 0;
+			label {
+			    color: #666666;
+			    font-size: 12px!important;
+			    margin-top: 15px;
+			    font-family:$default_font_family;
+			    font-weight: 400!important;
+			    .gfield_required {
+				    /*color: #666666;*/
+				}
+			}
+		}
+	}
+}
+
+#gform_1{
+	ul{
+		li.gfield{
+			padding-top: 16px!important;
+			.large {
+			    padding: 0 15px 16px!important;
+			    border-radius: 0 !important;
+			    border: 1px solid #E7DECD !important;
+			    box-shadow: 0 0 4px rgba(0,0,0,0.18) !important;
+			    margin-bottom: 5px;
+			}
+			.medium {
+			    padding: 3px !important;
+			    border-radius: 4px!important;
+			    border-style: solid;
+			    border-width: 1px;
+			    border-color: #666666;
+			}
+			.gfield_select{
+				position: relative;
+				padding: 15px 8px !important;
+				&:after{
+					position: absolute;
+					content: "hj";
+					border-right: 0;
+					top: 20px;
+					color: red;
+				}
+			}
+		}
+	}
+	.gform_footer{
+		padding-left: 0 !important;
+	}
+}
+#gform_1 input[type=submit]{
+    background-color: $error_color!important;
+    width: 257px !important;
+    /* float: right; */
+    right: 69px;
+    /*border-radius: 0!important;*/
+    font-size: 24px;
+    line-height: 27px;
+    bottom: 50px;
+    position: absolute;
+    padding: 12px 10px;
+    font-family: $alternate_font_family_1;
+    font-weight: 400!important;
+    color: #fff!important;
+    &:hover{
+    	background: #545A71 !important;
+    }
 }
