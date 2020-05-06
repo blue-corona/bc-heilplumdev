@@ -22,7 +22,8 @@ get_header();
         get_template_part( 'page-templates/hero-section/bc-hero-video' );
     }
     ?>
-    <div class="container-fluid p-0 bc_hero_container bc_home_section_bg" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/waves.png'); background-position: center;">
+    <!-- Desktop Service section -->
+    <div class="container-fluid p-0 bc_hero_container desktop_service_sectiom bc_home_section_bg d-none d-lg-block" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/waves.png'); background-position: center;">
         <div class="bc_white_gradiont py-5">
             <div class="container">
               <div class="row m-0">
@@ -31,7 +32,7 @@ get_header();
                     <div class="py-2">
                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-01.png" class="img-fluid" alt="icon-01" >
                     </div>
-                    <span class="bc_text_18 bc_line_height_20 bc_font_alt_1 bc_text_bold d-block mb-4">Plumbing <br> Service</span>
+                    <h6 class="mb-4">Plumbing <br> Service</h6>
                   </div>
                 </div>
                 <div class="col-lg">
@@ -39,7 +40,7 @@ get_header();
                     <div class="py-2">
                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-02.png" class="img-fluid" alt="icon-02">
                     </div>
-                    <span class="bc_text_18 bc_line_height_20 bc_font_alt_1 bc_text_bold d-block mb-4">Water & <br> Sewer Lines</span>
+                    <h6 class="mb-4">Water & <br> Sewer Lines</h6>
                   </div>
                 </div>
                 <div class="col-lg">
@@ -47,7 +48,7 @@ get_header();
                     <div class="py-2">
                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-03.png" class="img-fluid" alt="icon-03">
                     </div>
-                    <span class="bc_text_18 bc_line_height_20 bc_font_alt_1 bc_text_bold d-block mb-4">Water <br> Heaters</span>
+                    <h6 class="mb-4">Water <br> Heaters</h6>
                   </div>
                 </div>
                 <div class="col-lg">
@@ -55,7 +56,7 @@ get_header();
                     <div class="py-2">
                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-04.png" class="img-fluid" alt="icon-04">
                     </div>
-                    <span class="bc_text_18 bc_line_height_20 bc_font_alt_1 bc_text_bold d-block mb-4">Drain <br> Cleaning </span>
+                    <h6 class="mb-4">Drain <br> Cleaning </h6>
                   </div>
                 </div>
                 <div class="col-lg">
@@ -63,13 +64,92 @@ get_header();
                     <div class="py-2">
                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-05.png" class="img-fluid" alt="icon-05">
                     </div>
-                    <span class="bc_text_18 bc_line_height_20 bc_font_alt_1 bc_text_bold d-block mb-4">Sewer Video <br> Inspections </span>
+                    <h6 class="mb-4">Sewer Video <br> Inspections </h6>
                   </div>
                 </div>
               </div>
            </div>
         </div>
-    </div>  
+    </div>
+    <!-- End Desktop Service section -->
+
+    <!-- mobile Service section -->
+    <div class="container-fluid m-0 py-5 d-lg-none mobile_service_sectiom">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-12">
+            <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-01.png" class="align-self-center img-fluid" alt="icon-01">
+                <div class="media modal-body">
+                <span class="bc_text_22 bc_font_alt_1 bc_color_primary bc_line_height_24 bc_text_medium">Plumbing <br> Service</span>
+                </div>
+                <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
+            </div>
+            <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-02.png" class="align-self-center img-fluid" alt="icon-02">
+                <div class="media modal-body">
+                <span class="bc_text_22 bc_font_alt_1 bc_color_primary bc_line_height_24 bc_text_medium">Water & <br> Sewer Lines </span>
+                </div>
+                <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
+            </div>
+            <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-03.png" class="align-self-center img-fluid" alt="icon-03">
+                <div class="media modal-body">
+                <span class="bc_text_22 bc_font_alt_1 bc_color_primary bc_line_height_24 bc_text_medium">Water <br> Heaters </span>
+                </div>
+                <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
+            </div>
+            <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-04.png" class="align-self-center img-fluid" alt="icon-04">
+                <div class="media modal-body">
+                <span class="bc_text_22 bc_font_alt_1 bc_color_primary bc_line_height_24 bc_text_medium">Drain <br> Cleaning </span>
+                </div>
+                <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
+            </div>
+            <div class="media pb-2 mx-auto border_bottom px-2">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-05.png" class="align-self-center img-fluid" alt="icon-05" >
+                <div class="media modal-body">
+                <span class="bc_text_22 bc_font_alt_1 bc_color_primary bc_line_height_24 bc_text_medium">Sewer Video <br> Inspections </span>
+                </div>
+                <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End mobile Service section -->
+    <div class="container-fluid m-0 quality_plumbers pb-5">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-lg-10 offset-lg-1 text-left text-md-center order-first">
+            <h1>Quality Plumbers in Your Neighborhood </h1>
+            <h2 class="mt-3 bc_sm_text_light px-lg-5">Proudly Serving Howard County & the Surrounding Baltimore Washington Region</h2>
+          </div>
+          <div class="col-lg-6 mt-lg-5 mt-3">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/truck_img.png" class="align-self-center img-fluid" alt="truck_img">
+          </div>
+          <div class="col-lg-6 mt-lg-5 mt-3 order-first order-lg-last">
+            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class="d-none d-md-block">exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span> </p> 
+            <p id="read_more" class="collapse mb-2"> <span class="d-md-none">exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            <a class="bc_text_24 bc_line_height_50 bc_sm_text_16 bc_sm_line_height_40 no_hover_underline bc_color_error_hover bc_font_alt_1 bc_color_error font-bold" data-toggle="collapse" href="#read_more" aria-expanded="false" aria-controls="collapseExample">Read More <i class="ml-1 far fa-plus bc_color_error"></i> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid m-0 p-0 why_choose_section" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/home_img2.jpg'); background-position: center;">
+      <div class="overlay py-5">
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-12 text-center">
+              <span class="bc_text_48 bc_line_height_50 bc_font_alt_1 bc_color_white bc_text_bold">Why Choose Heil?</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </main>
 <?php function serviceAreaJavascript() {?>
     <script type="text/javascript">
@@ -244,6 +324,7 @@ function showmoreText(){
     $this.countTo(options);
 }
 });
+
 </script>
 
 <?php }
