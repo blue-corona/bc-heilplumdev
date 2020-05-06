@@ -83,7 +83,7 @@ p, .p{
 	text-transform: none;
 	line-height: 36px;
 	letter-spacing: default;
-	color: $primary_color;
+	color: $quaternary_color;
 
 }
 
@@ -107,10 +107,12 @@ p, .p{
 .bc_text_heavy { font-weight: 900; }
 
 //Classes for font sizes
+.bc_text_12 { font-size: 12px; }
 .bc_text_15 { font-size: 15px; }
 .bc_text_16 { font-size: 16px; }
 .bc_text_18 { font-size: 18px; }
 .bc_text_20 { font-size: 20px; }
+.bc_text_22 { font-size: 22px; }
 .bc_text_24 { font-size: 24px; }
 .bc_text_28 { font-size: 28px; }
 .bc_text_30 { font-size: 30px; }
@@ -118,6 +120,7 @@ p, .p{
 .bc_text_36 { font-size: 36px; }
 .bc_text_38 { font-size: 38px; }
 .bc_text_40 { font-size: 40px; }
+.bc_text_42 { font-size: 42px; }
 .bc_text_48 { font-size: 48px; }
 .bc_text_55 { font-size: 55px; }
 .bc_text_80 { font-size: 80px; }
@@ -132,8 +135,10 @@ p, .p{
 .bc_line_height_22 { line-height: 22px; }
 .bc_line_height_24 { line-height: 24px; }
 .bc_line_height_26 { line-height: 26px; }
+.bc_line_height_28 { line-height: 28px; }
 .bc_line_height_30 { line-height: 30px; }
 .bc_line_height_34 { line-height: 34px; }
+.bc_line_height_35 { line-height: 35px; }
 .bc_line_height_40 { line-height: 40px; }
 .bc_line_height_36 { line-height: 36px; }
 .bc_line_height_46 { line-height: 46px; }
