@@ -145,3 +145,12 @@ p, .p{
 	.bc_sm_letter_spacing_25 { letter-spacing: 25px !important; }
 	.bc_sm_letter_spacing_36 { letter-spacing: 36px !important; }
 }
+.mobile_anchor{
+	a{
+		color:$white_color;
+		font-weight: 700;
+		&:hover{
+			text-decoration:none;
+		}
+	}
+}
