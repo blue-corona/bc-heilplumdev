@@ -35,10 +35,10 @@ h1, .h1{
 
 h2, .h2{
 	font-family: $alternate_font_family_1;
-	font-size: 26px;
+	font-size: 26px !important;
 	font-weight: 600;
 	text-transform: Capitalization;
-	line-height: 31px;
+	line-height: 31px !important;
 	letter-spacing: default;
 	color: $primary_color;
 }
@@ -93,12 +93,12 @@ h6, .h6{
 }
 p, .p{
 	font-family: $default_font_family;
-	font-size: 16px;
+	font-size: 16px !important;
 	font-weight: 400;
 	text-transform: none;
-	line-height: 26px;
+	line-height: 26px !important;
 	letter-spacing: default;
-	color: $primary_color;
+	color: $quaternary_color;
 
 }
 
@@ -135,6 +135,7 @@ p, .p{
 	.bc_sm_line_height_30 { line-height: 30px !important; }
 	.bc_sm_line_height_34 { line-height: 34px !important; }
 	.bc_sm_line_height_36 { line-height: 36px !important; }
+	.bc_sm_line_height_40 { line-height: 40px !important; }
 	.bc_sm_line_height_48 { line-height: 48px !important; }
 	.bc_sm_line_height_60 { line-height: 60px !important; }
 
