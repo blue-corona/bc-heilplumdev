@@ -274,6 +274,9 @@ div, {
 }
 p a{color:$error_color; font-weight: inherit;}
 p a:hover{color:$error_color; text-decoration: none; font-weight: inherit;}
+p strong{color: $quaternary_color;}
+p strong a{font-weight: bold;}
+
 .subpage{
 	ul {
 	 	font-family: $default_font_family;
@@ -282,7 +285,7 @@ p a:hover{color:$error_color; text-decoration: none; font-weight: inherit;}
 	text-transform: none;
 	line-height: 36px;
 	letter-spacing: default;
-	color: $primary_color;
+	color: $quaternary_color;
 	}
 	li {
 	  padding-left: 0.1em; 
@@ -317,6 +320,7 @@ p a:hover{color:$error_color; text-decoration: none; font-weight: inherit;}
 .mobile_phone{
 	a{
 		color:$white_color;
+		font-weight: 700;
 		&:hover{
 			text-decoration:none;
 		}

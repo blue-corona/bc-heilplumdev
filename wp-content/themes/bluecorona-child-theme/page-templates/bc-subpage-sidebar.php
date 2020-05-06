@@ -40,13 +40,14 @@ global $post;
 </ul>
 <div class="w-100 py-3 px-5 bc_color_primary_bg no_hover_underline rounded btn_base btn my-4 position-relative ">
     <span class="no_hover_underline calenter_line align-baseline-middel">
-        <i class="fal fa-calendar-check bc_text_80 float-left bc_color_secondary"> </i> <span class="bc_color_white bc_font_alt_1 bc_text_30 align-baseline-middel">Schedule Your Service Today</span> <i class="fal fa-play-circle bc_text_40 bc_color_secondary mx-4 align-baseline-middel"></i>
+        <i class="fal fa-calendar-check bc_text_80 float-left bc_color_secondary bc_line_height_50"> </i> <span class="bc_color_white bc_font_alt_1 bc_text_30 align-baseline-middel">Schedule Your Service Today</span> <i class="fal fa-play-circle bc_text_40 bc_color_secondary mx-4 align-baseline-middel bc_line_height_50"></i>
     </span>
     </div>
 <p><a href="#">Hyperlink example</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 <p>
 <strong>Example of bold text<a href="#"> bold hyperlink example </a></strong>
 </p>
+<a class="bc_toggle_content bc_text_24 bc_line_height_50 no_hover_underline bc_color_error--imp bc_font_alt_1 bc_text_normal" data-toggle="collapse" href="#collapseExample"> <span>Read More </span><i class="fas fa-plus bc_text_15"></i> </a>
                     </div>
 
 <div class="col-lg-4">
@@ -79,19 +80,19 @@ global $post;
 
 
 <div class="swiper-container text-center">
-                <span class="bc_text_34 bc_text_semibold bc_font_alt_1 bc_line_height_36 bc_color_primary">Why Choose Heil</span>
+                <span class="bc_text_34 bc_text_semibold bc_font_alt_1  bc_color_primary bc_line_height_46">Why Choose Heil</span>
                 <p></p>
     <div class="swiper-wrapper" style="padding: 2rem 0rem;">
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
     </div>
     <!-- Add Arrows -->
     <div class="swiper-button-next mr-5"><i class="far fa-chevron-right"></i></div>
