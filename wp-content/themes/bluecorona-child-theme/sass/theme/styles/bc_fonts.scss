@@ -162,3 +162,8 @@ body, ::placeholder  {
 	letter-spacing: default;
 	color: $primary_color;
 }
+
+p a{color:$error_color; font-weight: inherit;}
+p a:hover{color:$error_color; text-decoration: none; font-weight: inherit;}
+p strong{color: $quaternary_color;}
+p strong a{font-weight: bold;}

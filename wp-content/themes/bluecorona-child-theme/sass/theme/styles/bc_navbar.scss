@@ -3,8 +3,8 @@
 	background-color: $primary_color !important;
 	#navbarSupportedContent{
 		@media (hover: none), only screen and (max-width: 991px) {
-			height: auto;
-		    max-height: 500px;
+			height: 100vh;
+		    max-height: 100vh;
 		    overflow-x: hidden;
 		}
 	}
@@ -27,7 +27,7 @@ position: relative;
 				font-family: $alternate_font_family_1;
 				background-color: #ffffff00 !important;
 				line-height: 30px !important;
-				svg { color: #00000000 !important; } // Top level dropdown icon
+				svg { display: none !important; } // Top level dropdown icon
 			}
 			&:hover{
 				background-color: #ffffff00 !important;	// Top level dropdown background hover
