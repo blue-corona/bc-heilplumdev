@@ -8176,6 +8176,12 @@ footer > p {
   .bc_sm_letter_spacing_36 {
     letter-spacing: 36px !important; } }
 
+.mobile_anchor a {
+  color: #ffffff;
+  font-weight: 700; }
+  .mobile_anchor a:hover {
+    text-decoration: none; }
+
 /*@import "bc_fonts_mobile";
 */
 h1, .h1 {
@@ -8450,6 +8456,21 @@ body, ::placeholder {
   line-height: 36px;
   letter-spacing: default;
   color: #29265f; }
+
+p a {
+  color: #af252b;
+  font-weight: inherit; }
+
+p a:hover {
+  color: #af252b;
+  text-decoration: none;
+  font-weight: inherit; }
+
+p strong {
+  color: #000000; }
+
+p strong a {
+  font-weight: bold; }
 
 .bc_color_primary, .bc_color_primary--imp {
   color: #29265f; }
@@ -9064,8 +9085,8 @@ input[type="checkbox"] {
   background-color: #29265f; }
   @media (hover: none), only screen and (max-width: 991px) {
     .bc_nav_container #navbarSupportedContent {
-      height: auto;
-      max-height: 500px;
+      height: 100vh;
+      max-height: 100vh;
       overflow-x: hidden; } }
   @media (hover: none), only screen and (max-width: 991px) {
     .bc_nav_container a:hover {
@@ -9081,7 +9102,7 @@ input[type="checkbox"] {
       background-color: #ffffff00 !important;
       line-height: 30px !important; }
       .bc_nav_container .navbar-nav li a svg {
-        color: #00000000 !important; }
+        display: none !important; }
     .bc_nav_container .navbar-nav li:hover {
       background-color: #ffffff00 !important; }
       @media (hover: none), only screen and (max-width: 991px) {
@@ -9295,6 +9316,7 @@ svg.svg-inline--fa.fa-home-lg.fa-w-18 {
   background: #116eab; }
 
 .btn {
+  border-radius: 12px !important;
   color: #ffffff !important;
   font-family: "Oswald", sans-serif !important;
   -webkit-box-shadow: 0 0 32px 1px rgba(0, 0, 0, 0.15) !important;
@@ -9507,21 +9529,6 @@ div {
   .show-on-touch {
     display: block !important; } }
 
-p a {
-  color: #af252b;
-  font-weight: inherit; }
-
-p a:hover {
-  color: #af252b;
-  text-decoration: none;
-  font-weight: inherit; }
-
-p strong {
-  color: #000000; }
-
-p strong a {
-  font-weight: bold; }
-
 .subpage ul {
   font-family: "Open Sans";
   font-size: 20px;
@@ -9557,12 +9564,6 @@ p strong a {
   line-height: 36px;
   letter-spacing: default;
   color: #29265f; }
-
-.mobile_phone a {
-  color: #ffffff;
-  font-weight: 700; }
-  .mobile_phone a:hover {
-    text-decoration: none; }
 
 .btn_base {
   -webkit-box-shadow: 0 7px 46px 5px rgba(0, 0, 0, 0.3);

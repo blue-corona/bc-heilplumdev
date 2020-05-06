@@ -272,10 +272,7 @@ div, {
 		display: block !important;
 	}
 }
-p a{color:$error_color; font-weight: inherit;}
-p a:hover{color:$error_color; text-decoration: none; font-weight: inherit;}
-p strong{color: $quaternary_color;}
-p strong a{font-weight: bold;}
+
 
 .subpage{
 	ul {
@@ -317,15 +314,7 @@ p strong a{font-weight: bold;}
 	}
 	
 }
-.mobile_phone{
-	a{
-		color:$white_color;
-		font-weight: 700;
-		&:hover{
-			text-decoration:none;
-		}
-	}
-}
+
 .btn_base{
 	box-shadow: 0 7px 46px 5px rgba(0,0,0,0.3);
 }

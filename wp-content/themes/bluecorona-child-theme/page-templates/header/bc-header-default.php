@@ -8,7 +8,7 @@
             	</a>
             </div>
             <div class=" col-md-8 col-lg-8 col-sm-8  text-right">
-                <span class="bc_text_30 bc_line_height_50 bc_font_alt_1 bc_text_normal bc_color_white mobile_phone">Call Today &nbsp; | &nbsp; <?php echo do_shortcode("[site_info_phone_number]");?></span> 
+                <span class="bc_text_30 bc_line_height_50 bc_font_alt_1 bc_text_normal bc_color_white mobile_anchor">Call Today &nbsp; | &nbsp; <?php echo do_shortcode("[site_info_phone_number]");?></span> 
             </div>
         </div>
            

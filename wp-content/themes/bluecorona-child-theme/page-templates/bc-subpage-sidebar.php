@@ -39,9 +39,9 @@ global $post;
     <li> Numquam eius modi tempora incidunt ut labore</li>
 </ul>
 <div class="w-100 py-3 px-5 bc_color_primary_bg no_hover_underline rounded btn_base btn my-4 position-relative ">
-    <span class="no_hover_underline calenter_line align-baseline-middel">
+    <h5 class="no_hover_underline calenter_line align-baseline-middel">
         <i class="fal fa-calendar-check bc_text_80 float-left bc_color_secondary bc_line_height_50"> </i> <span class="bc_color_white bc_font_alt_1 bc_text_30 align-baseline-middel">Schedule Your Service Today</span> <i class="fal fa-play-circle bc_text_40 bc_color_secondary mx-4 align-baseline-middel bc_line_height_50"></i>
-    </span>
+    </h5>
     </div>
 <p><a href="#">Hyperlink example</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 <p>
@@ -59,7 +59,7 @@ global $post;
 
         </div>
              <div class="swiper-container text-center my-5 pt-5" style="background-repeat: no-repeat; background-position: center; background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/sidebar_shape.png">
-                <span class="bc_text_34 bc_text_semibold bc_font_alt_1 bc_line_height_36 bc_color_primary">Trusted By</span>
+                <h4 >Trusted By</h4>
                 <p></p>
     <div class="swiper-wrapper" style="padding-bottom: 5rem;">
       <div class="swiper-slide"> <img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/sb_bbb_logo.png"></div>
@@ -80,19 +80,19 @@ global $post;
 
 
 <div class="swiper-container text-center">
-                <span class="bc_text_34 bc_text_semibold bc_font_alt_1  bc_color_primary bc_line_height_46">Why Choose Heil</span>
+                <h4>Why Choose Heil</h4>
                 <p></p>
     <div class="swiper-wrapper" style="padding: 2rem 0rem;">
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
-      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><p class="bc_text_16 bc_color_primery bc_line_height_20">Years in Business</p></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><h7>Years in Business</h7></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><h7>Years in Business</h7></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><h7>Years in Business</h7></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><h7>Years in Business</h7></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><h7>Years in Business</h7></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><h7>Years in Business</h7></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><h7>Years in Business</h7></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><h7>Years in Business</h7></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><h7>Years in Business</h7></div>
+      <div class="swiper-slide"> <i class="fas fa-calendar-star bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_font_alt_1 d-block">43</span><h7>Years in Business</h7></div>
     </div>
     <!-- Add Arrows -->
     <div class="swiper-button-next mr-5"><i class="far fa-chevron-right"></i></div>
@@ -112,14 +112,20 @@ global $post;
                     <div class="col-lg-7"><img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/sub_heil_truck.png" class="img-fluid"></div>
 
                     <div class="col-lg-5">
-                          <span class="bc_text_38 bc_text_semibold bc_font_alt_1 bc_line_height_40 bc_color_primary">Why Choose Heil</span><p class="bc_color_black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                          <h2>Why Choose Heil</h2>
+                          <p class="bc_color_black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
                                 <div class="p-2 "><a href="#" class="btn px-5 btn-secondary border-0">Learn More</a></div>     
                       </div>
                 </div>
             </div>
         </div>
 
-
+<div class="container-fluid " style="height:170px; background-position: center; background-size: cover; background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/waves.png">
+            <div class="container">
+                <div class="row">
+                </div>
+                </div>
+            </div>
 
 
 
