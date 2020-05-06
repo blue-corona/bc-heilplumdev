@@ -1,31 +1,52 @@
-<div class="container-fluid p-0 bc_hero_container bc_home_section_bg" style="background-image: url('<?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_upload', false);?>')">
+<div class="container-fluid p-0 bc_hero_container bc_home_section_bg" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/home_banner.jpg'); background-position: center;">
     <div class="hero-overlay-gradient">
         <div class="container px-4 pt-4">
             <div class="row text-center text-lg-left text-md-left">
-                <div class="col-md-6 col-xs-12 col-lg-6 col-sm-12 m-auto">
-                    <?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_image_overlay_text', false);?>
-
-                    <button onclick="window.location.href = '<?php echo get_home_url().bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_button_link', '/promotions')?>';"  class="btn bc_color_primary_bg py-2 mt-2 mb-4 mb-md-0 hero-image bc_color_secondary_hover"> <?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_button_text', 'Schedule Service Today');?> &nbsp;<i aria-hidden="true" class="fa fa-chevron-circle-right"></i></button>
+                <div class="col-lg-5 py-5 mt-5">
+                    <span class="bc_text_55 bc_line_height_50 bc_font_alt_1 bc_text_bold bc_color_primary">From our family <br> to yours.</span>
                 </div>
-                <div class="col-md-6 col-xs-12 col-lg-6 col-sm-12 p-4 d-none d-md-block">
-                    <div class=" col-md-12 col-lg-9 col-sm-12 col-xs-12 offset-lg-2">
-                        <div class="bc_color_info_bg d-flex py-3 px-4">
-                            <div class="m-auto">
-                                <img alt="icon" class="img-fluid align-self-center mt-n3" src="<?php echo get_template_directory_uri();?>/img/24icon.png">
-                                <span class="bc_color_secondary text-capitalize bc_text_30 bc_font_alt_1 text-center  pt-1">
-                                    Emergency Service
-                                </span>
+                <div class="col-lg-7 px-4 d-none d-md-block">
+                    <div class="hero_banner_form rounded overflow-hidden bc_color_white_bg">
+                        <div class="row no-gutters bc_color_4_bg py-3 px-2">
+                            <div class="col-md-3">
+                                <div class="media border_right position-relative">
+                                    <i class="fal fa-award bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
+                                    <div class="media-body">
+                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Exceptional Workmanship </span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="entry-content bc_hero_form_body">
-                           <?php echo do_shortcode('[gravityform id=2 ajax=true]')?>
+                            <div class="col-md-3">
+                                <div class="media border_right position-relative">
+                                    <i class="fal fa-user-clock bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
+                                    <div class="media-body">
+                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Expert Plumbers </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="media border_right position-relative">
+                                    <i class="fal fa-hands-heart bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
+                                    <div class="media-body">
+                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Caring <br> Service </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="media">
+                                    <i class="fal fa-calendar-star bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
+                                    <div class="media-body">
+                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Family Owned Since 1977 </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div><!-- .hero-overlay-gradient-->
-    </div>
+</div>
 
 <style type="text/css">
 .hero-image{background-color:<?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_button_color', '#00395e');?>;color:<?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_button_text_color', '#ffffff');?>;}

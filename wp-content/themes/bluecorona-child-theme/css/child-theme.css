@@ -6159,7 +6159,6 @@ button.bg-dark:focus {
   position: fixed !important; }
 
 .position-sticky {
-  position: -webkit-sticky !important;
   position: sticky !important; }
 
 .fixed-top {
@@ -6176,9 +6175,8 @@ button.bg-dark:focus {
   left: 0;
   z-index: 1030; }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports (position: sticky) {
   .sticky-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020; } }
@@ -8318,6 +8316,9 @@ p, .p {
 .bc_text_40 {
   font-size: 40px; }
 
+.bc_text_42 {
+  font-size: 42px; }
+
 .bc_text_48 {
   font-size: 48px; }
 
@@ -8356,6 +8357,9 @@ p, .p {
 
 .bc_line_height_34 {
   line-height: 34px; }
+
+.bc_line_height_35 {
+  line-height: 35px; }
 
 .bc_line_height_36 {
   line-height: 36px; }
@@ -9168,6 +9172,24 @@ input:hover[type=button], input:hover[type=submit], input:hover[type=reset], but
 .bc_hero_swiper .swiper-pagination-bullet-active {
   background: #116eab; }
 
+.btn {
+  color: #ffffff !important;
+  font-family: "Oswald", sans-serif !important;
+  -webkit-box-shadow: 0 0 32px 1px rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0 32px 1px rgba(0, 0, 0, 0.15) !important;
+  padding: 1rem;
+  font-size: 24px !important; }
+
+.btn-error {
+  background: #af252b !important; }
+  .btn-error:hover {
+    background: #69161A !important; }
+
+.btn-secondary {
+  background: #70a3d7 !important; }
+  .btn-secondary:hover {
+    background: #3170b0 !important; }
+
 .no_hover_underline:hover {
   text-decoration: none; }
 
@@ -9430,5 +9452,33 @@ p a:hover {
 
 .align-baseline-middel {
   vertical-align: -webkit-baseline-middle; }
+
+.hero-overlay-gradient {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  padding: 0 0 100px 0; }
+  .hero-overlay-gradient .hero_banner_form {
+    height: 410px;
+    width: 655px;
+    -webkit-box-shadow: 0 12px 50px 5px rgba(0, 0, 0, 0.45);
+            box-shadow: 0 12px 50px 5px rgba(0, 0, 0, 0.45); }
+
+.border_right:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 8px;
+  height: 75px;
+  width: 1px;
+  background-color: #6088BB; }
+
+.bc_white_gradiont {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#ffffff));
+  background-image: linear-gradient(transparent, #ffffff); }
+
+.services {
+  background-image: url(../img/service_shape.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=child-theme.css.map */
