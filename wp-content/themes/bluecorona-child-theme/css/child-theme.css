@@ -8135,6 +8135,8 @@ footer > p {
     font-size: 24px !important; }
   .bc_sm_text_30 {
     font-size: 30px !important; }
+  .bc_sm_text_32 {
+    font-size: 32px !important; }
   .bc_sm_text_36 {
     font-size: 36px !important; }
   .bc_sm_text_48 {
@@ -8159,6 +8161,8 @@ footer > p {
     line-height: 34px !important; }
   .bc_sm_line_height_36 {
     line-height: 36px !important; }
+  .bc_sm_line_height_37 {
+    line-height: 37px !important; }
   .bc_sm_line_height_40 {
     line-height: 40px !important; }
   .bc_sm_line_height_48 {
@@ -8312,6 +8316,9 @@ p, .p {
 .bc_text_30 {
   font-size: 30px; }
 
+.bc_text_32 {
+  font-size: 32px; }
+
 .bc_text_34 {
   font-size: 34px; }
 
@@ -8330,6 +8337,9 @@ p, .p {
 .bc_text_48 {
   font-size: 48px; }
 
+.bc_text_50 {
+  font-size: 50px; }
+
 .bc_text_55 {
   font-size: 55px; }
 
@@ -8347,6 +8357,9 @@ p, .p {
 
 .bc_line_height_18 {
   line-height: 18px; }
+
+.bc_line_height_19 {
+  line-height: 19px; }
 
 .bc_line_height_20 {
   line-height: 20px; }
@@ -9602,5 +9615,50 @@ p strong a {
 
 .overlay {
   background-color: rgba(112, 163, 215, 0.8); }
+
+.trusted_by {
+  position: relative;
+  border: 4px solid #2A265E;
+  border-radius: 15px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 59px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 59px rgba(0, 0, 0, 0.2); }
+  .trusted_by .row {
+    border-radius: 10px;
+    background: #ffffff;
+    border: 4px solid #70a3d7; }
+
+.border_right_white:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  height: 93px;
+  width: 1px;
+  background: #ffffff; }
+
+.plus {
+  position: relative; }
+  .plus:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 13%;
+    height: 242px;
+    width: 1px;
+    background-color: #70A3D7; }
+  .plus:before {
+    position: absolute;
+    content: "";
+    bottom: 50%;
+    left: 13%;
+    height: 1px;
+    width: 242px;
+    background-color: #70A3D7; }
+
+.shadow_lg {
+  -webkit-box-shadow: 0 7px 46px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 7px 46px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 20px; }
 
 /*# sourceMappingURL=child-theme.css.map */

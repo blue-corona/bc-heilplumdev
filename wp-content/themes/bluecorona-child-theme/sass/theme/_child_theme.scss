@@ -378,3 +378,51 @@ p strong a{font-weight: bold;}
 .overlay{
 	background-color: rgba(112,163,215,.8);
 }
+.trusted_by{
+	position: relative;
+	border: 4px solid $bc_color_3;
+	border-radius: 15px;
+	background: #ffffff;
+	box-shadow: 0 0 59px rgba(0,0,0,0.2);
+	.row{
+		border-radius: 10px;
+		background: #ffffff;
+		border: 4px solid $secondary_color;
+	}
+}
+.border_right_white{
+	&:after{
+		position: absolute;
+		content: "";
+		bottom: 0;
+		right: 0;
+		height: 93px;
+		width: 1px;
+		background: #ffffff;
+	}
+}
+.plus{
+	position: relative;
+	&:after{
+		position: absolute;
+		content: "";
+		left: 50%;
+    	top: 13%;
+		height: 242px;
+		width: 1px;
+		background-color: #70A3D7;
+	}
+	&:before{
+		position: absolute;
+		content: "";
+		bottom: 50%;
+    	left: 13%;
+		height: 1px;
+		width: 242px;
+		background-color: #70A3D7;
+	}
+}
+.shadow_lg{
+	 box-shadow: 0 7px 46px 5px rgba(0,0,0,0.3);
+	 border-radius: 20px;
+}
