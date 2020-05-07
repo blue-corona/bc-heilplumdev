@@ -6159,6 +6159,7 @@ button.bg-dark:focus {
   position: fixed !important; }
 
 .position-sticky {
+  position: -webkit-sticky !important;
   position: sticky !important; }
 
 .fixed-top {
@@ -6175,8 +6176,9 @@ button.bg-dark:focus {
   left: 0;
   z-index: 1030; }
 
-@supports (position: sticky) {
+@supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020; } }
@@ -9616,6 +9618,14 @@ div {
   height: 75px;
   width: 1px;
   background-color: #6088BB; }
+
+.mobile_anchor_footer a {
+  color: #29265f;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  font-weight: 600; }
+  .mobile_anchor_footer a:hover {
+    text-decoration: none; }
 
 .bc_white_gradiont {
   background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#ffffff));
