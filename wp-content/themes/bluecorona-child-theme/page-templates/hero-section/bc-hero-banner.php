@@ -12,7 +12,7 @@
                                 <div class="media border_right position-relative">
                                     <i class="fal fa-award bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                                     <div class="media-body">
-                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Exceptional Workmanship </span>
+                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Exceptional <br> Workmanship </span>
                                     </div>
                                 </div>
                             </div>
@@ -20,7 +20,7 @@
                                 <div class="media border_right position-relative">
                                     <i class="fal fa-user-clock bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                                     <div class="media-body">
-                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Expert Plumbers </span>
+                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Expert <br> Plumbers </span>
                                     </div>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@
                                 <div class="media">
                                     <i class="fal fa-calendar-star bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                                     <div class="media-body">
-                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Family Owned Since 1977 </span>
+                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Family Owned <br> Since 1977 </span>
                                     </div>
                                 </div>
                             </div>
