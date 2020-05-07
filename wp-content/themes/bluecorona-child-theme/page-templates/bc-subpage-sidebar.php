@@ -38,7 +38,7 @@ global $post;
     <li> Amet, consectetur, adipisci velit, sed quia non</li>
     <li> Numquam eius modi tempora incidunt ut labore</li>
 </ul>
-<div class="w-100 py-3 px-5 bc_color_primary_bg no_hover_underline rounded btn_base btn my-4 position-relative ">
+<div class="w-100 py-3 px-5 bc_color_primary_bg no_hover_underline rounded btn_base btn my-4 position-relative d-none d-lg-block">
     <h5 class="no_hover_underline calenter_line align-baseline-middel">
         <i class="fal fa-calendar-check bc_text_80 float-left bc_color_secondary bc_line_height_50"> </i> <h5 class=" align-baseline-middel">Schedule Your Service Today</h5> <i class="fal fa-play-circle bc_text_40 bc_color_secondary mx-4 align-baseline-middel bc_line_height_50" style="    float: right;
     margin-top: -2.7rem;"></i>
