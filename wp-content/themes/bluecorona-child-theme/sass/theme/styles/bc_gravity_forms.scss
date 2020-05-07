@@ -394,8 +394,9 @@ input[type="checkbox"]{
 			    margin-top: 15px;
 			    font-family:$default_font_family;
 			    font-weight: 400!important;
+			    text-transform: uppercase;
 			    .gfield_required {
-				    /*color: #666666;*/
+				    color: #666666;
 				}
 			}
 		}
@@ -423,6 +424,7 @@ input[type="checkbox"]{
 			.gfield_select{
 				position: relative;
 				padding: 15px 8px !important;
+				text-transform: uppercase;;
 				&:after{
 					position: absolute;
 					content: "hj";
@@ -452,6 +454,6 @@ input[type="checkbox"]{
     font-weight: 400!important;
     color: #fff!important;
     &:hover{
-    	background: #545A71 !important;
+    	background: #69161A !important;
     }
 }

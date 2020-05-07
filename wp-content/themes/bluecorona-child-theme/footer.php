@@ -12,7 +12,7 @@ defined( 'ABSPATH' ) || exit;
 ?>
 <!-- Footer -->
 <footer class="page-footer font-small blue">
-    <div class="container-fluid bc_color_info_bg">
+    <div class="container-fluid bc_color_7_bg">
     <!-- Include servicearea file here -->
     <?php if ( is_front_page() ) {?>
         <?php get_template_part( 'page-templates/common/servicearea' ); ?>

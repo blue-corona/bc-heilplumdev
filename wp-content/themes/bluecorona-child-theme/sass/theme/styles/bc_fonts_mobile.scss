@@ -36,7 +36,7 @@ h1, .h1{
 h2, .h2{
 	font-family: $alternate_font_family_1;
 	font-size: 26px !important;
-	font-weight: 600;
+	font-weight: 600 !important;
 	text-transform: Capitalization;
 	line-height: 31px !important;
 	letter-spacing: default;
@@ -45,56 +45,56 @@ h2, .h2{
 
 h3, .h3{
 	font-family: $alternate_font_family_1;
-	font-size: 22px;
-	font-weight: 300;
+	font-size: 22px !important;
+	font-weight: 300 !important;
 	text-transform: Capitalization;
-	line-height: 25px;
+	line-height: 25px !important;
 	letter-spacing: default;
 	color: $secondary_color;
 }
 
 h4, .h4{
 	font-family: $alternate_font_family_1;
-	font-size: 34px;
-	font-weight: 600;
+	font-size: 34px !important;
+	font-weight: 600 !important;
 	text-transform: Capitalization;
-	line-height: 36px;
+	line-height: 36px !important;
 	letter-spacing: default;
 	color: $primary_color;
 }
 
 h5, .h5{
 	font-family: $alternate_font_family_1;
-	font-size: 32px;
-	font-weight: 600; 
+	font-size: 32px !important;
+	font-weight: 600 !important; 
 	text-transform: Capitalization;
-	line-height: 37px;
+	line-height: 37px !important;
 	letter-spacing: default;
 	color: $white_color;
 }
 
 h6, .h6{
 	font-family: $alternate_font_family_1;
-	font-size: 22px;
-	font-weight: 700;
+	font-size: 22px !important;
+	font-weight: 700 !important;
 	text-transform: Capitalization;
-	line-height: 24px;
+	line-height: 24px !important;
 	letter-spacing: default;
 	color: $primary_color;
 }
  .h7{
 	font-family: $default_font_family;
-	font-size: 22px;
-	font-weight: 400;
+	font-size: 22px !important;
+	font-weight: 400 !important;
 	text-transform: Capitalization;
-	line-height: 24px;
+	line-height: 24px !important;
 	letter-spacing: default;
 	color: $primary_color;
 }
 p, .p{
 	font-family: $default_font_family;
 	font-size: 16px !important;
-	font-weight: 400;
+	font-weight: 400 !important;
 	text-transform: none;
 	line-height: 26px !important;
 	letter-spacing: default;
@@ -134,6 +134,7 @@ p, .p{
 	.bc_sm_line_height_24 { line-height: 24px !important; }
 	.bc_sm_line_height_26 { line-height: 26px !important; }
 	.bc_sm_line_height_30 { line-height: 30px !important; }
+	.bc_sm_line_height_33 { line-height: 33px !important; }
 	.bc_sm_line_height_34 { line-height: 34px !important; }
 	.bc_sm_line_height_36 { line-height: 36px !important; }
 	.bc_sm_line_height_37 { line-height: 37px !important; }
