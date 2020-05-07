@@ -368,6 +368,18 @@ div, {
 		background-color: #6088BB;
 	}
 }
+.mobile_anchor_footer{
+	a{
+		 color: $primary_color;
+  font-family: $alternate_font_family_1;
+  font-size: 32px;
+  font-weight: 600;
+  &:hover{
+		text-decoration: none;
+	}
+	}
+
+}
 .bc_white_gradiont{
 	background-image: linear-gradient(transparent, #ffffff);
 }
