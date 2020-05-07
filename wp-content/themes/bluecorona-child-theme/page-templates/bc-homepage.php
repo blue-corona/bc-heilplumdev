@@ -28,44 +28,54 @@ get_header();
             <div class="container">
               <div class="row m-0">
                 <div class="col-lg">
-                  <div class="services text-center py-4">
-                    <div class="py-2">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-01.png" class="img-fluid" alt="icon-01" >
+                  <a href="#" class="no_hover_underline">
+                    <div class="services text-center py-4">
+                      <div class="py-2">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-01.png" class="img-fluid" alt="icon-01" >
+                      </div>
+                      <h6 class="mb-4">Plumbing <br> Service</h6>
                     </div>
-                    <h6 class="mb-4">Plumbing <br> Service</h6>
-                  </div>
+                  </a>
                 </div>
                 <div class="col-lg">
-                  <div class="services text-center py-4">
-                    <div class="py-2">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-02.png" class="img-fluid" alt="icon-02">
+                  <a href="#" class="no_hover_underline">
+                    <div class="services text-center py-4">
+                      <div class="py-2">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-02.png" class="img-fluid" alt="icon-02">
+                      </div>
+                      <h6 class="mb-4">Water & <br> Sewer Lines</h6>
                     </div>
-                    <h6 class="mb-4">Water & <br> Sewer Lines</h6>
-                  </div>
+                  </a>
                 </div>
                 <div class="col-lg">
-                  <div class="services text-center py-4">
-                    <div class="py-2">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-03.png" class="img-fluid" alt="icon-03">
+                  <a href="#" class="no_hover_underline">
+                    <div class="services text-center py-4">
+                      <div class="py-2">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-03.png" class="img-fluid" alt="icon-03">
+                      </div>
+                      <h6 class="mb-4">Water <br> Heaters</h6>
                     </div>
-                    <h6 class="mb-4">Water <br> Heaters</h6>
-                  </div>
+                  </a>
                 </div>
                 <div class="col-lg">
-                  <div class="services text-center py-4">
-                    <div class="py-2">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-04.png" class="img-fluid" alt="icon-04">
+                  <a href="#" class="no_hover_underline">
+                    <div class="services text-center py-4">
+                      <div class="py-2">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-04.png" class="img-fluid" alt="icon-04">
+                      </div>
+                      <h6 class="mb-4">Drain <br> Cleaning </h6>
                     </div>
-                    <h6 class="mb-4">Drain <br> Cleaning </h6>
-                  </div>
+                  </a>
                 </div>
                 <div class="col-lg">
-                  <div class="services text-center py-4">
-                    <div class="py-2">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-05.png" class="img-fluid" alt="icon-05">
+                  <a href="#" class="no_hover_underline">
+                    <div class="services text-center py-4">
+                      <div class="py-2">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-05.png" class="img-fluid" alt="icon-05">
+                      </div>
+                      <h6 class="mb-4">Sewer Video <br> Inspections </h6>
                     </div>
-                    <h6 class="mb-4">Sewer Video <br> Inspections </h6>
-                  </div>
+                  </a>
                 </div>
               </div>
            </div>
@@ -74,42 +84,42 @@ get_header();
     <!-- End Desktop Service section -->
 
     <!-- mobile Service section -->
-    <div class="container-fluid m-0 py-5 d-lg-none mobile_service_sectiom">
+    <div class="container-fluid m-0 py-lg-5 py-4 d-lg-none mobile_service_sectiom">
       <div class="container">
         <div class="row no-gutters">
           <div class="col-12">
             <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-01.png" class="align-self-center img-fluid" alt="icon-01">
+              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-01.png" class="align-self-center img-fluid" alt="icon-01">
                 <div class="media modal-body">
-                <span class="bc_text_22 bc_font_alt_1 bc_color_primary bc_line_height_24 bc_text_medium">Plumbing <br> Service</span>
+                <h6>Plumbing <br> Service</h6>
                 </div>
                 <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
             </div>
             <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-02.png" class="align-self-center img-fluid" alt="icon-02">
+              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-02.png" class="align-self-center img-fluid" alt="icon-02">
                 <div class="media modal-body">
-                <span class="bc_text_22 bc_font_alt_1 bc_color_primary bc_line_height_24 bc_text_medium">Water & <br> Sewer Lines </span>
+                <h6>Water & <br> Sewer Lines </h6>
                 </div>
                 <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
             </div>
             <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-03.png" class="align-self-center img-fluid" alt="icon-03">
+              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-03.png" class="align-self-center img-fluid" alt="icon-03">
                 <div class="media modal-body">
-                <span class="bc_text_22 bc_font_alt_1 bc_color_primary bc_line_height_24 bc_text_medium">Water <br> Heaters </span>
+                <h6>Water <br> Heaters </h6>
                 </div>
                 <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
             </div>
             <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-04.png" class="align-self-center img-fluid" alt="icon-04">
+              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-04.png" class="align-self-center img-fluid" alt="icon-04">
                 <div class="media modal-body">
-                <span class="bc_text_22 bc_font_alt_1 bc_color_primary bc_line_height_24 bc_text_medium">Drain <br> Cleaning </span>
+                <h6>Drain <br> Cleaning </h6>
                 </div>
                 <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
             </div>
             <div class="media pb-2 mx-auto border_bottom px-2">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon-05.png" class="align-self-center img-fluid" alt="icon-05" >
+              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-05.png" class="align-self-center img-fluid" alt="icon-05" >
                 <div class="media modal-body">
-                <span class="bc_text_22 bc_font_alt_1 bc_color_primary bc_line_height_24 bc_text_medium">Sewer Video <br> Inspections </span>
+                <h6>Sewer Video <br> Inspections </h6>
                 </div>
                 <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
             </div>
@@ -132,7 +142,9 @@ get_header();
             <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class="d-none d-md-block">exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span> </p> 
             <p id="read_more" class="collapse mb-2"> <span class="d-md-none">exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-            <a class="bc_text_24 bc_line_height_50 bc_sm_text_16 bc_sm_line_height_40 no_hover_underline bc_color_error_hover bc_font_alt_1 bc_color_error font-bold" data-toggle="collapse" href="#read_more" aria-expanded="false" aria-controls="collapseExample">Read More <i class="ml-1 far fa-plus bc_color_error"></i> </a>
+            <a class="bc_text_24 bc_line_height_50 bc_sm_text_16 bc_sm_line_height_40 no_hover_underline bc_color_error_hover bc_font_alt_1 bc_color_error font-bold bc_toggle_content" data-toggle="#read_more" href="#">  <span> Read More </span> <i class="far fa-plus bc_color_error bc_text_20 bc_line_height_50" aria-hidden="true"></i></a>
+
+           <!--  <a class="bc_text_24 bc_line_height_50 bc_sm_text_16 bc_sm_line_height_40 no_hover_underline bc_color_error_hover bc_font_alt_1 bc_color_error font-bold" data-toggle="collapse" href="#read_more" aria-expanded="false" aria-controls="collapseExample">Read More <i class="ml-1 far fa-plus bc_color_error"></i> </a> -->
           </div>
         </div>
       </div>
@@ -165,12 +177,15 @@ get_header();
       <div class="overlay py-5">
         <div class="container">
           <div class="row no-gutters">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center d-none d-md-block">
               <span class="bc_text_48 bc_line_height_50 bc_sm_text_32 bc_sm_line_height_37 bc_font_alt_1 bc_color_white bc_text_bold">Why Choose Heil?</span>
             </div>
             <!--  MobileYears in Business section-->
             <div class="col-lg-6 mt-4 d-md-none">
               <div class="row no-gutters">
+                <div class="col-lg-12 text-center mb-4">
+                  <h5>Why Choose Heil?</h5>
+                </div>
                 <div class="business-btn-prev col-1 text-center no-focus" tabindex="0" aria-label="Previous slide">
                   <i class="far fa-chevron-left bc_text_32 bc_line_height_37 bc_color_white h-100 align-self-center"></i>
                 </div>
@@ -180,17 +195,17 @@ get_header();
                         <div class="swiper-slide text-center">
                             <i class="fas fa-calendar-star bc_text_40 bc_line_height_40 bc_color_primary"></i>
                           <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">43</span>
-                          <span class="bc_text_16 bc_line_height_16 bc_font_default bc_color_primary bc_text_normal d-block mt-4">Years in Business</span>
+                          <span class="bc_text_22 bc_line_height_24 bc_text_normal bc_font_default bc_color_primary bc_text_normal d-block mt-4">Years in Business</span>
                         </div>
                         <div class="swiper-slide text-center">
                           <i class="fas fa-user bc_text_40 bc_line_height_40 bc_color_primary"></i>
                           <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">14,638</span>
-                          <span class="bc_text_16 bc_line_height_16 bc_font_default bc_color_primary bc_text_normal d-block mt-4">Customers Helped</span>
+                          <span class="bc_text_22 bc_line_height_24 bc_text_normal bc_font_default bc_color_primary bc_text_normal d-block mt-4">Customers Helped</span>
                         </div>
                         <div class="swiper-slide text-center">
                           <i class="fas fa-thumbs-up bc_text_40 bc_line_height_40 bc_color_primary"></i>
                           <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">24/7</span>
-                          <span class="bc_text_16 bc_line_height_16 bc_font_default bc_color_primary bc_text_normal d-block mt-4">Service</span>
+                          <span class="bc_text_22 bc_line_height_24 bc_text_normal bc_font_default bc_color_primary bc_text_normal d-block mt-4">Service</span>
                         </div>
                     </div>
                   </div>
@@ -205,7 +220,7 @@ get_header();
               <div class="trusted_by">
                 <div class="row no-gutters">
                   <div class="whychoose-btn-prev col-1 text-center no-focus" tabindex="0" aria-label="Previous slide">
-                    <i class="far fa-chevron-left bc_text_20 bc_line_height_40 bc_sm_text_32 bc_sm_line_height_37 bc_color_primary h-100 align-self-center"></i>
+                    <i class="far fa-chevron-left bc_text_20 bc_line_height_40 bc_sm_text_32 bc_sm_line_height_37 bc_color_primary h-100"></i>
                   </div>
                   <div class="col-10">
                     <h4 class="text-center mt-4 mb-3">Trusted By</h4>
@@ -224,7 +239,7 @@ get_header();
                     </div>
                   </div>
                   <span class="whychoose-btn-next col-1 text-center no-focus" tabindex="0" aria-label="Next slide">
-                    <i class="far fa-chevron-right bc_text_20 bc_line_height_40 bc_sm_text_32 bc_sm_line_height_37 bc_color_primary align-self-center h-100"></i>
+                    <i class="far fa-chevron-right bc_text_20 bc_line_height_40 bc_sm_text_32 bc_sm_line_height_37 bc_color_primary h-100"></i>
                   </span>
                 </div>
               </div>
@@ -236,21 +251,21 @@ get_header();
                   <div class="border_right_white position-relative">
                     <i class="fas fa-calendar-star bc_text_40 bc_line_height_40 bc_color_primary"></i>
                     <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">43</span>
-                    <span class="bc_text_16 bc_line_height_16 bc_font_default bc_color_primary bc_text_normal d-block mt-4">Years in Business</span>
+                    <span class="h7 d-block mt-4">Years in Business</span>
                   </div>
                 </div>
                 <div class="col-md-4 text-center">
                   <div class="border_right_white position-relative">
                     <i class="fas fa-user bc_text_40 bc_line_height_40 bc_color_primary"></i>
                     <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">14,638</span>
-                    <span class="bc_text_16 bc_line_height_16 bc_font_default bc_color_primary bc_text_normal d-block mt-4">Customers Helped</span>
+                    <span class="h7 d-block mt-4">Customers Helped</span>
                   </div>
                 </div>
                 <div class="col-md-4 text-center">
                   <div class="">
                     <i class="fas fa-thumbs-up bc_text_40 bc_line_height_40 bc_color_primary"></i>
                     <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">24/7</span>
-                    <span class="bc_text_16 bc_line_height_16 bc_font_default bc_color_primary bc_text_normal d-block mt-4">Service</span>
+                    <span class="h7 d-block mt-4">Service</span>
                   </div>
                 </div>
               </div>

@@ -12,6 +12,24 @@ defined( 'ABSPATH' ) || exit;
 ?>
 <!-- Footer -->
 <footer class="page-footer font-small blue">
+<<<<<<< HEAD
+    <div class="container-fluid bc_color_7_bg">
+    <!-- Include servicearea file here -->
+    <?php if ( is_front_page() ) {?>
+        <?php get_template_part( 'page-templates/common/servicearea' ); ?>
+    <?php }else{?>
+        <div class="container py-3"></div>
+    <?php } ?>
+    </div>
+    <!-- Footer Links -->
+    <div class="container-fluid bc_color_primary_bg text-md-left pl-0 pt-5">
+        <img alt="footer man" height="323px" class="position-absolute d-none d-lg-block " src="<?php echo get_template_directory_uri();?>/img/footer_eng.png">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-lg-10 offset-0 offset-lg-2 col-md-12 text-center text-lg-left">
+                    <div class="row">
+                        <?php dynamic_sidebar( 'footer' ); ?>
+=======
     <div class="container-fluid">
 <div class="container">
 <div class="row">
@@ -21,6 +39,7 @@ defined( 'ABSPATH' ) || exit;
                         <i class="align-self-center fas fa-mobile-alt  bc_text_36 bc_line_height_32 bc_color_primary" ></i><div class="media modal-body mobile_anchor_footer">
                         <span class="bc_text_16 bc_line_height_32 bc_color_black bc_text_bold text-uppercase mobile_anchor_footer"><?php echo do_shortcode("[site_info_phone_number]");?></span>
                         </div>                       
+>>>>>>> 8e2d751101af0e31eda257d48a9f91a407985431
                     </div>
                     <div class="media mx-auto border_bottom_primary_3">
                         <i class="align-self-center far fa-clock bc_text_36 bc_line_height_22 bc_color_primary" ></i>

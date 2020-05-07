@@ -47,7 +47,6 @@
 .bc_default_primary{
 	background-color:$bc_default_primary;
 }
-
 .bc_hero_container{
      background-image:$bc_hero_bg;
     
@@ -332,13 +331,42 @@ div, {
 .align-baseline-middel{
 	vertical-align: -webkit-baseline-middle;
 }
+.bc_hero_container{
+	background-image: url(../img/home_banner.jpg);
+	background-position: center;
+	@media only screen and (max-width: 740px) {
+		background-image: url(../img/home_banner.jpg);
+		background-size: contain;
+    	background-position: inherit;
+	}
+}
 .hero-overlay-gradient{
 	background-color: rgba(255,255,255,.4) !important;
 	padding: 0 0 100px 0;
+	@media only screen and (max-width: 740px) {
+		padding: 0 0 43px 0;
+	}
 	.hero_banner_form{
 		height: 420px;
 		width: 655px;
 		box-shadow: 0 12px 50px 5px rgba(0,0,0,0.45);
+	}
+}
+.btn_error{
+	color: #FFFFFF;
+	font-family: $alternate_font_family_1;
+	font-size: 24px;
+	line-height: 27px;
+	padding: 18px 50px;
+	display: inline-block;
+	border-radius: 15px;
+	text-align: center;
+	background-color: $error_color;
+	box-shadow: 0 0 32px 1px rgba(0,0,0,0.15);
+	&:hover{
+		text-decoration: none;
+		color: #fff;
+		background: #69161A !important;
 	}
 }
 .btn_secondary{
@@ -355,6 +383,7 @@ div, {
 	&:hover{
 		text-decoration: none;
 		color: #fff;
+		background: #3170B0 !important;
 	}
 }
 .border_right{
@@ -363,7 +392,7 @@ div, {
 		content: "";
 		top: 0;
 		right: 8px;
-		height: 75px;
+		height: 45px;
 		width: 1px;
 		background-color: #6088BB;
 	}
@@ -388,6 +417,16 @@ div, {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
+	display: block;
+	&:hover{
+		background-image: url(../img/service_hover.png);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		h6{
+			color: $white_color;
+		}
+	}
 }
 .media.border_bottom{
 	border-bottom: 1px solid #b5b5b5;
@@ -453,9 +492,10 @@ div, {
 		background-size: cover;
 	}
 }
+
 .shadow_lg{
 	 box-shadow: 0 7px 46px 5px rgba(0,0,0,0.3);
-	 border-radius: 20px;
+	 border-radius: 15px;
 }
 .no-focus{
 	&:focus{
