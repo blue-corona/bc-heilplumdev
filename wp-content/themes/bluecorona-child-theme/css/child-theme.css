@@ -9324,7 +9324,7 @@ svg.svg-inline--fa.fa-home-lg.fa-w-18 {
   background: #116eab; }
 
 .btn {
-  border-radius: 12px !important;
+  border-radius: 10px !important;
   color: #ffffff !important;
   font-family: "Oswald", sans-serif !important;
   -webkit-box-shadow: 0 0 32px 1px rgba(0, 0, 0, 0.15) !important;
@@ -9654,6 +9654,14 @@ div {
   height: 45px;
   width: 1px;
   background-color: #6088BB; }
+
+.mobile_anchor_footer a {
+  color: #29265f;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  font-weight: 600; }
+  .mobile_anchor_footer a:hover {
+    text-decoration: none; }
 
 .bc_white_gradiont {
   background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#ffffff));
