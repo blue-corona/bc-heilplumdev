@@ -37,9 +37,10 @@ get_header();?>
     <li> Amet, consectetur, adipisci velit, sed quia non</li>
     <li> Numquam eius modi tempora incidunt ut labore</li>
 </ul>
-<div class="w-100 py-3 px-5 bc_color_primary_bg no_hover_underline rounded btn_base btn my-4 position-relative ">
+<div class="w-100 py-3 px-5 bc_color_primary_bg no_hover_underline rounded btn_base btn my-4 position-relative d-none d-lg-block">
     <h5 class="no_hover_underline calenter_line align-baseline-middel">
-        <i class="fal fa-calendar-check bc_text_80 float-left bc_color_secondary bc_line_height_50"> </i> <span class="bc_color_white bc_font_alt_1 bc_text_30 align-baseline-middel">Schedule Your Service Today</span> <i class="fal fa-play-circle bc_text_40 bc_color_secondary mx-4 align-baseline-middel bc_line_height_50"></i>
+        <i class="fal fa-calendar-check bc_text_80 float-left bc_color_secondary bc_line_height_50"> </i> <h5 class=" align-baseline-middel">Schedule Your Service Today</h5> <i class="fal fa-play-circle bc_text_40 bc_color_secondary mx-4 align-baseline-middel bc_line_height_50" style="    float: right;
+    margin-top: -2.7rem;"></i>
     </h5>
     </div>
 <p><a href="#">Hyperlink example</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>

@@ -6,6 +6,17 @@
                     <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="pl-0 navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
                         <em class="fa fa-bars navbar-toggler-icon bc_text_24 bc_line_height_50 text-white"></em>
                     </button>
+                   
+                </div>
+
+                <div class="col-6  py-2 text-center">
+                    <a href="<?php echo get_home_url();?>">
+                        
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile_heil_logo.png" alt="team" class="position-absolute" style="right: 10%;  top: 20%;">
+                    </a>
+                </div>
+                <div class="col-3 pt-3 text-center  bc_color_error_bg">
+                    <a href="tel:(651) 401-8068"  class="pt-3"> <i class="fas fa-phone-alt mt-4 bc_text_28 bc_line_height_50 text-white"></i></a>
                 </div>
                 <div class=" col-7 mr-0 py-2 position-relative">
                     <a href="<?php echo get_home_url();?>">
