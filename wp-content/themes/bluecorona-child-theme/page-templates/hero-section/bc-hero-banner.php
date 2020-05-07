@@ -1,9 +1,9 @@
-<div class="container-fluid p-0 bc_hero_container bc_home_section_bg" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/home_banner.jpg'); background-position: center;">
+<div class="container-fluid p-0 bc_hero_container bc_home_section_bg">
     <div class="hero-overlay-gradient">
-        <div class="container px-4 pt-4">
+        <div class="container px-4 pt-lg-4">
             <div class="row text-center text-lg-left text-md-left">
-                <div class="col-lg-5 py-5 mt-5">
-                    <span class="bc_text_55 bc_line_height_50 bc_font_alt_1 bc_text_bold bc_color_primary">From our family <br> to yours.</span>
+                <div class="col-lg-5 py-lg-5 mt-md-5 mt-4">
+                    <span class="bc_text_55 bc_line_height_50 bc_sm_text_32 bc_sm_line_height_33 bc_font_alt_1 bc_text_bold bc_color_primary">From our family <br> to yours.</span>
                 </div>
                 <div class="col-lg-7 px-4 d-none d-md-block">
                     <div class="hero_banner_form rounded overflow-hidden bc_color_white_bg">
@@ -11,32 +11,32 @@
                             <div class="col-md-3">
                                 <div class="media border_right position-relative">
                                     <i class="fal fa-award bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
-                                    <div class="media-body">
-                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Exceptional <br> Workmanship </span>
+                                    <div class="media-body bc_line_height_17">
+                                        <span class="bc_text_15 bc_font_alt_1 bc_text_semibold bc_color_3"> Exceptional <br> Workmanship </span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="media border_right position-relative">
                                     <i class="fal fa-user-clock bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
-                                    <div class="media-body">
-                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Expert <br> Plumbers </span>
+                                    <div class="media-body bc_line_height_17">
+                                        <span class="bc_text_15 bc_font_alt_1 bc_text_semibold bc_color_3"> Expert <br> Plumbers </span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="media border_right position-relative">
                                     <i class="fal fa-hands-heart bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
-                                    <div class="media-body">
-                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Caring <br> Service </span>
+                                    <div class="media-body bc_line_height_17">
+                                        <span class="bc_text_15 bc_font_alt_1 bc_text_semibold bc_color_3"> Caring <br> Service </span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="media">
                                     <i class="fal fa-calendar-star bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
-                                    <div class="media-body">
-                                        <span class="bc_text_15 bc_line_height_17 bc_font_alt_1 bc_text_bold bc_color_3"> Family Owned <br> Since 1977 </span>
+                                    <div class="media-body bc_line_height_17">
+                                        <span class="bc_text_15 bc_font_alt_1 bc_text_semibold bc_color_3"> Family Owned <br> Since 1977 </span>
                                     </div>
                                 </div>
                             </div>
