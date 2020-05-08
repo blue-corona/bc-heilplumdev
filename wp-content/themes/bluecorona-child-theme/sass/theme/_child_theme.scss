@@ -37,6 +37,9 @@
 		}
 	}
 }
+.w_80{
+	width: 80px !important;
+}
 .bc_coupon_container{
 	border-style:$bc_coupon_border_style
 }
@@ -576,4 +579,15 @@ div, {
 }
 .border_dashed{
 	border: 4px dashed #fff;
+}
+@media only screen and (max-width: 760px) {
+.mobile-text-center{
+	text-align: center;
+}
+.mobile-text-align{
+	padding-left: 4rem;
+}
+.margin_on_mobile{
+	margin-bottom: 4rem !important;
+}
 }

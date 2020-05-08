@@ -9258,7 +9258,7 @@ svg.svg-inline--fa.fa-home-lg.fa-w-18 {
 
 .mobile_logo {
   top: -33px;
-  left: -20px; }
+  left: -10px; }
 
 .bc_testimonial_swiper .swiper-slide-container {
   background-image: url("../img/slider-background.png");
@@ -9371,6 +9371,9 @@ svg.svg-inline--fa.fa-home-lg.fa-w-18 {
       height: auto; }
       .bc_choose_us_text #choose_us_toggle {
         display: none; } }
+
+.w_80 {
+  width: 80px !important; }
 
 .bc_coupon_container {
   border-style: dashed; }
@@ -9824,5 +9827,13 @@ div {
 
 .border_dashed {
   border: 4px dashed #fff; }
+
+@media only screen and (max-width: 760px) {
+  .mobile-text-center {
+    text-align: center; }
+  .mobile-text-align {
+    padding-left: 4rem; }
+  .margin_on_mobile {
+    margin-bottom: 4rem !important; } }
 
 /*# sourceMappingURL=child-theme.css.map */

@@ -31,7 +31,7 @@ get_header();
                   <a href="#" class="no_hover_underline">
                     <div class="services text-center py-4">
                       <div class="py-2">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-01.png" class="img-fluid" alt="icon-01" >
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-01.PNG" class="img-fluid" alt="icon-01" >
                       </div>
                       <h6 class="mb-4">Plumbing <br> Service</h6>
                     </div>
@@ -41,7 +41,7 @@ get_header();
                   <a href="#" class="no_hover_underline">
                     <div class="services text-center py-4">
                       <div class="py-2">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-02.png" class="img-fluid" alt="icon-02">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-02.PNG" class="img-fluid" alt="icon-02">
                       </div>
                       <h6 class="mb-4">Water & <br> Sewer Lines</h6>
                     </div>
@@ -51,7 +51,7 @@ get_header();
                   <a href="#" class="no_hover_underline">
                     <div class="services text-center py-4">
                       <div class="py-2">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-03.png" class="img-fluid" alt="icon-03">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-03.PNG" class="img-fluid" alt="icon-03">
                       </div>
                       <h6 class="mb-4">Water <br> Heaters</h6>
                     </div>
@@ -89,36 +89,36 @@ get_header();
         <div class="row no-gutters">
           <div class="col-12">
             <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
-              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-01.png" class="align-self-center img-fluid" alt="icon-01">
-                <div class="media modal-body">
+              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-01.PNG" class="align-self-center img-fluid w_80" alt="icon-01">
+                <div class="media modal-body px-1">
                 <h6>Plumbing <br> Service</h6>
                 </div>
                 <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
             </div>
             <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
-              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-02.png" class="align-self-center img-fluid" alt="icon-02">
-                <div class="media modal-body">
+              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-02.PNG" class="align-self-center img-fluid w_80" alt="icon-02">
+                <div class="media modal-body px-1">
                 <h6>Water & <br> Sewer Lines </h6>
                 </div>
                 <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
             </div>
             <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
-              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-03.png" class="align-self-center img-fluid" alt="icon-03">
-                <div class="media modal-body">
+              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-03.PNG" class="align-self-center img-fluid w_80" alt="icon-03">
+                <div class="media modal-body px-1">
                 <h6>Water <br> Heaters </h6>
                 </div>
                 <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
             </div>
             <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
-              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-04.png" class="align-self-center img-fluid" alt="icon-04">
-                <div class="media modal-body">
+              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-04.png" class="align-self-center img-fluid w_80" alt="icon-04">
+                <div class="media modal-body px-1">
                 <h6>Drain <br> Cleaning </h6>
                 </div>
                 <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
             </div>
             <div class="media pb-2 mx-auto border_bottom px-2">
-              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-05.png" class="align-self-center img-fluid" alt="icon-05" >
-                <div class="media modal-body">
+              <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-05.png" class="align-self-center img-fluid w_80" alt="icon-05" >
+                <div class="media modal-body px-1">
                 <h6>Sewer Video <br> Inspections </h6>
                 </div>
                 <a href="#" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
@@ -420,7 +420,7 @@ get_header();
          slidesPerView: 3,
             loop: true,
             speed: 400,
-            autoplay: true,
+            // autoplay: true,
             paginationClickable: true,
             spaceBetween: 50,
             pagination: {

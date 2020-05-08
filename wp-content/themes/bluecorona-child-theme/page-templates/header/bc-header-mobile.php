@@ -8,9 +8,6 @@
                     </button>
                    
                 </div>
-               <!--  <div class="col-3 pt-3 text-center  bc_color_error_bg">
-                    <a href="tel:(651) 401-8068"  class="pt-3"> <i class="fas fa-phone-alt mt-4 bc_text_28 bc_line_height_50 text-white"></i></a>
-                </div> -->
                 <div class=" col-8 mr-0 py-2 position-relative">
                     <a href="<?php echo get_home_url();?>">
                         <img src="<?php echo bc_get_theme_mod('bc_theme_options', 'bc_logo_upload',false, get_template_directory_uri().'/img/mobile_heil_logo.jpg'); ?>" class="img-fluid bc_branding_logo position-absolute mobile_logo" alt="logo">
