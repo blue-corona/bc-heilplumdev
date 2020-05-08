@@ -29,58 +29,14 @@ get_header();
 
     <?php get_template_part( 'page-templates/common/testimonials');?>    
 
-    
+    <?php echo do_shortcode('[bc-promotion]')?>
 
-    <div class="container-fluid m-0 px-0 py-lg-5 pb-4 bc_color_4_bg bg_color_white">
-      <div class="container">
-        <div class="row no-gutters">
-          <div class="col-12 text-center mb-md-5 mb-2">
-            <h2>Save on Our Services</h2>
-          </div>
-          <div class="col-lg-12 text-center">
-            <div class="swiper-container services-swiper pb-1">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide text-center">
-                  <div class="bc_color_primary_bg p-3">
-                    <div class="border_dashed text-center py-4 px-3 pt-0 ">
-                        <span class="mb-2 d-block bc_font_alt_1 bc_text_50 bc_line_height_40 bc_color_secondary text-uppercase bc_text_bold">$40 OFF</span>
-                        <span class="bc_text_20 bc_line_height_26 bc_font_default bc_color_white my-4 d-block">Any Plumbing Service <br> <i>(Minimum $202)</i> </span>
-                        <span class="bc_text_24 bc_line_height_40 bc_font_alt_1 d-block mb-2 bc_text_normal bc_color_secondary text-uppercase">VIEW DETAILS</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide text-center">
-                  <div class="bc_color_primary_bg p-3">
-                    <div class="border_dashed text-center py-4 px-3 pt-0 ">
-                        <span class="mb-2 d-block bc_font_alt_1 bc_text_50 bc_line_height_40 bc_color_secondary text-uppercase bc_text_bold">$202 OFF</span>
-                        <span class="bc_text_20 bc_line_height_26 bc_font_default bc_color_white my-4 d-block">Any Water Heater Replacement <br> <i>(Minimum $1250)</i> </span>
-                        <span class="bc_text_24 bc_line_height_40 bc_font_alt_1 d-block mb-2 bc_text_normal bc_color_secondary text-uppercase">VIEW DETAILS</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide text-center">
-                  <div class="bc_color_primary_bg p-3">
-                    <div class="border_dashed text-center py-4 px-3 pt-0 ">
-                        <span class="mb-2 d-block bc_font_alt_1 bc_text_50 bc_line_height_40 bc_color_secondary text-uppercase bc_text_bold">$40 OFF</span>
-                        <span class="bc_text_20 bc_line_height_26 bc_font_default bc_color_white my-4 d-block">Any Plumbing Service <br> <i>(Minimum $202)</i> </span>
-                        <span class="bc_text_24 bc_line_height_40 bc_font_alt_1 d-block mb-2 bc_text_normal bc_color_secondary text-uppercase">VIEW DETAILS</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-              <!-- Add Pagination -->
-              <div class="swiper-pagination customer-pagination d-md-none"></div>
-            <a href="#" class="btn_secondary mt-5">View All Deals</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
 </main>
 <?php function serviceAreaJavascript() {?>
     <script type="text/javascript">
-      var swiperService = new Swiper('.whychoose-swiper', {
+      var swiperWhyChoose = new Swiper('.whychoose-swiper', {
         navigation: {
             nextEl: '.whychoose-btn-next',
             prevEl: '.whychoose-btn-prev',
@@ -108,7 +64,7 @@ get_header();
           }
         });
 
-      var swiperService = new Swiper('.business-swiper', {
+      var swiperBusiness = new Swiper('.business-swiper', {
         navigation: {
             nextEl: '.business-btn-next',
             prevEl: '.business-btn-prev',
@@ -137,29 +93,7 @@ get_header();
         });
 
       
-      var swiperService = new Swiper('.services-swiper', {
-         slidesPerView: 2,
-            loop: true,
-            speed: 400,
-            // autoplay: true,
-            paginationClickable: true,
-            spaceBetween: 50,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-                clickable: true,
-            },
-            breakpoints: {
-            640: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            1024: {
-              slidesPerView: 2,
-              spaceBetween: 20,
-            },
-          }     
-        });
+      
 
 
         var str=jQuery("#my-message").text();

@@ -13,69 +13,82 @@ function bc_promotion_shortcode_custom() {
 }
 
 function custom_promotion_shortcode( $atts , $content = null ){
+static $count = 0;
+    $count++;
+    add_action( 'wp_footer' , function() use($count){
+    ?>
+<script>
+var swiperTestimonials<?php echo $count ?> = new Swiper('#services-swiper_<?php echo $count ?>', {
+         slidesPerView: 2,
+            loop: true,
+            speed: 400,
+            // autoplay: true,
+            paginationClickable: true,
+            spaceBetween: 50,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+            },
+            breakpoints: {
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+          }     
+        });
+        </script>
+        <?php });
     $Ids = null;
-    $args  = array( 'post_type' => 'bc_promotions', 'posts_per_page' => -1, 'order'=> 'DESC','post_status'  => 'publish');
-
-    if(isset($atts['coupon_id'])) {
-        $Ids = explode(',', $atts['coupon_id']);
+    $args  = array( 'post_type' => 'bc_testimonials', 'posts_per_page' => -1, 'order'=> 'DESC','post_status'  => 'publish');
+    if(isset($atts['id'])) {
+        $Ids = explode(',', $atts['id']);
         $postIds = $Ids;
         $args['post__in'] = $postIds;
     }
     ob_start();
-    $query = new WP_Query( $args );
-        if ( $query->have_posts() ) : ?>
-        <div class="col-lg-12 px-3 pb-4">
-            <h1>Coupons</h1>
-        </div>
-        <?php
-        while($query->have_posts()) : $query->the_post();
-
-        $promotion_type = get_post_meta(get_the_ID(), 'promotion_type', TRUE);
-        if($promotion_type == 'Builder'){
-        $date = get_post_meta( get_the_ID(), 'promotion_expiry_date1', true );
-        if(strtotime($date) >= strtotime(current_time('m/d/Y'))){
-            $title = get_post_meta( get_the_ID(), 'promotion_title1', true );
-            $color = get_post_meta( get_the_ID(), 'promotion_color', true );
-            $subheading = get_post_meta( get_the_ID(), 'promotion_subheading', true );
-            $footer_heading = get_post_meta( get_the_ID(), 'promotion_footer_heading', true ); ?>
-        <div class="col-lg-6 equal_height" onclick="window.open('<?php the_permalink(get_the_ID()); ?>')">
-        <div class="bc_color_secondary p-4 mb-3 text-center" style="background-color: <?php echo $color;?>">
-                <div class="py-4 px-3 pt-0 border-white bc_coupon_container">
-                    <span class="py-3 bc_font_alt_1 bc_text_48 bc_line_height_50 d-block bc_color_success text-capitalize bc_text_bold"><?php echo $title; ?></span>
-                   <p class="bc_text_20 bc_color_quinary bc_line_height_30 bc_text_semibold d-block my-2"><?php echo $subheading;?></p>
-                    <span class=" bc_text_16 bc_color_quinary bc_text_normal " style="margin: 22px 0 27px;">Expires <?php echo $date;?></span>
-                    <span class="bc_color_quinary bc_line_height_18 bc_text_14 bc_text_thin d-block"><?php echo $footer_heading;?></span>
-                </div>
-            </div>
-        </div>
-        <?php }
-        }else if($promotion_type == 'Image'){
-            $date2 = get_post_meta( get_the_ID(), 'promotion_expiry_date2', true );
-            if(strtotime($date2) >= strtotime(current_time('m/d/Y'))){
-                $title2 = get_post_meta( get_the_ID(), 'promotion_title2', true );
-                $promotion_custom_image = get_post_meta( get_the_ID(), 'promotion_custom_image', true ); ?>
-                <!-- <div class="col-lg-6 equal_height">
-                    <a href="<?php the_permalink(get_the_ID()); ?>" target="_blank">
-                        <img class="img-fluid" src="<?php echo $promotion_custom_image;?>">
-                    </a>
-                </div> -->
-                <div class="col-lg-6 equal_height">
-                    <div class="bc_color_secondary p-4 mb-5 text-center" style="background-color: <?php echo $color;?>">
-                        <div class="py-4 px-3 pt-0 border-white bc_coupon_container">
-                             <a href="<?php the_permalink(get_the_ID()); ?>" target="_blank">
-                        <img class="img-fluid" src="<?php echo $promotion_custom_image;?>">
-                    </a>
-                        </div>
+    ?>
+    <div class="container-fluid m-0 px-0 py-lg-5 pb-4 bc_color_4_bg bg_color_white">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-12 text-center mb-md-5 mb-2">
+            <h2>Save on Our Services</h2>
+          </div>
+          <div class="col-lg-12 text-center">
+            <div id="services-swiper_<?php echo $count;?>" class="swiper-container services-swiper pb-1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide text-center">
+                  <div class="bc_color_primary_bg p-3">
+                    <div class="border_dashed text-center py-4 px-3 pt-0 ">
+                        <span class="mb-2 d-block bc_font_alt_1 bc_text_50 bc_line_height_40 bc_color_secondary text-uppercase bc_text_bold">$40 OFF</span>
+                        <span class="bc_text_20 bc_line_height_26 bc_font_default bc_color_white my-4 d-block">Any Plumbing Service <br> <i>(Minimum $202)</i> </span>
+                        <span class="bc_text_24 bc_line_height_40 bc_font_alt_1 d-block mb-2 bc_text_normal bc_color_secondary text-uppercase">VIEW DETAILS</span>
                     </div>
+                  </div>
                 </div>
-        <?php }
-            }
-        ?>
-        <?php
-        endwhile; 
-        wp_reset_query();
-        endif;
-        ?>
+                <div class="swiper-slide text-center">
+                  <div class="bc_color_primary_bg p-3">
+                    <div class="border_dashed text-center py-4 px-3 pt-0 ">
+                        <span class="mb-2 d-block bc_font_alt_1 bc_text_50 bc_line_height_40 bc_color_secondary text-uppercase bc_text_bold">$202 OFF</span>
+                        <span class="bc_text_20 bc_line_height_26 bc_font_default bc_color_white my-4 d-block">Any Water Heater Replacement <br> <i>(Minimum $1250)</i> </span>
+                        <span class="bc_text_24 bc_line_height_40 bc_font_alt_1 d-block mb-2 bc_text_normal bc_color_secondary text-uppercase">VIEW DETAILS</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+              <!-- Add Pagination -->
+            <div class="swiper-pagination customer-pagination d-md-none"></div>
+            <a href="<?php echo get_home_url();?>/specials/" class="btn_secondary mt-5">View All Deals</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
 <?php }
 
@@ -87,15 +100,6 @@ function custom_testimonial_shortcode($atts , $content = null){
     add_action( 'wp_footer' , function() use($count){
     ?>
     <script>
-    /*var testimonialSwiper<?php echo $count ?> = new Swiper('#bc_testimonial_swiper_<?php echo $count ?>', {
-        pagination: {
-            el: '.testimonial-pagination',
-            clickable: true
-        },
-        autoHeight: true,
-        loop:true,
-    });*/
-
     var swiperService<?php echo $count ?> = new Swiper('#customer-swiper_<?php echo $count ?>', {
         navigation: {
             nextEl: '.customer-btn-next',
