@@ -14,26 +14,22 @@ class BC_Gravity_Widget extends WP_Widget {
 	}
 	
 	public function widget( $args, $instance ) {?>
-
-<div class="shadow-lg ">
-
-	<div class="bc_color_info_bg d-flex py-3 px-4">
-        <img alt="icon" class="img-fluid align-self-center " src="<?php echo get_template_directory_uri();?>/img/24icon.png">
-        <span class="bc_color_secondary text-capitalize bc_text_30 bc_font_alt_1 text-center px-2 pt-1">
-            <?php 
-				if ( isset( $instance['title'] ) && !empty($instance['title']) ) {
-					echo  $instance['title']; 
-				}else{
-					echo 'Emergency Service';
-				}
-			?>
-        </span>
-    </div>
-	<!-- <div class="bc_hero_bg_form_color mb-0 pl-1 pr-1">
 	
-	</div> -->
-	<div class="entry-content bg-light"><?php echo do_shortcode($instance['gravityform']);?></div>
-</div>
+	<div class="bc_color_primary_bg py-4 text-center">
+        <span class="bc_text_28 bc_font_alt_1 bc_color_secondary  bc_text_bold bc_line_height_72">
+	    	<?php 
+			if ( isset( $instance['title'] ) && !empty($instance['title']) ) {
+				echo  $instance['title']; 
+			}else{
+				echo 'Request Service';
+			}
+			?>
+		</span>
+        <div class="entry-content bc_hero_form_body">
+          <?php echo do_shortcode($instance['gravityform']);?>
+        </div>
+    </div>
+
 
 <?php echo $args['after_widget'];
 }

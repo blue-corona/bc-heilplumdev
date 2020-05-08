@@ -17,15 +17,15 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 ?>
 <main>
-	<div class="container-fluid p-0 ">
-        <img class="w-100 " alt="ourblog" src="<?php echo get_template_directory_uri();?>/img/ourblog.jpg ">
+	<div class="container-fluid p-0">
+        <img class="w-100" src="<?php echo get_stylesheet_directory_uri();?>/img/sub_banner.jpg">
     </div>
 
 	<div class="container-fluid">
 		<div class="container">
 		  <div class="row">
 		    <div class="col-lg-8 col-md-12 col-xs-12">
-		      <h2 class="py-3 bc_font_alt_1 text-capitalize ">Our Blog</h2>
+		      <h2>Our Blog</h2>
 		     	<?php 
 		     	if ( have_posts() ) :
 		     		while ( have_posts() ) : the_post();
@@ -43,8 +43,6 @@ get_header();
 		  </div>
 		</div>
 	</div>
-	<!-- Coupon starts -->
-	<?php get_template_part( 'page-templates/common/coupons' ); ?>
-	<!-- Coupon ends -->
 </main>
 <?php get_footer()?>
+
