@@ -50,11 +50,15 @@ public function widget( $args, $instance ) {
 	        $query = new WP_Query( $affiliations_args );
 	        if ( $query->have_posts() ) :
 	            while($query->have_posts()) : $query->the_post();
-				$footer_heading = get_post_meta( get_the_ID(), 'promotion_footer_heading', true );
+				$affiliation_custom_image = get_post_meta( get_the_ID(), 'affiliation_custom_image', true );
 			?>
+        	<?php 
+        	if(isset($affiliation_custom_image) && !empty($affiliation_custom_image)){
+        	?>
             <div class="swiper-slide">
-            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sb_bbb_logo.png">
+            	<img src="<?php echo $affiliation_custom_image;?>">
             </div>
+            <?php }?>
 	        <?php
             	endwhile; 
             wp_reset_query();
