@@ -6159,6 +6159,7 @@ button.bg-dark:focus {
   position: fixed !important; }
 
 .position-sticky {
+  position: -webkit-sticky !important;
   position: sticky !important; }
 
 .fixed-top {
@@ -6175,8 +6176,9 @@ button.bg-dark:focus {
   left: 0;
   z-index: 1030; }
 
-@supports (position: sticky) {
+@supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020; } }
@@ -9819,5 +9821,13 @@ div {
 
 .border_dashed {
   border: 4px dashed #fff; }
+
+@media only screen and (max-width: 760px) {
+  .mobile-text-center {
+    text-align: center; }
+  .mobile-text-align {
+    padding-left: 4rem; }
+  .margin_on_mobile {
+    margin-bottom: 4rem !important; } }
 
 /*# sourceMappingURL=child-theme.css.map */
