@@ -439,6 +439,9 @@ input[type="checkbox"]{
 		padding-left: 0 !important;
 	}
 }
+#gform_1 .validation_message--float {
+    margin-top: -30px !important;
+ }
 #gform_1 input[type=submit]{
     background-color: $error_color!important;
     width: 257px !important;

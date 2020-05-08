@@ -2,7 +2,7 @@
     <div class="hero-overlay-gradient">
         <div class="container px-4 pt-lg-4">
             <div class="row text-center text-lg-left text-md-left">
-                <div class="col-lg-5 py-lg-5 mt-md-5 mt-4">
+                <div class="col-lg-5 py-lg-5 mt-md-5 mt-5">
                     <span class="bc_text_55 bc_line_height_50 bc_sm_text_32 bc_sm_line_height_33 bc_font_alt_1 bc_text_bold bc_color_primary">From our family <br> to yours.</span>
                 </div>
                 <div class="col-lg-7 px-4 d-none d-md-block">

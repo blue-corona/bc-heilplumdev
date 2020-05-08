@@ -279,19 +279,19 @@ get_header();
     <div class="container-fluid m-0 p-0 customer_section">
       <div class="container py-5">
         <div class="row no-gutters">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center mt_20">
             <h2>Customer Experience</h2>
           </div>
-          <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-5 text-center">
+          <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-lg-5 mt-3 text-center">
             <div class="customer-btn-prev d-none d-md-block no-focus" tabindex="0" aria-label="Previous slide position-relative">
               <div class="left text-left pl-2">
                 <i class="fas fa-chevron-left bc_text_30 bc_line_height_50 bc_sm_text_32 bc_sm_line_height_37 bc_color_primary h-100 align-self-center"></i>
               </div>
             </div>
             <div class="customer">
-                <div class="row no-gutters py-5">
+                <div class="row no-gutters py-lg-5 pb-5 pt-4">
                   <div class="col-md-12 col-12 text-center">
-                    <div class="mb-md-4 mb-2">
+                    <div class="mb-4">
                       <i class="fas fa-star bc_text_29 bc_line_height_40 bc_color_6"></i>
                       <i class="fas fa-star bc_text_29 bc_line_height_40 bc_color_6"></i>
                       <i class="fas fa-star bc_text_29 bc_line_height_40 bc_color_6"></i>
@@ -301,15 +301,15 @@ get_header();
                     <div class="swiper-container customer-swiper">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide text-center">
-                            <p class="px-lg-5">"Excellent service as always. Well mannered professionals did the job on time and left the place clean. They are and will remain our friend of the family for a long time. Thank you for a job well done."</p>
+                            <p class="px-lg-5 px-3">"Excellent service as always. Well mannered professionals did the job on time and left the place clean. They are and will remain our friend of the family for a long time. Thank you for a job well done."</p>
                             <span class="bc_text_20 bc_line_height_40 bc_color_primary bc_font_default bc_text_bold">Nanda - Laurel, MD</span>
                         </div>
                         <div class="swiper-slide text-center">
-                            <p class="px-lg-5">"Excellent service as always. Well mannered professionals did the job on time and left the place clean. They are and will remain our friend of the family for a long time. Thank you for a job well done."</p>
+                            <p class="px-lg-5 px-3">"Excellent service as always. Well mannered professionals did the job on time and left the place clean. They are and will remain our friend of the family for a long time. Thank you for a job well done."</p>
                             <span class="bc_text_20 bc_line_height_40 bc_color_primary bc_font_default bc_text_bold">Nanda - Laurel, MD</span>
                         </div>
                         <div class="swiper-slide text-center">
-                            <p class="px-lg-5">"Excellent service as always. Well mannered professionals did the job on time and left the place clean. They are and will remain our friend of the family for a long time. Thank you for a job well done."</p>
+                            <p class="px-lg-5 px-3">"Excellent service as always. Well mannered professionals did the job on time and left the place clean. They are and will remain our friend of the family for a long time. Thank you for a job well done."</p>
                             <span class="bc_text_20 bc_line_height_40 bc_color_primary bc_font_default bc_text_bold">Nanda - Laurel, MD</span>
                         </div>
                       </div>
@@ -324,7 +324,7 @@ get_header();
                 </div>
               </div>
               <!-- Add Pagination -->
-              <div class="swiper-pagination customer-pagination d-md-none mt-3"></div>
+              <div class="swiper-pagination customer-pagination d-md-none mt-2"></div>
 
               <span class="d-none d-md-block">
                 <a href="#" class="btn_secondary mt-4">Read Our Testimonials</a>
@@ -335,10 +335,10 @@ get_header();
       </div>
     </div>
 
-    <div class="container-fluid m-0 px-0 py-5 bc_color_4_bg">
+    <div class="container-fluid m-0 px-0 py-lg-5 pb-4 bc_color_4_bg bg_color_white">
       <div class="container">
         <div class="row no-gutters">
-          <div class="col-12 text-center mb-5">
+          <div class="col-12 text-center mb-md-5 mb-2">
             <h2>Save on Our Services</h2>
           </div>
           <div class="col-lg-12 text-center">
@@ -392,7 +392,7 @@ get_header();
          slidesPerView: 3,
             loop: true,
             speed: 400,
-            autoplay: true,
+            // autoplay: true,
             paginationClickable: true,
             spaceBetween: 50,
             pagination: {
@@ -448,7 +448,7 @@ get_header();
          slidesPerView: 1,
             loop: true,
             speed: 400,
-            autoplay: true,
+            // autoplay: true,
             paginationClickable: true,
             spaceBetween: 50,
             pagination: {
@@ -471,7 +471,7 @@ get_header();
          slidesPerView: 2,
             loop: true,
             speed: 400,
-            autoplay: true,
+            // autoplay: true,
             paginationClickable: true,
             spaceBetween: 50,
             pagination: {

@@ -8106,7 +8106,7 @@ footer > p {
     text-transform: none;
     line-height: 26px !important;
     letter-spacing: default;
-    color: #000000; }
+    color: #000000 !important; }
   .bc_sm_text_thin {
     font-weight: 100 !important; }
   .bc_sm_text_xlight {
@@ -8176,7 +8176,9 @@ footer > p {
   .bc_sm_letter_spacing_25 {
     letter-spacing: 25px !important; }
   .bc_sm_letter_spacing_36 {
-    letter-spacing: 36px !important; } }
+    letter-spacing: 36px !important; }
+  .bg_color_white {
+    background-color: #ffffff !important; } }
 
 .mobile_anchor a {
   color: #ffffff;
@@ -9067,6 +9069,9 @@ input[type="checkbox"] {
 #gform_1 .gform_footer {
   padding-left: 0 !important; }
 
+#gform_1 .validation_message--float {
+  margin-top: -30px !important; }
+
 #gform_1 input[type=submit] {
   background-color: #af252b !important;
   width: 257px !important;
@@ -9597,15 +9602,18 @@ div {
   @media only screen and (max-width: 740px) {
     .bc_hero_container {
       background-image: url(../img/home_banner.jpg);
-      background-size: contain;
+      background-size: cover;
       background-position: inherit; } }
+
+.mt_20 {
+  margin-top: 200px !important; }
 
 .hero-overlay-gradient {
   background-color: rgba(255, 255, 255, 0.4) !important;
   padding: 0 0 100px 0; }
   @media only screen and (max-width: 740px) {
     .hero-overlay-gradient {
-      padding: 0 0 43px 0; } }
+      padding: 0 0 15px 0; } }
   .hero-overlay-gradient .hero_banner_form {
     height: 420px;
     width: 655px;
@@ -9757,9 +9765,6 @@ div {
   -webkit-box-shadow: 0 0 59px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 59px rgba(0, 0, 0, 0.2);
   z-index: 2; }
-  @media only screen and (max-width: 740px) {
-    .customer {
-      margin-top: 100px; } }
   .customer .row {
     border-radius: 10px;
     background: #ffffff;
