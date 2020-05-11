@@ -5,21 +5,21 @@
 	margin: 0;
 	width: 100%;
 	li{
-    background-image: url(../img/service_shape.png);
-    float: left;
-    padding: 0px 0px;
-    margin: 10% 4px;
-    width: 100%!important;
-    text-align: center;
-    height: 219px;
-    background-repeat: no-repeat;
-    background-position: 50% ,50%;
-    p{
-    	font-family: $alternate_font_family_1;
-    	font-weight: 700;
-    	color: $primary_color;
+	    background-image: url(../img/service_shape.png);
+	    float: left;
+	    padding: 0px 0px;
+	    margin: 10% 4px;
+	    width: 100%!important;
+	    text-align: center;
+	    height: 219px;
+	    background-repeat: no-repeat;
+	    background-position: 50% ,50%;
+	    p{
+	    	font-family: $alternate_font_family_1;
+	    	font-weight: 700;
+	    	color: $primary_color;
 
-    }
+	    }
 	}
 }
 
@@ -98,7 +98,7 @@ p, .p{
 	text-transform: none;
 	line-height: 26px !important;
 	letter-spacing: default;
-	color: $quaternary_color;
+	color: $quaternary_color !important;
 
 }
 
@@ -147,6 +147,7 @@ p, .p{
 	.bc_sm_letter_spacing_24 { letter-spacing: 24px !important; }
 	.bc_sm_letter_spacing_25 { letter-spacing: 25px !important; }
 	.bc_sm_letter_spacing_36 { letter-spacing: 36px !important; }
+	.bg_color_white {background-color: #ffffff !important; }
 }
 .mobile_anchor{
 	a{

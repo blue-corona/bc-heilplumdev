@@ -9,6 +9,14 @@ function custom_excerpt_length( $length ) {
 add_theme_support( 'post-thumbnails' );
 add_image_size( 'blogpost-thumbnail', 250, 170, true ); // Hard Crop Mode
 
+
+
+require_once WP_CONTENT_DIR . '/themes/bluecorona-child-theme/inc/widgets/bc-affiliations-widget.php';
+require_once WP_CONTENT_DIR . '/themes/bluecorona-child-theme/inc/widgets/bc-static-widget.php';
+require_once WP_CONTENT_DIR . '/themes/bluecorona-child-theme/inc/bc-shortcode-override.php';
+require_once WP_CONTENT_DIR . '/themes/bluecorona-child-theme/inc/widgets/bc-licenses-widget.php';
+
+
 /*Create custom field (title) for pages, post, custom posts */
 add_action( 'add_meta_boxes', 'bc_create_title_overlay_metabox' );
 function bc_create_title_overlay_metabox() {

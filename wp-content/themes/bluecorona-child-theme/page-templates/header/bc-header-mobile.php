@@ -2,30 +2,20 @@
     <div class="container-fluid m-0 px-0">
         <div class="container p-0">
             <div class="row no-gutters bc_color_primary_bg">
-                <div class=" col-2 px-3 py-2 text-center m-auto py-4">
+                <div class=" col-2 px-3 py-2 text-center m-auto">
                     <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="pl-0 navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
                         <em class="fa fa-bars navbar-toggler-icon bc_text_24 bc_line_height_50 text-white"></em>
                     </button>
                    
                 </div>
-
-                <div class="col-6  py-2 text-center">
+                <div class=" col-8 mr-0 py-2 position-relative">
                     <a href="<?php echo get_home_url();?>">
-                        
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mobile_heil_logo.png" alt="team" class="position-absolute" style="right: 10%;  top: 20%;">
-                    </a>
-                </div>
-                <div class="col-3 pt-3 text-center  bc_color_error_bg">
-                    <a href="tel:(651) 401-8068"  class="pt-3"> <i class="fas fa-phone-alt mt-4 bc_text_28 bc_line_height_50 text-white"></i></a>
-                </div>
-                <!-- <div class=" col-7 mr-0 py-2 position-relative">
-                    <a href="<?php echo get_home_url();?>">
-                        <img src="<?php echo bc_get_theme_mod('bc_theme_options', 'bc_logo_upload',false, get_template_directory_uri().'/img/logo.jpg'); ?>" class="img-fluid bc_branding_logo position-absolute mobile_logo" alt="logo">
+                        <img src="<?php echo bc_get_theme_mod('bc_theme_options', 'bc_logo_upload',false, get_template_directory_uri().'/img/mobile_heil_logo.jpg'); ?>" class="img-fluid bc_branding_logo position-absolute mobile_logo" alt="logo">
                     </a>
                 </div>
                 <div class="col-2 bc_color_error_bg text-center px-3 py-2">
                     <a href="tel: 555-555-5555" class="mx-auto d-block mt-1"><i class="fas fa-phone text-white bc_text_24 bc_line_height_50"></i></a>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
