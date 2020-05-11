@@ -17,7 +17,7 @@
 	label{
 		color:$bc_contact_form_label_color;
 	}
-}  			
+}			
 .bc_footer_copyright_bar{ 
 	line-height: 16px !important; 
 	a{
@@ -109,7 +109,7 @@ border-width:$border_width_custom_2;
    .bc_contact_us_container{
        background-size: 100% 600px;  
    }
-} 
+}
 
 .bc_contact_us_container{
 	@media only screen and (max-width: 768px) {
@@ -153,7 +153,6 @@ border-width:$border_width_custom_2;
 	bottom: 0;
 }
 
-
 .bc_our_services {
 	.btn{
 		padding:5px 35px !important;
@@ -164,7 +163,7 @@ div, {
  	&::-webkit-scrollbar {
 	 	width: 10px;
 	 	background-color: 'lightgrey';
-	}	
+	}
 	&::-webkit-scrollbar-thumb {
 		background-color: #f38527;
 	}
@@ -294,9 +293,7 @@ div, {
 	  	&:hover{
 	  		color:#422D6B; text-decoration: none;
 	  	}
-
 	  }
-
 	}
 
 	 li::before {
@@ -406,12 +403,12 @@ div, {
 .mobile_anchor_footer{
 	a{
 		 color: $primary_color;
-  font-family: $alternate_font_family_1;
-  font-size: 32px;
-  font-weight: 600;
-  &:hover{
-		text-decoration: none;
-	}
+		  font-family: $alternate_font_family_1;
+		  font-size: 32px;
+		  font-weight: 600;
+		  &:hover{
+				text-decoration: none;
+			}
 	}
 
 }
@@ -581,8 +578,9 @@ div, {
 	border: 4px dashed #fff;
 }
 @media only screen and (max-width: 760px) {
-.mobile-text-center{
-	text-align: center;
+	.mobile-text-center{
+		text-align: center;
+	}
 }
 .mobile-text-align{
 	padding-left: 4rem;
@@ -590,6 +588,19 @@ div, {
 .margin_on_mobile{
 	margin-bottom: 4rem !important;
 }
-}
 
 .cursor_pointer{cursor: pointer;}
+.bc_geolocation_list_item{
+	h5{
+		a{
+			color: $bc_color_8 !important;
+			font-family: $alternate_font_family_1 !important;
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 50px;
+			&:hover{
+				color: $error_color !important;
+			}
+		}
+	}
+}
