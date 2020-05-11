@@ -9,7 +9,7 @@ class BC_Footer_Menuone_widget extends WP_Widget {
         $id = 'BC_Footer_Menuone_widget';
         $title = esc_html__('BC Navigation Menu (Footer)', 'bc-footer-menuone-custom-widget');
         $options = array(
-            'classname' => 'bc-footer-menuone-markup-widget',
+            'classname' => 'bc-footer-menuone-markup-widget col-lg-3 d-none d-lg-block',
             'description' => esc_html__('Add Custom HTML in inputbox', 'bc-footer-menuone-custom-widget')
         );
         parent::__construct( $id, $title, $options );
@@ -48,9 +48,9 @@ class BC_Footer_Menuone_widget extends WP_Widget {
         $menu_items = wp_get_nav_menu_items($menu);
         if(isset($menu_items) && !empty($menu_items)):
 
-        echo '<div class="px-5 pt-2 d-none d-lg-block">';
+        // echo '<div class="px-5 pt-2 d-none d-lg-block">';
         if ( $title ) {
-            echo '<h3 class="bc_alternate_font_white bc_text_36 mb-3 text-capitalize">'.$title.'</h3>';
+            echo '<span class="bc_text_36 bc_line_height_40 bc_sm_text_26 bc_color_3 bc_font_alt_1 bc_text_samibold">'.$title.'</span>';
             // echo $args['before_title'] . $title . $args['after_title'];
         }
 
@@ -58,14 +58,14 @@ class BC_Footer_Menuone_widget extends WP_Widget {
         <ul class="list-unstyled">
         <?php foreach ($menu_items as $key => $value) {?>
             <li>
-                <a class="bc_color_secondary text-decoration-none bc_color_quaternary_hover" href="<?php echo $value->url;?>">
+                <a class="bc_text_20 bc_sm_text_16 bc_sm_line_height_20a bc_text_normal no_hover_underline bc_line_height_48 bc_color_secondary" href="<?php echo $value->url;?>">
                 <?php echo $value->post_title; ?>
                 </a>
             </li>
         <?php }?>
         </ul>
         <?php 
-        echo '</div>';
+        // echo '</div>';
         endif;
         echo $args['after_widget'];
     }
