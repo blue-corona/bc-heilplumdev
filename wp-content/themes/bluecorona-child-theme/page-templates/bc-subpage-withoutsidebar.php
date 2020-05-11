@@ -9,85 +9,68 @@ defined( 'ABSPATH' ) || exit;
 get_header();?>
 
 <main>
-<div class="container-fluid" style="height:300px; background-position: center; background-size: cover; background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/sub_banner.jpg">
-            <div class="container">
-                <div class="row">
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 subpage">
-                        <h1>Heading One Goes Here</h1>
-                        <h2>Heading Two Goes Here</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-
-<h3>Heading Three Goes Here</h3>
-
-<ul>
-    <li>Enim ipsam voluptatem quia voluptas sit</li>
-    <li>Aspernatur aut odit aut fugit, sed quia </li>
-    <li>Consequuntur magni dolores eos qui ratione </li>
-    <li>Voluptatem sequi nesciunt. Neque porro</li>
-    <li>Quisquam est, qui dolorem ipsum quia dolor sit </li>
-    <li> Amet, consectetur, adipisci velit, sed quia non</li>
-    <li> Numquam eius modi tempora incidunt ut labore</li>
-</ul>
-<div class="w-100 py-3 px-5 bc_color_primary_bg no_hover_underline rounded btn_base btn my-4 position-relative d-none d-lg-block">
-    <h5 class="no_hover_underline calenter_line align-baseline-middel">
-        <i class="fal fa-calendar-check bc_text_80 float-left bc_color_secondary bc_line_height_50"> </i> <h5 class=" align-baseline-middel">Schedule Your Service Today</h5> <i class="fal fa-play-circle bc_text_40 bc_color_secondary mx-4 align-baseline-middel bc_line_height_50" style="    float: right;
-    margin-top: -2.7rem;"></i>
-    </h5>
-    </div>
-<p><a href="#">Hyperlink example</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-<p>
-<strong>Example of bold text<a href="#"> bold hyperlink example </a></strong>
-</p>
-<a class="bc_toggle_content bc_text_24 bc_line_height_50 no_hover_underline bc_color_error--imp bc_font_alt_1 bc_text_normal" data-toggle="collapse" href="#collapseExample"> <span>Read More </span><i class="fas fa-plus bc_text_15"></i> </a>
+<div class="container-fluid" <?php if (has_post_thumbnail() ) { $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_id() ), 'single-post-thumbnail' ); ?> style="height:300px; background-size: cover;background-position: center;background-image: url('<?php echo $image[0]; ?>');" <?php } else{ ?> style="height:300px;background-size: cover;background-position: center;background-image: url('<?php echo get_stylesheet_directory_uri();?>/img/sub_banner.jpg');" <?php }?>>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+            <div class="row no-gutters bc_color_4_bg py-3 px-2">
+                <div class="col-md-3">
+                    <div class="media border_right position-relative">
+                        <i class="fal fa-award bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
+                        <div class="media-body bc_line_height_17">
+                            <span class="bc_text_15 bc_font_alt_1 bc_text_semibold bc_color_3"> Exceptional <br> Workmanship </span>
+                        </div>
                     </div>
-
+                </div>
+                <div class="col-md-3">
+                    <div class="media border_right position-relative">
+                        <i class="fal fa-user-clock bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
+                        <div class="media-body bc_line_height_17">
+                            <span class="bc_text_15 bc_font_alt_1 bc_text_semibold bc_color_3"> Expert <br> Plumbers </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="media border_right position-relative">
+                        <i class="fal fa-hands-heart bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
+                        <div class="media-body bc_line_height_17">
+                            <span class="bc_text_15 bc_font_alt_1 bc_text_semibold bc_color_3"> Caring <br> Service </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="media">
+                        <i class="fal fa-calendar-star bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
+                        <div class="media-body bc_line_height_17">
+                            <span class="bc_text_15 bc_font_alt_1 bc_text_semibold bc_color_3"> Family Owned <br> Since 1977 </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        </div>
+    </div>
+</div>
 
-<div class="container-fluid my-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7"><img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/sub_heil_truck.png" class="img-fluid"></div>
-
-                    <div class="col-lg-5">
-                          <h2>Why Choose Heil</h2>
-                          <p class="bc_color_black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-                                <div class="p-2 "><a href="#" class="btn px-5 btn-secondary border-0">Learn More</a></div>     
-                      </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 subpage">
+                    <h1><?php the_title();?></h1>
+                    <?php 
+                        if ( have_posts() ) : 
+                            while ( have_posts() ) : the_post();
+                            the_content();
+                          endwhile;
+                        endif;
+                      ?>
                 </div>
             </div>
         </div>
+    </div>
 
+<?php get_template_part( 'page-templates/common/bc-choose-heil-section'); ?>
+<?php get_template_part( 'page-templates/common/bc-heil-waves-section'); ?>
 
-<div class="container-fluid " style="height:170px; background-position: center; background-size: cover; background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/waves.png">
-            <div class="container">
-                <div class="row">
-                </div>
-                </div>
-            </div>
-
-
-
-
-
-
-         <script>
-    var swiper = new Swiper('.swiper-container', {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
 </main>
 <?php get_footer();?>

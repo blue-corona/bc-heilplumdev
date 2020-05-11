@@ -391,7 +391,7 @@ input[type="checkbox"]{
 			label {
 			    color: #666666;
 			    font-size: 12px!important;
-			    margin-top: 15px;
+			    margin-top: 12px;
 			    font-family:$default_font_family;
 			    font-weight: 400!important;
 			    text-transform: uppercase;
@@ -439,6 +439,9 @@ input[type="checkbox"]{
 		padding-left: 0 !important;
 	}
 }
+#gform_1 .validation_message--float {
+    margin-top: -30px !important;
+ }
 #gform_1 input[type=submit]{
     background-color: $error_color!important;
     width: 257px !important;

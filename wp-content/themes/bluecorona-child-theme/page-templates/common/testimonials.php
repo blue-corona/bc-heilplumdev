@@ -7,6 +7,4 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-        <?php echo do_shortcode('[bc-testimonial]'); ?>
-   
-
+<?php echo do_shortcode('[bc-testimonial]'); ?>

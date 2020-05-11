@@ -7041,6 +7041,7 @@ jQuery(".bc_toggle_content").on('click', function(e){
   }
 });
 
+
 /*******************************
 * ACCORDION WITH TOGGLE ICONS
 *******************************/

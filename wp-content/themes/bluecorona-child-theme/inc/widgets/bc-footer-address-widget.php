@@ -7,7 +7,7 @@ class BC_Footer_Address_Widget extends WP_Widget {
         $id = 'BC_Footer_Address_widget';
         $title = esc_html__('BC Footer Identity', 'bc-footer-address-custom-widget');
         $options = array(
-            'classname' => 'bc-footer-address-markup-widget',
+            'classname' => 'bc-footer-address-markup-widget col-lg-3 p-0',
             'description' => esc_html__('Add Custom HTML in inputbox', 'bc-footer-address-custom-widget')
         );
         parent::__construct( $id, $title, $options );
@@ -16,23 +16,35 @@ class BC_Footer_Address_Widget extends WP_Widget {
     public function widget( $args, $instance ) {
         echo $args['before_widget'];
         ?>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/heil_footer_logo.png">
+    <div class="media mx-auto border_bottom_primary_3 mobile-text-align">
+        <i class="align-self-center fas fa-mobile-alt  bc_text_36 bc_line_height_32 bc_color_primary d-none d-md-block"></i>
+        <div class="media modal-body mobile_anchor_footer text-center d-lg-flex">
+            <i class="align-self-center fas fa-mobile-alt bc_text_30 bc_line_height_72 bc_color_primary d-md-none"></i> &nbsp; 
+            
+            <span class="bc_text_32 bc_line_height_26 bc_sm_text_32 bc_sm_line_height_36 bc_color_3 bc_text_bold text-uppercase mobile_anchor_footer"><?php echo do_shortcode("[site_info_phone_number]");?></span>
+        </div>
 
-    <div class="col-12 px-5 px-md-0 bc_color_secondary">
-            <img alt="footer logo" class="img-fluid" src="<?php echo get_template_directory_uri();?>/img/logo_footer.svg">
-            <hr class="mx-3 mx-lg-0" style="background-color:#5692b9;">
-            <h4 class="text-uppercase bc_color_secondary"><em aria-hidden="true" class="fa fa-mobile"></em> <?php echo bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '(555) 555-5555');?></h4>
-            <div class="row">
-                <div class="col-lg-1 pr-0"><h4 class="bc_color_secondary"><em aria-hidden="true" class="far fa-map-marker-alt"></em></h4></div>
-                <div class="col-lg-9">
-                    <p class="bc_color_secondary" style="font-size: 14px; line-height: 20px">
-                    <?php echo bc_get_theme_mod('bc_theme_options', 'bc_address',false, '1401 Central Avenue, Suite 11 Charlotte, NC 28205');?>
-                     </p>
-                </div>
-                <div class="m-auto m-lg-0 col-lg-12">License - <?php echo bc_get_theme_mod('bc_theme_options', 'bc_license',false, 'CLT140111');?></div>
-                <div class="m-auto m-lg-0 col-lg-12">
-                    <?php echo do_shortcode('[social-icons]');?>
-                </div>    
+    </div>
+    <div class="media mx-auto border_bottom_primary_3 mobile-text-align">
+        <i class="align-self-center far fa-clock bc_text_36 bc_line_height_22 bc_color_primary"></i>
+        <a class="no_hover_underline">
+            <div class="media modal-body">
+                <span class="bc_text_20 bc_sm_text_16 bc_sm_line_height_26 bc_line_height_26 bc_color_quaternary bc_text_normal ">1Monday - Friday <br> 7:30am - 5pm</span>
+                </span>
             </div>
+        </a>
+
+    </div>
+    <div class="media mx-auto border_bottom_primary_3 mobile-text-align">
+        <i class="align-self-center far fa-map-marker-alt bc_text_36 bc_color_primary"></i>
+        <a href="javascript:vodi(0);" class="no_hover_underline">
+            <div class="media modal-body ">
+                <span class="bc_text_20 bc_sm_text_16 bc_sm_line_height_26 bc_line_height_26 bc_color_quaternary bc_text_normal">
+                <?php echo bc_get_theme_mod('bc_theme_options', 'bc_address',false, '8177 Mission Road <span class="d-block">Jessup, MD 20794</span>');?>
+                </span>
+            </div>
+        </a>
     </div>
     <?php echo $args['after_widget'];
     }
