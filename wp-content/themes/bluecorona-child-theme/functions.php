@@ -78,7 +78,7 @@ jQuery(document).ready(function () {
   });
 });
 function toggleIcon(target){
-    var target = jQuery(target).parent('.card').children('.card-header').children('h3').children('svg'); 
+    var target = jQuery(target).parent('.card').children('.card-header').children('h2').children('svg'); 
     console.log(target);
     target.toggleClass('fa-minus-circle');
     target.toggleClass('fa-plus-circle');
