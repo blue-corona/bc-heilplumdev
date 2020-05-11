@@ -9126,14 +9126,16 @@ input[type="checkbox"] {
       line-height: 30px !important; }
       .bc_nav_container .navbar-nav li a svg {
         display: none !important; }
-      @media only screen and (max-width: 760px) {
+      @media (hover: none), only screen and (max-width: 991px) {
         .bc_nav_container .navbar-nav li a {
           color: #2A265F !important;
           font-family: "Oswald", sans-serif !important;
           font-size: 20px !important;
           letter-spacing: 0;
           font-weight: 400 !important;
-          line-height: 55px !important; } }
+          line-height: 55px !important; }
+          .bc_nav_container .navbar-nav li a svg {
+            display: inline-block !important; } }
     .bc_nav_container .navbar-nav li::after {
       position: absolute;
       bottom: 0;
