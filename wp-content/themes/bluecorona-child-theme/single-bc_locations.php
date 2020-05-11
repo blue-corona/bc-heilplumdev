@@ -15,7 +15,7 @@ global $post;
 
 <div class="container-fluid" <?php if (has_post_thumbnail() ) { $image = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_id() ), 'single-post-thumbnail' ); ?> style="height:300px; background-size: cover;background-position: center;background-image: url('<?php echo $image[0]; ?>');" <?php }
     else{ ?> style="height:300px;background-size: cover;background-position: center;background-image: url('<?php echo get_stylesheet_directory_uri();?>/img/sub_banner.jpg');" <?php }?>>
-    <div class="container">
+    <div class="container d-none d-lg-block">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="row no-gutters bc_color_4_bg py-3 px-2">
