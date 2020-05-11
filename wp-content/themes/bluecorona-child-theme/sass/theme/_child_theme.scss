@@ -341,7 +341,9 @@ div, {
 	}
 }
 .mt_20{
-	margin-top: 200px !important;
+	@media only screen and (max-width: 760px) {
+		margin-top: 200px !important;
+	}
 }
 .hero-overlay-gradient{
 	background-color: rgba(255,255,255,.4) !important;
@@ -520,7 +522,9 @@ div, {
 }
 .customer_section{
 	background-image: url(../img/home_img3.jpg);
-	background-position: bottom;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 	@media only screen and (max-width: 740px) {
 		background-image: url(../img/wave.png);
 		background-position: top;
@@ -581,9 +585,6 @@ div, {
 	.mobile-text-center{
 		text-align: center;
 	}
-}
-.mobile-text-align{
-	padding-left: 4rem;
 }
 .margin_on_mobile{
 	margin-bottom: 4rem !important;

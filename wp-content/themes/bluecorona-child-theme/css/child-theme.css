@@ -8242,7 +8242,7 @@ h6, .h6 {
   letter-spacing: default;
   color: #29265f; }
 
-.h7 {
+h7, .h7 {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
@@ -8634,6 +8634,9 @@ p strong a {
 
 .bc_color_9_bg {
   background-color: #999999; }
+
+.bc_color_10_bg {
+  background-color: #2A265F; }
 
 .bc_color_white_bg {
   background-color: #ffffff; }
@@ -9038,7 +9041,7 @@ input[type="checkbox"] {
   #gform_1 ul li label {
     color: #666666;
     font-size: 12px !important;
-    margin-top: 15px;
+    margin-top: 12px;
     font-family: "Open Sans";
     font-weight: 400 !important;
     text-transform: uppercase; }
@@ -9131,8 +9134,6 @@ input[type="checkbox"] {
           letter-spacing: 0;
           font-weight: 400 !important;
           line-height: 55px !important; } }
-      .bc_nav_container .navbar-nav li a:hover span {
-        color: #AF252B !important; }
     .bc_nav_container .navbar-nav li::after {
       position: absolute;
       bottom: 0;
@@ -9174,6 +9175,8 @@ input[type="checkbox"] {
       @media (hover: none), only screen and (max-width: 991px) {
         .bc_nav_container .dropdown li a svg, .bc_nav_container .dropdown .dropdown-item a svg {
           color: #70a3d7; } }
+    .bc_nav_container .dropdown li a:hover span, .bc_nav_container .dropdown .dropdown-item a:hover span {
+      color: #AF252B !important; }
   .bc_nav_container .dropdown li:focus, .bc_nav_container .dropdown .dropdown-item:focus {
     background-color: #29265f; }
   .bc_nav_container .dropdown li:hover, .bc_nav_container .dropdown .dropdown-item:hover {
@@ -9291,7 +9294,9 @@ input[type="checkbox"] {
 
 svg.svg-inline--fa.fa-home-lg-alt.fa-w-18 {
   color: #ffffff !important;
-  display: inline-block !important; }
+  display: inline-block !important;
+  font-size: 24px;
+  line-height: 50px; }
 
 .mobile_logo {
   top: -33px;
@@ -9649,8 +9654,9 @@ div {
       background-size: cover;
       background-position: inherit; } }
 
-.mt_20 {
-  margin-top: 200px !important; }
+@media only screen and (max-width: 760px) {
+  .mt_20 {
+    margin-top: 200px !important; } }
 
 .hero-overlay-gradient {
   background-color: rgba(255, 255, 255, 0.4) !important;
@@ -9816,7 +9822,9 @@ div {
 
 .customer_section {
   background-image: url(../img/home_img3.jpg);
-  background-position: bottom; }
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat; }
   @media only screen and (max-width: 740px) {
     .customer_section {
       background-image: url(../img/wave.png);
@@ -9872,9 +9880,6 @@ div {
 @media only screen and (max-width: 760px) {
   .mobile-text-center {
     text-align: center; } }
-
-.mobile-text-align {
-  padding-left: 4rem; }
 
 .margin_on_mobile {
   margin-bottom: 4rem !important; }
