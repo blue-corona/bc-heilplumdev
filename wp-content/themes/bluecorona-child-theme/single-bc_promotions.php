@@ -42,14 +42,16 @@ color-adjust: exact !important;  /*Firefox*/ }
                                 $footer_heading = get_post_meta( get_the_ID(), 'promotion_footer_heading', true ); ?>
 
                         
-                            <div class="bc_color_secondary p-4 mb-3 text-center" style="background-color: <?php echo $color;?>">
-                                    <div class="py-4 px-3 pt-0 border-white bc_coupon_container">
-                                        <span class="py-3 bc_font_alt_1 bc_text_48 bc_line_height_50 d-block bc_color_success text-capitalize "><?php echo $title; ?></span>
-                                       <p class="bc_text_20 bc_color_quinary bc_line_height_30 bc_text_semibold d-block my-2"><?php echo $subheading;?></p>
-                                        <span class="mt-3 bc_text_16 bc_color_quinary bc_text_normal ">Expires <?php echo $date;?></span>
-                                        <span class="bc_color_quinary bc_line_height_18 bc_text_14 bc_text_thin d-block"><?php echo $footer_heading;?></span>
-                                    </div>
-                                </div>
+                        <div class="swiper-slide text-center">
+                      <div class="bc_color_primary_bg p-3">
+                        <div class="border_dashed text-center py-4 px-3 pt-0 ">
+                            <span class="mb-2 d-block bc_font_alt_1 bc_text_50 bc_line_height_40 bc_color_secondary text-uppercase bc_text_bold"><?php echo $title;?></span>
+                            <span class="bc_text_20 bc_line_height_26 bc_font_default bc_color_white my-4 d-block"><?php echo $subheading;?> </span>
+                            
+                        </div>
+                      </div>
+                    </div>
+                           
                         <?php }
                         }else if($promotion_type == 'Image'){
                            $date2 = get_post_meta( get_the_ID(), 'promotion_expiry_date2', true );
@@ -69,7 +71,7 @@ color-adjust: exact !important;  /*Firefox*/ }
                         ?>
                         
                         <div class="no-print">
-                            <button class="btn  bc_primary_bg  bc_color_tertiary_hover_bg bc_color_quaternary_hover  py-3 mt-4 bc_color_quaternary shadow mb-5 bc_text_24 bc_font_alt_1 border-lg mx-auto d-table" onclick="printPreview()">
+                            <button class="btn_secondary mt-5" onclick="printPreview()">
                             <span class=""><i class="fa fa-print" style="font-size:1em" aria-hidden="true"></i>&nbsp;Print</span>
                             </button>
                         </div>

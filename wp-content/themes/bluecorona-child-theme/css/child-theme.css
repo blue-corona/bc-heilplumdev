@@ -9879,4 +9879,7 @@ div {
   .margin_on_mobile {
     margin-bottom: 4rem !important; } }
 
+.cursor_pointer {
+  cursor: pointer; }
+
 /*# sourceMappingURL=child-theme.css.map */
