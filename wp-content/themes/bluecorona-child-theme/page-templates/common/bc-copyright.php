@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 </div>');?>
 
 
-<button data-toggle="modal" data-target="#myModal_mobile" class="btn btn-lg w-100 d-block d-lg-none bc_color_secondary  bc_color_primary_bg  position-fixed sticky-footer bc_font_alt_1 bc_text_bold  bc_text_22 bc_line_height_72 p-0 border-0" style="bottom: 0; z-index:999; font-weight: 600 !important; position: fixed !important; border-radius: 0px !important;"> How Can We Help?<span> &nbsp; <i class="fal fa-chevron-up bc_text_24"></i>
+<button data-toggle="modal" data-target="#myModal_mobile" class="btn btn-lg w-100 d-block d-lg-none  bc_color_10_bg  position-fixed sticky-footer bc_font_alt_1 bc_text_bold  bc_text_22 bc_line_height_72 p-0 border-0" style="bottom: 0; z-index:999; font-weight: 600 !important; color: #70A3D7 !important; position: fixed !important; border-radius: 0px !important;"> How Can We Help?<span> &nbsp; <i class="fal fa-chevron-up bc_text_24"></i>
 </span></button>
 
 

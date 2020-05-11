@@ -55,7 +55,7 @@ var swiperTestimonials<?php echo $count ?> = new Swiper('#services-swiper_<?php 
     <div class="container-fluid m-0 px-0 py-lg-5 pb-4 bc_color_4_bg bg_color_white">
       <div class="container">
         <div class="row no-gutters">
-          <div class="col-12 col-md-12 col-xs-12 mt-2 px-5">
+          <div class="col-12 col-md-12 col-xs-12 mt-2 px-5 text-center">
             <h2>Save on Our Services</h2>
           </div>
           <div class="col-lg-12 text-center">
@@ -155,7 +155,7 @@ function custom_testimonial_shortcode($atts , $content = null){
           </div>
           <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mt-lg-5 mt-3 text-center">
             <div class="customer-btn-prev d-none d-md-block no-focus" tabindex="0" aria-label="Previous slide position-relative">
-              <div class="left text-left pl-2">
+              <div class="left text-left pl-3">
                 <i class="fas fa-chevron-left bc_text_30 bc_line_height_50 bc_sm_text_32 bc_sm_line_height_37 bc_color_primary h-100 align-self-center"></i>
               </div>
             </div>
@@ -195,7 +195,7 @@ function custom_testimonial_shortcode($atts , $content = null){
               </div>
 
               <div class="customer-btn-next d-none d-md-block no-focus" tabindex="0" aria-label="Next slide">
-                <div class="right text-right pr-2">
+                <div class="right text-right pr-3">
                   <i class="fas fa-chevron-right bc_text_30 bc_line_height_50 bc_sm_text_32 bc_sm_line_height_37 bc_color_primary align-self-center h-100"></i>
                 </div>
               </div>
