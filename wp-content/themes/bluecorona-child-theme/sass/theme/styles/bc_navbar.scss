@@ -1,6 +1,11 @@
 // Nav bar color scheme according to theme customizer
 .bc_nav_container{
-	background-color: $primary_color !important;
+	@media only screen and (max-width: 768px) {
+		position: absolute !important;
+		top: 0 !important;
+		z-index: 10 !important;
+		background-color: #fff !important;
+	}
 	#navbarSupportedContent{
 		@media (hover: none), only screen and (max-width: 991px) {
 			height: 100vh;
@@ -21,7 +26,7 @@
 	}
 	.navbar-nav{
 		li {
-position: relative;
+			position: relative;
 			a {
 				color: $secondary_color !important; //Top level link
 				font-family: $alternate_font_family_1;
@@ -29,6 +34,15 @@ position: relative;
 				line-height: 30px !important;
 				svg { display: none !important; } // Top level dropdown icon
 			}
+			&::after {
+				    position: absolute;
+				    bottom: 0;
+				    left: 0;
+				    height: 1px;
+				    width: 100%;
+				    content: " ";
+				    background: #5b5b5b !important;
+				}
 			&:hover{
 				background-color: #ffffff00 !important;	// Top level dropdown background hover
 				@media (hover: none), only screen and (max-width: 991px) {
@@ -36,14 +50,15 @@ position: relative;
 				}		
 				svg { color: $primary_color; } //Top level dropdown icon hover
 				a.nav-link { color: $secondary_color !important; } // Top level link hover	
-			&::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    content: " ";
-    border-bottom: 4px solid $secondary_color;
-}
+				&::after {
+				    position: absolute;
+				    bottom: 0;
+				    left: 0;
+				    width: 100%;
+				    content: " ";
+				    border-bottom: 4px solid $secondary_color;
+				    @media only screen and (max-width: 760px) {display: none !important;}
+				}
 			}
 			
 		}
@@ -122,7 +137,6 @@ position: relative;
 	}
 }
 .dropdown {
-
 	li {
 		.dropdown-toggle.nav-link{
 	    	padding-top: 10px;
@@ -131,6 +145,11 @@ position: relative;
 		padding: 0rem 0rem;	
 		@media (hover: none), only screen and (max-width: 991px) {
 			padding-left:30px !important;
+		}
+		a{
+			&:hover{
+				padding-left: 20px !important;
+			}
 		}
 	}
 
@@ -209,8 +228,32 @@ position: relative;
 }
 svg.svg-inline--fa.fa-home-lg.fa-w-18 {
     color: #ffffff !important;
+    display: inline-block !important;
 }
 .mobile_logo{
 	top: -33px;
     left: -10px;
+}
+.navbar-nav > li a.nav-link {
+	@media only screen and (max-width: 760px) {
+		color: $bc_color_10 !important;
+		font-family: $alternate_font_family_1 !important;
+		font-size: 20px !important;
+		letter-spacing: 0;
+		font-weight: 400 !important;
+		line-height: 55px !important;
+		&:hover{
+			color: #AF252B !important;
+		}
+	}
+}
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-2025.nav-item {
+	@media only screen and (min-width: 1024px) {
+		display: none !important;
+	}
+}
+li#menu-item-273 {
+	@media only screen and (max-width: 760px) {
+		display: none !important;
+	}
 }

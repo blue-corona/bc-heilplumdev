@@ -134,6 +134,14 @@
 		color: $bc_color_9 !important; 
 	}
 }
+.bc_color_10 { 
+	color: $bc_color_10; 
+	&--imp{
+		@extend .bc_color_10;
+		color: $bc_color_10 !important; 
+	}
+}
+
  .bc_color_white { 
 	color: $white_color; 
 	&--imp{

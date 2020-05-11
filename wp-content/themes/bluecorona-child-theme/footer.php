@@ -27,11 +27,11 @@ defined( 'ABSPATH' ) || exit;
                                     <div class="col-lg-3 p-0">
                                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/heil_footer_logo.png">
                                         <div class="media mx-auto border_bottom_primary_3 mobile-text-align">
-                                            <i class="align-self-center fas fa-mobile-alt  bc_text_36 bc_line_height_32 bc_color_primary d-none d-md-blocl"></i>
+                                            <i class="align-self-center fas fa-mobile-alt  bc_text_36 bc_line_height_32 bc_color_primary d-none d-md-block"></i>
                                             <div class="media modal-body mobile_anchor_footer text-center d-lg-flex">
                                                 <i class="align-self-center fas fa-mobile-alt bc_text_30 bc_line_height_72 bc_color_primary d-md-none"></i> &nbsp; 
                                                 
-                                                <span class="bc_text_16 bc_line_height_32 bc_sm_text_32 bc_sm_line_height_36 bc_color_3 bc_text_bold text-uppercase mobile_anchor_footer"><?php echo do_shortcode("[site_info_phone_number]");?></span>
+                                                <span class="bc_text_32 bc_line_height_26 bc_sm_text_32 bc_sm_line_height_36 bc_color_3 bc_text_bold text-uppercase mobile_anchor_footer"><?php echo do_shortcode("[site_info_phone_number]");?></span>
                                             </div>
 
                                         </div>
@@ -39,7 +39,7 @@ defined( 'ABSPATH' ) || exit;
                                             <i class="align-self-center far fa-clock bc_text_36 bc_line_height_22 bc_color_primary"></i>
                                             <a href="#" class="no_hover_underline">
                                                 <div class="media modal-body">
-                                                    <span class="bc_text_20 bc_sm_text_16 bc_sm_line_height_26 bc_line_height_22 bc_color_quaternary bc_text_normal ">1Monday - Friday <br> 7:30am - 5pm</span>
+                                                    <span class="bc_text_20 bc_sm_text_16 bc_sm_line_height_26 bc_line_height_26 bc_color_quaternary bc_text_normal ">1Monday - Friday <br> 7:30am - 5pm</span>
 
                                                     </span>
                                                 </div>
@@ -50,7 +50,7 @@ defined( 'ABSPATH' ) || exit;
                                             <i class="align-self-center far fa-map-marker-alt bc_text_36 bc_color_primary"></i>
                                             <a href="#" class="no_hover_underline">
                                                 <div class="media modal-body ">
-                                                    <span class="bc_text_20 bc_sm_text_16 bc_sm_line_height_26 bc_line_height_22 bc_color_quaternary bc_text_normal ">8177 Mission Road <span class="d-block">Jessup, MD 20794</span>
+                                                    <span class="bc_text_20 bc_sm_text_16 bc_sm_line_height_26 bc_line_height_26 bc_color_quaternary bc_text_normal ">8177 Mission Road <span class="d-block">Jessup, MD 20794</span>
 
                                                     </span>
                                                 </div>
@@ -96,9 +96,9 @@ defined( 'ABSPATH' ) || exit;
                                         </ul>
                                     </div>
                                     <div class="col-lg-3">
-                                        <span class="bc_text_36 bc_line_height_40 bc_sm_text_26 bc_color_3 bc_font_alt_1 bc_text_samibold">Licenses</span>
+                                        <span class="bc_text_36 bc_line_height_40 bc_sm_text_26 bc_color_10 bc_font_alt_1 bc_text_samibold">Licenses</span>
 
-                                        <span class="bc_text_20 bc_sm_text_16 bc_sm_line_height_20 bc_line_height_30 bc_color_quaternary bc_text_normal d-block">MD #6428<br class="d-none d-lg-block">
+                                        <span class="bc_text_20 bc_sm_text_16 bc_sm_line_height_26 bc_line_height_30 bc_color_quaternary bc_text_normal d-block">MD #6428<br class="d-none d-lg-block">
                                             WSSC #243<br class="d-none d-lg-block">
                                             BALT CO. #910<br class="d-none d-lg-block">
                                             AA #A2 00936<br class="d-none d-lg-block">
