@@ -86,21 +86,21 @@
               <div class="border_right_white position-relative">
                 <i class="fas fa-calendar-star bc_text_40 bc_line_height_40 bc_color_primary"></i>
                 <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">43</span>
-                <span class="h7 d-block mt-4">Years in Business</span>
+                <h7 class="d-block mt-4">Years in Business</h7>
               </div>
             </div>
             <div class="col-md-4 text-center">
               <div class="border_right_white position-relative">
                 <i class="fas fa-user bc_text_40 bc_line_height_40 bc_color_primary"></i>
                 <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">14,638</span>
-                <span class="h7 d-block mt-4">Customers Helped</span>
+                <h7 class="d-block mt-4">Customers Helped</h7>
               </div>
             </div>
             <div class="col-md-4 text-center">
               <div class="">
                 <i class="fas fa-thumbs-up bc_text_40 bc_line_height_40 bc_color_primary"></i>
                 <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">24/7</span>
-                <span class="h7 d-block mt-4">Service</span>
+                <h7 class="d-block mt-4">Service</h7>
               </div>
             </div>
           </div>
