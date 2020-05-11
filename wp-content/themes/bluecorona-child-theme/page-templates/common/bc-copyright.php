@@ -6,7 +6,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 ?>
-<?php echo bc_get_theme_mod('bc_theme_options', 'footer','copyright_text', '<div class="bc_color_quaternary container border-top py-4 py-lg-2  font-uppercase bc_text_18 bc_line_height_60 bc_sm_text_18 text-uppercase bc_sm_line_height_18">
+<?php echo bc_get_theme_mod('bc_theme_options', 'footer','copyright_text', '<div class="bc_color_quaternary container border-top py-4 py-lg-2  font-uppercase bc_text_18 bc_line_height_60 bc_sm_text_18 text-uppercase bc_sm_line_height_18" style="border-color:  #999999 !important;">
    © '.date("Y").' Heil Plumbing <span class="d-none d-lg-inline-block"></span> 
   <span class=" d-lg-inline-block d-none">&nbsp; | &nbsp;</span><br class="d-block d-lg-none"><a class="bc_text_18 bc_line_height_60 bc_color_quaternary_hover bc_sm_text_18 bc_sm_line_height_18 text-uppercase font-uppercase bc_color_quaternary no_hover_underline" href="#">Privacy Policy</a>
   <span class="d-inline-block">&nbsp; | &nbsp;</span><a class="bc_color_quaternary bc_color_quaternary_hover no_hover_underline bc_text_18 bc_line_height_60 bc_sm_text_18 bc_sm_line_height_18 text-uppercase font-uppercase" href="#" data-toggle="modal" data-target="#disclaimer">Disclaimer</a>

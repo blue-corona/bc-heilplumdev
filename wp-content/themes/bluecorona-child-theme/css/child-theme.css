@@ -9095,6 +9095,7 @@ input[type="checkbox"] {
     background: #69161A !important; }
 
 .bc_nav_container {
+  background-color: #29265f !important;
   background-color: #29265f; }
   @media only screen and (max-width: 768px) {
     .bc_nav_container {
@@ -9122,6 +9123,16 @@ input[type="checkbox"] {
       line-height: 30px !important; }
       .bc_nav_container .navbar-nav li a svg {
         display: none !important; }
+      @media only screen and (max-width: 760px) {
+        .bc_nav_container .navbar-nav li a {
+          color: #2A265F !important;
+          font-family: "Oswald", sans-serif !important;
+          font-size: 20px !important;
+          letter-spacing: 0;
+          font-weight: 400 !important;
+          line-height: 55px !important; } }
+      .bc_nav_container .navbar-nav li a:hover span {
+        color: #AF252B !important; }
     .bc_nav_container .navbar-nav li::after {
       position: absolute;
       bottom: 0;
@@ -9154,6 +9165,8 @@ input[type="checkbox"] {
     @media (hover: none), only screen and (max-width: 991px) {
       .bc_nav_container .navbar-nav .dropdown-menu {
         background-color: #ffffff00 !important; } }
+  .bc_nav_container .dropdown li::after, .bc_nav_container .dropdown .dropdown-item::after {
+    display: none; }
   .bc_nav_container .dropdown li a, .bc_nav_container .dropdown .dropdown-item a {
     color: #29265f !important; }
     .bc_nav_container .dropdown li a svg, .bc_nav_container .dropdown .dropdown-item a svg {
@@ -9276,7 +9289,7 @@ input[type="checkbox"] {
       nav.navbar-expand-lg #navbarSupportedContent.navbar-collapse > ul {
         width: 100%; } }
 
-svg.svg-inline--fa.fa-home-lg.fa-w-18 {
+svg.svg-inline--fa.fa-home-lg-alt.fa-w-18 {
   color: #ffffff !important;
   display: inline-block !important; }
 
@@ -9284,23 +9297,8 @@ svg.svg-inline--fa.fa-home-lg.fa-w-18 {
   top: -33px;
   left: -10px; }
 
-@media only screen and (max-width: 760px) {
-  .navbar-nav > li a.nav-link {
-    color: #2A265F !important;
-    font-family: "Oswald", sans-serif !important;
-    font-size: 20px !important;
-    letter-spacing: 0;
-    font-weight: 400 !important;
-    line-height: 55px !important; }
-    .navbar-nav > li a.nav-link:hover {
-      color: #AF252B !important; } }
-
-@media only screen and (min-width: 1024px) {
-  li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-2025.nav-item {
-    display: none !important; } }
-
-@media only screen and (max-width: 760px) {
-  li#menu-item-273 {
+@media (hover: none), only screen and (max-width: 760px) {
+  li#menu-item-506 {
     display: none !important; } }
 
 .bc_testimonial_swiper .swiper-slide-container {
@@ -9873,13 +9871,24 @@ div {
 
 @media only screen and (max-width: 760px) {
   .mobile-text-center {
-    text-align: center; }
-  .mobile-text-align {
-    padding-left: 4rem; }
-  .margin_on_mobile {
-    margin-bottom: 4rem !important; } }
+    text-align: center; } }
+
+.mobile-text-align {
+  padding-left: 4rem; }
+
+.margin_on_mobile {
+  margin-bottom: 4rem !important; }
 
 .cursor_pointer {
   cursor: pointer; }
+
+.bc_geolocation_list_item h5 a {
+  color: #26235C !important;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 50px; }
+  .bc_geolocation_list_item h5 a:hover {
+    color: #af252b !important; }
 
 /*# sourceMappingURL=child-theme.css.map */
