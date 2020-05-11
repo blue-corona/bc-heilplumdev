@@ -49,6 +49,7 @@ else{ ?> style="height:300px;background-size: cover;background-position: center;
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
 </div>
