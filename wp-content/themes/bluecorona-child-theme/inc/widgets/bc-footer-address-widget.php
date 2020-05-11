@@ -30,7 +30,7 @@ class BC_Footer_Address_Widget extends WP_Widget {
         <i class="align-self-center far fa-clock bc_text_36 bc_line_height_22 bc_color_primary"></i>
         <a class="no_hover_underline">
             <div class="media modal-body">
-                <span class="bc_text_20 bc_sm_text_16 bc_sm_line_height_26 bc_line_height_26 bc_color_quaternary bc_text_normal ">1Monday - Friday <br> 7:30am - 5pm</span>
+                <span class="bc_text_20 bc_sm_text_16 bc_sm_line_height_26 bc_line_height_26 bc_color_quaternary bc_text_normal">Monday - Friday <br> 7:30am - 5pm</span>
                 </span>
             </div>
         </a>
