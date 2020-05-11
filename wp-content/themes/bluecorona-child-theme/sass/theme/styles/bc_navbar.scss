@@ -1,5 +1,6 @@
 // Nav bar color scheme according to theme customizer
 .bc_nav_container{
+	background-color: $primary_color !important;
 	@media only screen and (max-width: 768px) {
 		position: absolute !important;
 		top: 0 !important;
@@ -33,8 +34,21 @@
 				background-color: #ffffff00 !important;
 				line-height: 30px !important;
 				svg { display: none !important; } // Top level dropdown icon
+				@media only screen and (max-width: 760px) {
+					color: $bc_color_10 !important;
+					font-family: $alternate_font_family_1 !important;
+					font-size: 20px !important;
+					letter-spacing: 0;
+					font-weight: 400 !important;
+					line-height: 55px !important;
+				}
+				&:hover{
+						span{
+							color: #AF252B !important;
+						}
+					}
 			}
-			&::after {
+				&::after {
 				    position: absolute;
 				    bottom: 0;
 				    left: 0;
@@ -72,6 +86,9 @@
 
 	.dropdown {
 		li, .dropdown-item {
+			&::after {
+			    display: none;
+			} 
 			a{	
 				color: $primary_color !important; // Dropdown link
 				svg { // Dropdown icon 
@@ -226,7 +243,7 @@
 		}
 	}
 }
-svg.svg-inline--fa.fa-home-lg.fa-w-18 {
+svg.svg-inline--fa.fa-home-lg-alt.fa-w-18 {
     color: #ffffff !important;
     display: inline-block !important;
 }
@@ -234,26 +251,8 @@ svg.svg-inline--fa.fa-home-lg.fa-w-18 {
 	top: -33px;
     left: -10px;
 }
-.navbar-nav > li a.nav-link {
-	@media only screen and (max-width: 760px) {
-		color: $bc_color_10 !important;
-		font-family: $alternate_font_family_1 !important;
-		font-size: 20px !important;
-		letter-spacing: 0;
-		font-weight: 400 !important;
-		line-height: 55px !important;
-		&:hover{
-			color: #AF252B !important;
-		}
-	}
-}
-li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-2025.nav-item {
-	@media only screen and (min-width: 1024px) {
-		display: none !important;
-	}
-}
-li#menu-item-273 {
-	@media only screen and (max-width: 760px) {
+li#menu-item-506 {
+    @media (hover: none), only screen and (max-width: 760px) {
 		display: none !important;
 	}
 }
