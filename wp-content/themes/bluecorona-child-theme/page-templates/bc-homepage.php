@@ -92,26 +92,22 @@ get_header();
           }     
         });
 
-      
-      
-
-
-        var str=jQuery("#my-message").text();
-        var strlen=str.split(" ").length;
-        var stringlimit=300;
-        var showStr=str.substr(0,stringlimit);
-        jQuery("#showHide").hide();
-        jQuery(document).ready(function(){
-            jQuery(".hide_div").hide();
+    var str=jQuery("#my-message").text();
+    var strlen=str.split(" ").length;
+    var stringlimit=300;
+    var showStr=str.substr(0,stringlimit);
+    jQuery("#showHide").hide();
+    jQuery(document).ready(function(){
+        jQuery(".hide_div").hide();
+        jQuery("#minus").toggle();
+        jQuery(".abc").click(function(){
             jQuery("#minus").toggle();
-            jQuery(".abc").click(function(){
-                jQuery("#minus").toggle();
-                jQuery("#plus").toggle();
-                jQuery(".hide_div").toggle(500);
-            }); 
-            if(strlen>100)
-                jQuery("#showHide").show();
-            jQuery("#my-message").text(showStr);
+            jQuery("#plus").toggle();
+            jQuery(".hide_div").toggle(500);
+        }); 
+        if(strlen>100)
+            jQuery("#showHide").show();
+        jQuery("#my-message").text(showStr);
     //alert(str.split(" ").length);
 });
 // 
@@ -120,7 +116,6 @@ function showmoreText(){
     var restStr=str.substr(stringlimit*i,stringlimit*i++);
     jQuery("#my-message").append(restStr); 
 }
-
 </script>
 
 <script>
