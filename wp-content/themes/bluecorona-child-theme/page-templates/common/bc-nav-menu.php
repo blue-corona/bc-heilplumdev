@@ -1,11 +1,15 @@
-<div class="container-fluid bc_nav_container">
+<div class="container-fluid bc_nav_container p-0">
     <div class="container">
         <div class="col-lg-9 offset-lg-3">
-        <nav class="navbar navbar-expand-lg navbar-dark m-auto d-table w-100">
+        <nav class="navbar navbar-expand-lg navbar-dark m-auto d-table w-100 p-0">
             <div id="navbarSupportedContent" class="navbar-collapse collapse" style="">
                 <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="d-none navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
                     <span class="navbar-toggler-icon navbar-dark"></span>
                 </button>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+                    <span class="fal fa-times bc_color_primary bc_text-30 bc_line_height_24"></span>
+                    </button>
+                </div>
                 <?php 
                     $args = [
                     'menu' => 'main-menu',

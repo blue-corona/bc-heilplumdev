@@ -8571,6 +8571,11 @@ p strong a {
   .bc_color_9--imp {
     color: #999999 !important; }
 
+.bc_color_10, .bc_color_10--imp {
+  color: #2A265F; }
+  .bc_color_10--imp {
+    color: #2A265F !important; }
+
 .bc_color_white {
   color: #ffffff; }
   .bc_color_white--imp {
@@ -9090,8 +9095,13 @@ input[type="checkbox"] {
     background: #69161A !important; }
 
 .bc_nav_container {
-  background-color: #29265f !important;
   background-color: #29265f; }
+  @media only screen and (max-width: 768px) {
+    .bc_nav_container {
+      position: absolute !important;
+      top: 0 !important;
+      z-index: 10 !important;
+      background-color: #fff !important; } }
   @media (hover: none), only screen and (max-width: 991px) {
     .bc_nav_container #navbarSupportedContent {
       height: 100vh;
@@ -9112,6 +9122,14 @@ input[type="checkbox"] {
       line-height: 30px !important; }
       .bc_nav_container .navbar-nav li a svg {
         display: none !important; }
+    .bc_nav_container .navbar-nav li::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      content: " ";
+      background: #5b5b5b !important; }
     .bc_nav_container .navbar-nav li:hover {
       background-color: #ffffff00 !important; }
       @media (hover: none), only screen and (max-width: 991px) {
@@ -9128,6 +9146,9 @@ input[type="checkbox"] {
         width: 100%;
         content: " ";
         border-bottom: 4px solid #70a3d7; }
+        @media only screen and (max-width: 760px) {
+          .bc_nav_container .navbar-nav li:hover::after {
+            display: none !important; } }
   .bc_nav_container .navbar-nav .dropdown-menu {
     background-color: #E0E0E0 !important; }
     @media (hover: none), only screen and (max-width: 991px) {
@@ -9187,6 +9208,8 @@ input[type="checkbox"] {
   @media (hover: none), only screen and (max-width: 991px) {
     .dropdown li {
       padding-left: 30px !important; } }
+  .dropdown li a:hover {
+    padding-left: 20px !important; }
 
 .dropdown .dropdown-item {
   padding-top: 10px;
@@ -9254,11 +9277,31 @@ input[type="checkbox"] {
         width: 100%; } }
 
 svg.svg-inline--fa.fa-home-lg.fa-w-18 {
-  color: #ffffff !important; }
+  color: #ffffff !important;
+  display: inline-block !important; }
 
 .mobile_logo {
   top: -33px;
   left: -10px; }
+
+@media only screen and (max-width: 760px) {
+  .navbar-nav > li a.nav-link {
+    color: #2A265F !important;
+    font-family: "Oswald", sans-serif !important;
+    font-size: 20px !important;
+    letter-spacing: 0;
+    font-weight: 400 !important;
+    line-height: 55px !important; }
+    .navbar-nav > li a.nav-link:hover {
+      color: #AF252B !important; } }
+
+@media only screen and (min-width: 1024px) {
+  li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-2025.nav-item {
+    display: none !important; } }
+
+@media only screen and (max-width: 760px) {
+  li#menu-item-273 {
+    display: none !important; } }
 
 .bc_testimonial_swiper .swiper-slide-container {
   background-image: url("../img/slider-background.png");
@@ -9775,7 +9818,7 @@ div {
 
 .customer_section {
   background-image: url(../img/home_img3.jpg);
-  background-position: center; }
+  background-position: bottom; }
   @media only screen and (max-width: 740px) {
     .customer_section {
       background-image: url(../img/wave.png);
