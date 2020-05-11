@@ -20,17 +20,17 @@
                     <div class="swiper-slide text-center">
                         <i class="fas fa-calendar-star bc_text_40 bc_line_height_40 bc_color_primary"></i>
                       <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">43</span>
-                      <span class="bc_text_22 bc_line_height_24 bc_text_normal bc_font_default bc_color_primary bc_text_normal d-block mt-4">Years in Business</span>
+                      <h7 class="d-block mt-4">Years in Business</span>
                     </div>
                     <div class="swiper-slide text-center">
                       <i class="fas fa-user bc_text_40 bc_line_height_40 bc_color_primary"></i>
-                      <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">14,638</span>
-                      <span class="bc_text_22 bc_line_height_24 bc_text_normal bc_font_default bc_color_primary bc_text_normal d-block mt-4">Customers Helped</span>
+                      <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">14,638</h7>
+                      <h7 class="d-block mt-4">Customers Helped</h7>
                     </div>
                     <div class="swiper-slide text-center">
                       <i class="fas fa-thumbs-up bc_text_40 bc_line_height_40 bc_color_primary"></i>
                       <span class="bc_text_55 bc_line_height_19 bc_font_alt_1 bc_color_primary bc_text_bold d-block mt-4">24/7</span>
-                      <span class="bc_text_22 bc_line_height_24 bc_text_normal bc_font_default bc_color_primary bc_text_normal d-block mt-4">Service</span>
+                      <h7 class="d-block mt-4">Service</h7>
                     </div>
                 </div>
               </div>
