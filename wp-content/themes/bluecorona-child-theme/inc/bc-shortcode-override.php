@@ -55,7 +55,7 @@ var swiperTestimonials<?php echo $count ?> = new Swiper('#services-swiper_<?php 
     <div class="container-fluid m-0 px-0 py-lg-5 pb-4 bc_color_4_bg bg_color_white">
       <div class="container">
         <div class="row no-gutters">
-          <div class="col-12 text-center mb-md-5 mb-2">
+          <div class="col-12 col-md-12 col-xs-12 mt-2 px-5">
             <h2>Save on Our Services</h2>
           </div>
           <div class="col-lg-12 text-center">
