@@ -69,7 +69,7 @@ get_header();?>
         </div>
     </div>
 
-<?php get_template_part( 'page-templates/common/bc-choose-heil-section'); ?>
+<?php get_template_part( 'page-templates/common/bc-heil-section'); ?>
 <?php get_template_part( 'page-templates/common/bc-heil-waves-section'); ?>
 
 </main>
