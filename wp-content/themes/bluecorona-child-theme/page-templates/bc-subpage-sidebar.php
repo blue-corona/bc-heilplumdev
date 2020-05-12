@@ -15,7 +15,7 @@ else{ ?> style="background-size: 100%; background-position: top; background-repe
     <div class="container d-none d-lg-block pt-5">
         <div class="row no-gutters">
             <div class="col-lg-8 offset-lg-2">
-                <div class="row no-gutters bc_color_4_bg py-3 px-2" style="border-radius: 5px;>
+                <div class="row no-gutters bc_color_4_bg py-3 px-2" style="border-radius: 5px;">
                     <div class="col-md-3">
                         <div class="media border_right position-relative">
                             <i class="fal fa-award bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
