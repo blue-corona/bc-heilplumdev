@@ -25,13 +25,13 @@ function bc_locations_rewrites() {
     add_rewrite_rule( '[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$', 'index.php?attachment=$matches[1]&cpage=$matches[2]', 'bottom');
     add_rewrite_rule( '[^/]+/([^/]+)/embed/?$', 'index.php?attachment=$matches[1]&embed=true', 'bottom');
     //Adding rewrite rules for new categories.
-    $locationCategories = get_terms( array(
-									    'taxonomy' => 'bc_location_category',
-									    'hide_empty' => false,
-									) );
-    foreach($locationCategories as $locationCategory){
-    	add_rewrite_rule( $locationCategory->slug.'/([^/]+)/?', 'index.php?post_type=bc_locations&name=$matches[1]', 'top');
-    }
+    /*$locationCategories = get_terms( array(
+                                        'taxonomy' => 'bc_location_category',
+                                        'hide_empty' => false,
+                                    ) );*/
+    // foreach($locationCategories as $locationCategory){
+        add_rewrite_rule('/([^/]+)/?', 'index.php?post_type=bc_locations&name=$matches[1]', 'top');
+    // }
 
 //     resources/' . $term->slug . '/([^/]*)$'] = 'index.php?post_type=' . $post_type. '&resources_post_type
 // =$matches[1]&name=$matches[1]';
@@ -45,7 +45,7 @@ function bc_locations_permalinks( $post_link, $post, $leavename ) {
     //prepend category slug if post has a category
     $categories = get_the_terms($post, 'bc_location_category');
     if(!empty($categories)){
-    	$post_link = home_url( $categories[0]->slug.'/'.$post->post_name );	
+        $post_link = home_url( $post->post_name );  
     }
 
     return $post_link;
