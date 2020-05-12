@@ -10,6 +10,42 @@ function bc_promotion_shortcode_custom() {
     remove_shortcode('bc-promotion');
     add_shortcode('bc-promotion', 'custom_promotion_shortcode');
     
+    remove_shortcode('bc-geotargeting');
+    add_shortcode( 'bc-geotargeting', 'custom_location_shortcode' );
+    
+}
+
+function custom_location_shortcode ( $atts ) {
+    $categoryIds = null;
+    $args  = array( 'post_type' => 'bc_locations', 'posts_per_page' => -1, 'order'=> 'ASC','post_status'  => 'publish');
+    if(isset($atts['category_id'])) {
+        $categoryIds = explode(',', $atts['category_id']);
+        $taxArgs = array(
+                        array(
+                            'taxonomy' => 'bc_location_category', //double check your taxonomy name in you dd 
+                            'field'    => 'id',
+                            'terms'    => $categoryIds,
+                        ),
+                        );
+        $args['tax_query'] = $taxArgs;
+    }
+    
+    $query = new WP_Query( $args );
+    if ( $query->have_posts() ) :
+        if(isset($atts['withrowwrapper']) == 1) { echo "<div class='row bc_geolocation_list'>"; }
+        while($query->have_posts()) : $query->the_post();
+        ?>
+            <div class="col-md-3 bc_geolocation_list_item">
+                <h5 class="nav-item mr-5">
+                    <a class="nav-link" href="<?php the_permalink(); ?>"><?php echo ( $query->post->custom_city ? $query->post->custom_city : the_title() ); ?> </a>
+                </h5>
+            </div>
+        <?php
+        endwhile; 
+        if(isset($atts['withrowwrapper']) == 1) 
+            { echo "</div>"; }
+        wp_reset_query();
+    endif;
 }
 
 function custom_promotion_shortcode( $atts , $content = null ){
