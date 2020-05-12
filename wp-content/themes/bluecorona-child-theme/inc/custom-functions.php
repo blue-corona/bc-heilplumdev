@@ -15,7 +15,7 @@ require_once WP_CONTENT_DIR . '/themes/bluecorona-child-theme/inc/widgets/bc-aff
 require_once WP_CONTENT_DIR . '/themes/bluecorona-child-theme/inc/widgets/bc-static-widget.php';
 require_once WP_CONTENT_DIR . '/themes/bluecorona-child-theme/inc/bc-shortcode-override.php';
 require_once WP_CONTENT_DIR . '/themes/bluecorona-child-theme/inc/widgets/bc-licenses-widget.php';
-
+require_once WP_CONTENT_DIR . '/themes/bluecorona-child-theme/inc/bc-locations-slug-rewrite.php';
 
 /*Create custom field (title) for pages, post, custom posts */
 add_action( 'add_meta_boxes', 'bc_create_title_overlay_metabox' );
