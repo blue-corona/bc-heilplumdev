@@ -71,5 +71,7 @@ else{ ?> style="height:230px; background-size: 100%; background-position: top; b
 		  </div>
 		</div>
 	</div>
+<?php get_template_part( 'page-templates/common/bc-heil-section'); ?>
+<?php get_template_part( 'page-templates/common/bc-heil-waves-section'); ?>
 </main>
 <?php get_footer()?>
