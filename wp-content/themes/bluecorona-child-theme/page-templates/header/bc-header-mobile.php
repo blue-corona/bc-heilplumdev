@@ -14,7 +14,7 @@
                     </a>
                 </div>
                 <div class="col-2 bc_color_error_bg text-center px-3 py-2">
-                    <a href="tel: 555-555-5555" class="mx-auto d-block mt-1"><i class="fas fa-phone text-white bc_text_24 bc_line_height_50"></i></a>
+                    <a href="tel: 555-555-5555" class="mx-auto d-block mt-1"><i class="fas fa-phone-alt text-white bc_text_24 bc_line_height_50"></i></a>
                 </div>
             </div>
         </div>

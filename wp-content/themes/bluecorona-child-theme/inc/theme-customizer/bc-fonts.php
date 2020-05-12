@@ -1,6 +1,4 @@
 <?php 
-
-
 function bc_customize_font($wp_customize){
     // Panel
     $wp_customize->add_panel('bc_site_font_scheme_panel', array(
