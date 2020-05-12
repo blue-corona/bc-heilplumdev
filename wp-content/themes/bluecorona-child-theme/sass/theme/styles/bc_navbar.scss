@@ -26,6 +26,23 @@
 		background-color: $primary_color; // Mobile nav bar Background
 	}
 	.navbar-nav{
+		& > li {
+			& > a{
+				svg {
+					display: none !important;
+				}
+			}
+			&:hover{
+				& > a.nav-link {
+					color: $secondary_color !important;
+					@media (hover: none), only screen and (max-width: 740px){
+						color: $error_color !important;
+					}
+				} // Top level link hover	
+			}
+
+		}
+
 		li {
 			position: relative;
 			a {
@@ -34,7 +51,7 @@
 				background-color: #ffffff00 !important;
 				line-height: 30px !important;
 				svg {
-					display: none !important;
+					/*display: none !important;*/
 					@media (hover: none),only screen and (max-width: 740px) {
 						display: block !important;
 					}
@@ -66,9 +83,9 @@
 				}		
 				svg { color: $primary_color; } //Top level dropdown icon hover
 				a.nav-link {
-					color: $secondary_color !important;
+					/*color: $secondary_color !important;*/
 					@media (hover: none), only screen and (max-width: 740px){
-						color: $error_color !important;
+						/*color: $error_color !important;*/
 					}
 				} // Top level link hover	
 				&::after {
@@ -147,8 +164,10 @@
 			right: 15px;
 			position: absolute;
 			top: 18px;
+			@media (hover: none), only screen and (max-width: 740px) {
+				transform: rotate(0deg);
+			}
 		}
-		
 	}
 }
 
