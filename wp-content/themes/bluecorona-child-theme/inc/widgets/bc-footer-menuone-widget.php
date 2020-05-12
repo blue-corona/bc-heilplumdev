@@ -59,7 +59,7 @@ class BC_Footer_Menuone_widget extends WP_Widget {
         <?php foreach ($menu_items as $key => $value) {?>
             <li>
                 <a class="bc_text_20 bc_sm_text_16 bc_sm_line_height_20a bc_text_normal no_hover_underline bc_line_height_48 bc_color_secondary" href="<?php echo $value->url;?>">
-                <?php echo $value->post_title; ?>
+                <?php echo $value->title; ?>
                 </a>
             </li>
         <?php }?>

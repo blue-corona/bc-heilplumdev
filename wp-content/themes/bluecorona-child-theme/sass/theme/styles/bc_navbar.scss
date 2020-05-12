@@ -34,13 +34,14 @@
 				background-color: #ffffff00 !important;
 				line-height: 30px !important;
 				svg { display: none !important; } // Top level dropdown icon
-				@media only screen and (max-width: 760px) {
+				@media (hover: none),only screen and (max-width: 991px) {
 					color: $bc_color_10 !important;
 					font-family: $alternate_font_family_1 !important;
 					font-size: 20px !important;
 					letter-spacing: 0;
 					font-weight: 400 !important;
 					line-height: 55px !important;
+					svg { display: inline-block !important; } // Top level dropdown icon
 				}
 			}
 				&::after {
