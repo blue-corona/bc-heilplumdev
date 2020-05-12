@@ -6957,14 +6957,14 @@ jQuery(".nav-link").on('touchstart',function(e){
   }
 
   if(jQuery(e.target).is("a")){
-    return;
+    return;  
   }
   
-  if(jQuery(this).children('span').children('svg').hasClass("fa-angle-up")){
-    jQuery(this).children('span').children('svg').removeClass("fa-angle-up");
+  if(jQuery(this).children('span').children('svg').hasClass("fa-chevron-up")){
+    jQuery(this).children('span').children('svg').removeClass("fa-chevron-up");
     jQuery(this).children('span').children('svg').addClass("fa-angle-down");
   }else{
-    jQuery(this).children('span').children('svg').addClass("fa-angle-up");
+    jQuery(this).children('span').children('svg').addClass("fa-chevron-up");
     jQuery(this).children('span').children('svg').removeClass("fa-angle-down");
   }
   jQuery(this).parent('li').children('ul').toggle();
