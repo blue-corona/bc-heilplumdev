@@ -12,7 +12,7 @@ defined( 'ABSPATH' ) || exit;
             <div class="container">
               <div class="row m-0">
                 <div class="col-lg">
-                  <a href="<?php echo get_home_url();?>/plumbing-services/" class="no_hover_underline">
+                  <a href="<?php echo get_home_url();?>/residential-plumbing-services/" class="no_hover_underline">
                     <div class="services text-center py-4">
                       <div class="py-2">
                         <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-01.PNG" class="img-fluid" alt="icon-01" >
@@ -77,7 +77,7 @@ defined( 'ABSPATH' ) || exit;
                 <div class="media modal-body px-1">
                 <h6>Plumbing <br> Service</h6>
                 </div>
-                <a href="<?php echo get_home_url();?>/plumbing-services/" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
+                <a href="<?php echo get_home_url();?>/residential-plumbing-services/" class="align-self-center"><i class="fas fa-arrow-circle-right bc_text_28 bc_line_height_72 bc_color_primary"></i> </a>
             </div>
             <div class="media pb-2 mx-auto border_bottom px-2 mb-3">
               <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-02.PNG" class="align-self-center img-fluid w_80" alt="icon-02">

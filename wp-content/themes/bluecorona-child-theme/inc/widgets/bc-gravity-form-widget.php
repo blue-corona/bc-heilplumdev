@@ -15,7 +15,7 @@ class BC_Gravity_Widget extends WP_Widget {
 	
 	public function widget( $args, $instance ) {?>
 	
-	<div class="bc_color_primary_bg py-4 text-center">
+	<div class="bc_color_primary_bg py-4 text-center d-none d-md-block" style="border-radius: 10px;">
         <span class="bc_text_28 bc_font_alt_1 bc_color_secondary  bc_text_bold bc_line_height_72">
 	    	<?php 
 			if ( isset( $instance['title'] ) && !empty($instance['title']) ) {

@@ -156,7 +156,9 @@ body, p, .p{
 .bc_letter_spacing_25 { letter-spacing: 25px; }
 .bc_letter_spacing_36 { letter-spacing: 36px; }
 
- ::placeholder  {
+
+::placeholder  {
+
  	font-family: $default_font_family;
 	font-size: 20px;
 	font-weight: 400;
@@ -169,4 +171,4 @@ body, p, .p{
 li a, p a{color:$error_color; font-weight: inherit;}
 li a, p a:hover{color:$error_color; text-decoration: none; font-weight: inherit;}
 li strong, p strong{color: $quaternary_color;}
-li strong a, p strong a{font-weight: bold;}
+/*li strong a, p strong a{font-weight: bold;}*/

@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
 	    	</a>
 	    </h4>
 	    <div class="hide_div row">
-	        <?php echo do_shortcode('[bc-geotargeting]'); ?>
+	        <?php echo do_shortcode('[bc-geotargeting category_id=11]'); ?>
 	    </div>
 	</div>
 </div>
