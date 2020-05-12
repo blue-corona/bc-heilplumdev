@@ -12,7 +12,7 @@ defined( 'ABSPATH' ) || exit;
   <span class="d-inline-block">&nbsp; | &nbsp;</span><a class="bc_color_quaternary bc_color_quaternary_hover no_hover_underline bc_text_18 bc_line_height_60 bc_sm_text_18 bc_sm_line_height_18 text-uppercase font-uppercase" href="#" data-toggle="modal" data-target="#disclaimer">Disclaimer</a>
 </div>');?>
 
-<button data-toggle="modal" data-target="#myModal_mobile" class="btn btn-lg w-100 d-block d-lg-none  bc_color_10_bg  position-fixed sticky-footer bc_font_alt_1 bc_text_bold  bc_text_22 bc_line_height_72 p-0 border-0" style="bottom: 0; z-index:999; font-weight: 600 !important; color: #70A3D7 !important; position: fixed !important; border-radius: 0px !important;"> How Can We Help?<span> &nbsp; <i class="fal fa-chevron-up bc_text_24"></i>
+<button data-toggle="modal" data-target="#myModal_mobile" class="btn btn-lg w-100 d-block d-lg-none  bc_color_10_bg  position-fixed sticky-footer bc_font_alt_1 bc_text_bold  bc_text_22 bc_line_height_72 p-0 border-0" style="bottom: 0; z-index:999; font-weight: 600 !important; color: #70A3D7 !important; position: fixed !important; border-radius: 0px !important;"> How Can We Help?<span> &nbsp; <i class="fal fa-chevron-up bc_text_24 text-white"></i>
 </span></button>
 
 
