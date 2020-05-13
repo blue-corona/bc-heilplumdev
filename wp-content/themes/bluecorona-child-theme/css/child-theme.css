@@ -9098,8 +9098,12 @@ input[type="checkbox"] {
   #gform_1 input[type=submit]:hover {
     background: #69161A !important; }
 
-#gform_2 #gform_fields_2 .gfield_label {
-  margin-left: 26px !important; }
+
+#gform_2 ul li label {
+  margin-left: 20px !important; }
+
+#gform_2 ul li .gfield_select {
+  padding: 8px 20px !important; }
 
 .bc_nav_container {
   background-color: #29265f !important;
@@ -9159,13 +9163,13 @@ input[type="checkbox"] {
       height: 1px;
       width: 100%;
       content: " ";
-      background: #5b5b5b !important; }
+      background: #b5b5b5 !important; }
     .bc_nav_container .navbar-nav li:hover {
       background-color: #ffffff00 !important; }
       @media (hover: none), only screen and (max-width: 991px) {
         .bc_nav_container .navbar-nav li:hover {
           background-color: #ffffff00 !important;
-          border-bottom: 1px solid #5b5b5b !important; } }
+          border-bottom: 1px solid #b5b5b5 !important; } }
       .bc_nav_container .navbar-nav li:hover svg {
         color: #29265f; }
       .bc_nav_container .navbar-nav li:hover a.nav-link {
@@ -9351,8 +9355,8 @@ svg.svg-inline--fa.fa-chevron-down {
   color: #29265f !important; }
 
 .dropdown-menu li .dropdown-menu {
-  top: 0 !important;
-  left: 200px !important;
+  top: -6px !important;
+  left: 253px !important;
   background: #D6D6D6 !important; }
   @media (hover: none), only screen and (max-width: 760px) {
     .dropdown-menu li .dropdown-menu {
