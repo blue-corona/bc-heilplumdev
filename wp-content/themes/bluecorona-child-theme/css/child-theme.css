@@ -9199,6 +9199,8 @@ input[type="checkbox"] {
           color: #70a3d7; } }
     .bc_nav_container .dropdown li a:hover span, .bc_nav_container .dropdown .dropdown-item a:hover span {
       color: #AF252B !important; }
+    .bc_nav_container .dropdown li a:hover svg, .bc_nav_container .dropdown .dropdown-item a:hover svg {
+      color: #af252b !important; }
   .bc_nav_container .dropdown li:focus, .bc_nav_container .dropdown .dropdown-item:focus {
     background-color: #29265f; }
   .bc_nav_container .dropdown li:hover, .bc_nav_container .dropdown .dropdown-item:hover {
@@ -9352,7 +9354,7 @@ svg.svg-inline--fa.fa-chevron-down {
 
 .dropdown-menu li .dropdown-menu {
   top: 0 !important;
-  left: 200px !important;
+  left: 100% !important;
   background: #D6D6D6 !important; }
   @media (hover: none), only screen and (max-width: 760px) {
     .dropdown-menu li .dropdown-menu {
