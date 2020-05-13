@@ -192,6 +192,7 @@
 .bc_color_7_hover { &:hover{ color: $bc_color_7 !important; } }
 .bc_color_8_hover { &:hover{ color: $bc_color_8 !important; } }
 .bc_color_9_hover { &:hover{ color: $bc_color_8 !important; } }
+.bc_color_hover { &:hover{ color: #29265f !important; } }
 
 //Classes for hover bg color
 .bc_color_primary_hover_bg { &:hover{ background-color: $primary_color; } }
