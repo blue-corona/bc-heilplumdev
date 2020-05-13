@@ -8693,6 +8693,9 @@ li strong, p strong {
 .bc_color_9_hover:hover {
   color: #26235C !important; }
 
+.bc_color_hover:hover {
+  color: #29265f !important; }
+
 .bc_color_primary_hover_bg:hover {
   background-color: #29265f; }
 
@@ -9094,6 +9097,7 @@ input[type="checkbox"] {
   color: #fff !important; }
   #gform_1 input[type=submit]:hover {
     background: #69161A !important; }
+
 
 #gform_2 ul li label {
   margin-left: 20px !important; }
