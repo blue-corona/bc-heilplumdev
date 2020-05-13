@@ -9122,6 +9122,8 @@ input[type="checkbox"] {
     @media (hover: none), only screen and (max-width: 740px) {
       .bc_nav_container .navbar-nav > li:hover > a.nav-link {
         color: #af252b !important; } }
+    .bc_nav_container .navbar-nav > li:hover > a.nav-link svg {
+      color: #af252b !important; }
   .bc_nav_container .navbar-nav li {
     position: relative; }
     .bc_nav_container .navbar-nav li a {
