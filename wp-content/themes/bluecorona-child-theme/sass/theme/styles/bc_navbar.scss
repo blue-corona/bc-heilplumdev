@@ -76,13 +76,13 @@
 				    height: 1px;
 				    width: 100%;
 				    content: " ";
-				    background: #5b5b5b !important;
+				    background: #b5b5b5 !important;
 				} 
 			&:hover{
 				background-color: #ffffff00 !important;	// Top level dropdown background hover
 				@media (hover: none), only screen and (max-width: 991px) {
 					background-color: #ffffff00 !important; // Mobile nav bar Background
-					border-bottom: 1px solid #5b5b5b !important;
+					border-bottom: 1px solid #b5b5b5 !important;
 				}		
 				svg { color: $primary_color; } //Top level dropdown icon hover
 				a.nav-link {

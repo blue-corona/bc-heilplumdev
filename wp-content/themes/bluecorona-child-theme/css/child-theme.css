@@ -9159,13 +9159,13 @@ input[type="checkbox"] {
       height: 1px;
       width: 100%;
       content: " ";
-      background: #5b5b5b !important; }
+      background: #b5b5b5 !important; }
     .bc_nav_container .navbar-nav li:hover {
       background-color: #ffffff00 !important; }
       @media (hover: none), only screen and (max-width: 991px) {
         .bc_nav_container .navbar-nav li:hover {
           background-color: #ffffff00 !important;
-          border-bottom: 1px solid #5b5b5b !important; } }
+          border-bottom: 1px solid #b5b5b5 !important; } }
       .bc_nav_container .navbar-nav li:hover svg {
         color: #29265f; }
       .bc_nav_container .navbar-nav li:hover a.nav-link {
