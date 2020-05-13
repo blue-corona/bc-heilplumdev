@@ -58,9 +58,9 @@ add_shortcode( 'button_schedule_your_service', 'bc_schedule_your_service' );
 function bc_schedule_your_service ( $title, $url ) {
     ob_start();
     echo '<div onclick="window.location.href =\''.get_home_url().$title['link'].'\'"  class="w-100 px-5 bc_color_primary_bg no_hover_underline rounded btn_base btn my-4 position-relative d-none d-lg-block">
-    <h5 class="no_hover_underline calenter_line align-baseline-middel mt-2">
+    <h5 class="no_hover_underline calenter_line align-baseline-middel">
         <i class="fal fa-calendar-check bc_text_80 float-left bc_color_secondary bc_line_height_50"> </i>
-        <h5 class=" align-baseline-middel mb-4 pt-2">'.$title['title'].'</h5> <i class="fal fa-play-circle bc_text_40 bc_color_secondary mx-4 align-baseline-middel bc_line_height_50" style="float: right;
+        <h5 class=" align-baseline-middel my-3 pt-2">'.$title['title'].'</h5> <i class="fal fa-play-circle bc_text_40 bc_color_secondary mx-4 align-baseline-middel bc_line_height_50" style="float: right;
     margin-top: -3.3rem;"></i>
     </h5>
     </div>';
