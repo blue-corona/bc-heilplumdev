@@ -38,6 +38,9 @@
 					@media (hover: none), only screen and (max-width: 740px){
 						color: $error_color !important;
 					}
+					svg {
+						color: $error_color !important;
+					}
 				} // Top level link hover	
 			}
 
