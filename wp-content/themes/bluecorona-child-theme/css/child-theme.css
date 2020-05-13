@@ -9095,6 +9095,12 @@ input[type="checkbox"] {
   #gform_1 input[type=submit]:hover {
     background: #69161A !important; }
 
+#gform_2 ul li label {
+  margin-left: 20px !important; }
+
+#gform_2 ul li .gfield_select {
+  padding: 8px 20px !important; }
+
 .bc_nav_container {
   background-color: #29265f !important;
   background-color: #29265f; }
@@ -9345,8 +9351,8 @@ svg.svg-inline--fa.fa-chevron-down {
   color: #29265f !important; }
 
 .dropdown-menu li .dropdown-menu {
-  top: 0 !important;
-  left: 200px !important;
+  top: -6px !important;
+  left: 253px !important;
   background: #D6D6D6 !important; }
   @media (hover: none), only screen and (max-width: 760px) {
     .dropdown-menu li .dropdown-menu {
