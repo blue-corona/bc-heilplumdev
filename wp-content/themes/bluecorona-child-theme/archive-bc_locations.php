@@ -15,7 +15,7 @@ get_header();
 $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 query_posts(['post_type'=>'bc_locations','paged' => $paged]);?>
 <main>
-<?php get_template_part( 'page-templates/common/bc-penguin-header-section'); ?>
+<?php get_template_part( 'page-templates/common/bc-banner-section'); ?>
 	<div class="container-fluid py-3">
       <div class="container ">
         <h1 class="bc_text_48 bc_color_primary bc_text_medium bc_line_height_50 bc_font_alt_1 bc_mob_text_center">Our Reviews</h1>
