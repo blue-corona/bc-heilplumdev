@@ -9098,7 +9098,6 @@ input[type="checkbox"] {
   #gform_1 input[type=submit]:hover {
     background: #69161A !important; }
 
-
 #gform_2 ul li label {
   margin-left: 20px !important; }
 
@@ -9203,6 +9202,8 @@ input[type="checkbox"] {
           color: #70a3d7; } }
     .bc_nav_container .dropdown li a:hover span, .bc_nav_container .dropdown .dropdown-item a:hover span {
       color: #AF252B !important; }
+    .bc_nav_container .dropdown li a:hover svg, .bc_nav_container .dropdown .dropdown-item a:hover svg {
+      color: #af252b !important; }
   .bc_nav_container .dropdown li:focus, .bc_nav_container .dropdown .dropdown-item:focus {
     background-color: #29265f; }
   .bc_nav_container .dropdown li:hover, .bc_nav_container .dropdown .dropdown-item:hover {
@@ -9355,8 +9356,8 @@ svg.svg-inline--fa.fa-chevron-down {
   color: #29265f !important; }
 
 .dropdown-menu li .dropdown-menu {
-  top: -6px !important;
-  left: 253px !important;
+  top: 0 !important;
+  left: 100% !important;
   background: #D6D6D6 !important; }
   @media (hover: none), only screen and (max-width: 760px) {
     .dropdown-menu li .dropdown-menu {

@@ -143,7 +143,6 @@ border-width:$border_width_custom_2;
 	.page-link {
 		color: #4d4d4d !important;
 	}
-
 }
 
 .wrench-man {
@@ -180,7 +179,6 @@ div, {
 		width: 100% !important;
 		height: 100%;
 	}
-
 }
 
 
@@ -262,8 +260,6 @@ div, {
 }
 
 .bc_geolocation_list_item a{ &:hover{ color: $primary_color; } }
-
-
 
 @media (hover: none), only screen and (max-width: 991px) {
 	.hide-on-touch{

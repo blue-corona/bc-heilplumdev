@@ -128,6 +128,9 @@
 					span{
 						color: #AF252B !important;
 					}
+					svg{
+	    				color: $error_color !important;
+	    			}
 				}
 			}
 			&:focus{
@@ -313,8 +316,8 @@ svg.svg-inline--fa.fa-chevron-down {
 .dropdown-menu{
 	li{
 		.dropdown-menu{
-			top: -6px !important;
-		    left: 253px !important;
+			top: 0 !important;
+		    left: 100% !important;
 		    background: #D6D6D6 !important;
 		    @media (hover: none), only screen and (max-width: 760px) {
 		    	padding-left: 20px !important;
