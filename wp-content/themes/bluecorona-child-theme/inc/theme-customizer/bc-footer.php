@@ -119,7 +119,7 @@ function footer_style($wp_customize){
 .bc_footer_copyright_bar { background-color:<?php echo bc_get_theme_mod('bc_theme_options', 'footer','copyright_bar_background', '#ffffff');?>;color:<?php echo bc_get_theme_mod('bc_theme_options', 'footer','copyright_bar_text_color', '#000000');?>}
 .bc_footer_copyright_links{ background-color:<?php echo bc_get_theme_mod('bc_theme_options', 'footer','copyright_bar_background', '#ffffff');?> !important;color:<?php echo bc_get_theme_mod('bc_theme_options', 'footer','copyright_bar_text_color', '#000000');?> !important}
 
-footer .bc_color_primary_bg{background-color:<?php echo bc_get_theme_mod('bc_theme_options', 'footer','footer_background_color', '#00395e');?>;}
+footer .bc_color_primary_bg{background-color:<?php echo bc_get_theme_mod('bc_theme_options', 'footer','footer_background_color', '#29265F');?>;}
 
 /*footer .bc_color_primary_bg .bc_color_secondary{color:<?php echo bc_get_theme_mod('bc_theme_options', 'footer','footer_text_color', '#ffffff');?>}*/
 </style>

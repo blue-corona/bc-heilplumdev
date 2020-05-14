@@ -16,18 +16,18 @@ defined( 'ABSPATH' ) || exit;
 </span></button>
 
 
-<div class="h-100 modal fade bc_color_primary_bg" id="myModal_mobile" tabindex="-1" role="dialog" aria-labelledby="disclaimerLabel" aria-hidden="true" style="    overflow-y: inherit !important;">
+<div class="modal fade bc_color_primary_bg" id="myModal_mobile" tabindex="-1" role="dialog" aria-labelledby="disclaimerLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content rounded-0 bc_color_primary_bg position-relative" style="height: 500px; z-index:100001">
-      <div class="modal-header bc_color_primary_bg" style="z-index: 9; ">
+    <div class="modal-content rounded-0 bc_color_primary_bg position-relative" style="height: 100% !important; z-index:100001; border: none !important;">
+      <div class="modal-header" style="z-index: 9; position: absolute; right: -27px; top: -15px;">
         <button type="button" class="close mt-n4" data-dismiss="modal" aria-label="Close" style="opacity: 1;">
           <i class="fal fa-times bc_color_white" style="font-size: 30px;"></i>
         </button>
       </div>
-      <div class="modal-body p-0 ">
+      <div class="modal-body p-0">
         <div class="">
-            <div class=" col-md-12 col-lg-9 col-sm-12 col-xs-12 offset-lg-2 text-center py-4 bc_color_primary_bg">
-               <span class="d-block bc_text_32 bc_line_height_32 text-white bc_font_alt_1 text-center bc_text_bold mb-2">CONTACT US</span>
+            <div class=" col-md-12 col-lg-9 col-sm-12 col-xs-12 offset-lg-2 text-center bc_color_primary_bg">
+               <span class="d-block bc_text_28 bc_line_height_72 bc_color_info bc_font_alt_1 text-center bc_text_bold mb-2">How Can We Help?</span>
                 <div class="entry-content bc_hero_form_body">
                    <?php echo do_shortcode('[gravityform id=7 ajax=true]')?>
                 </div>
