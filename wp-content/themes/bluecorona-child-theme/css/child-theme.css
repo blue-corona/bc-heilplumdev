@@ -9098,11 +9098,11 @@ input[type="checkbox"] {
   #gform_1 input[type=submit]:hover {
     background: #69161A !important; }
 
-#gform_2 ul:not(.gfield_checkbox) li label {
-  margin-left: 20px !important; }
+#gform_2 ul li label {
+  margin-left: 10px !important; }
 
-#gform_2 ul:not(.gfield_checkbox) li .gfield_select {
-  padding: 8px 20px !important; }
+#gform_2 ul li .gfield_select {
+  padding: 20px 10px !important; }
 
 .gfield_checkbox li label {
   color: #ffffff;
