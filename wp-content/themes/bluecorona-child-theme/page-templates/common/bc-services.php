@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
                   <a href="<?php echo get_home_url();?>/residential-plumbing-services/" class="no_hover_underline">
                     <div class="services text-center py-4">
                       <div class="py-2">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-01.PNG" class="img-fluid" alt="icon-01" >
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/plumbing_icon.svg" class="img-fluid" alt="icon-01" width="80px">
                       </div>
                       <h6 class="mb-4">Plumbing <br> Service</h6>
                     </div>
@@ -25,7 +25,7 @@ defined( 'ABSPATH' ) || exit;
                   <a href="<?php echo get_home_url();?>/water-line-repair/" class="no_hover_underline">
                     <div class="services text-center py-4">
                       <div class="py-2">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-02.PNG" class="img-fluid" alt="icon-02">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/sewer_icon.svg" class="img-fluid" alt="icon-02" width="100px">
                       </div>
                       <h6 class="mb-4">Water & <br> Sewer Lines</h6>
                     </div>
@@ -35,7 +35,7 @@ defined( 'ABSPATH' ) || exit;
                   <a href="<?php echo get_home_url();?>/water-heater-repair/" class="no_hover_underline">
                     <div class="services text-center py-4">
                       <div class="py-2">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-03.PNG" class="img-fluid" alt="icon-03">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/heater_icon.svg" class="img-fluid" alt="icon-03" width="80px">
                       </div>
                       <h6 class="mb-4">Water <br> Heaters</h6>
                     </div>
@@ -45,7 +45,7 @@ defined( 'ABSPATH' ) || exit;
                   <a href="<?php echo get_home_url();?>/sewer-and-drain-cleaning/" class="no_hover_underline">
                     <div class="services text-center py-4">
                       <div class="py-2">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-04.png" class="img-fluid" alt="icon-04">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/drain_icon.svg" class="img-fluid" alt="icon-04" width="70px">
                       </div>
                       <h6 class="mb-4">Drain <br> Cleaning </h6>
                     </div>
@@ -55,7 +55,7 @@ defined( 'ABSPATH' ) || exit;
                   <a href="<?php echo get_home_url();?>/sewer-camera-inspection/" class="no_hover_underline">
                     <div class="services text-center py-4">
                       <div class="py-2">
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/icon-05.png" class="img-fluid" alt="icon-05">
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/img/video_icon.svg" class="img-fluid" alt="icon-05" width="100px">
                       </div>
                       <h6 class="mb-4">Sewer Video <br> Inspections </h6>
                     </div>
