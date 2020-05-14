@@ -50,15 +50,15 @@ class BC_Footer_Menuone_widget extends WP_Widget {
 
         // echo '<div class="px-5 pt-2 d-none d-lg-block">';
         if ( $title ) {
-            echo '<span class="bc_text_36 bc_line_height_40 bc_sm_text_26 bc_color_3 bc_font_alt_1 bc_text_samibold">'.$title.'</span>';
+            echo '<span class="bc_text_36 bc_line_height_40 bc_sm_text_26 bc_color_3 bc_font_alt_1 bc_text_semibold">'.$title.'</span>';
             // echo $args['before_title'] . $title . $args['after_title'];
         }
 
         ?>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled mt-4">
         <?php foreach ($menu_items as $key => $value) {?>
             <li>
-                <a class="bc_text_20 bc_sm_text_16 bc_sm_line_height_20a bc_text_normal no_hover_underline bc_line_height_48 bc_color_secondary" href="<?php echo $value->url;?>">
+                <a class="bc_text_20 bc_sm_text_16 bc_sm_line_height_20 bc_text_normal no_hover_underline bc_line_height_48 bc_color_secondary" href="<?php echo $value->url;?>">
                 <?php echo $value->title; ?>
                 </a>
             </li>

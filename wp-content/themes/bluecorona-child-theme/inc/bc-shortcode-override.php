@@ -92,7 +92,7 @@ var swiperTestimonials<?php echo $count ?> = new Swiper('#services-swiper_<?php 
       <div class="container">
         <div class="row no-gutters">
           <div class="col-12 col-md-12 col-xs-12 mt-2 px-5 text-center">
-            <h2>Save on Our Services</h2>
+            <h2 class="mb-5">Save on Our Services</h2>
           </div>
           <div class="col-lg-12 text-center">
             <div id="services-swiper_<?php echo $count;?>" class="swiper-container services-swiper pb-1">
@@ -113,7 +113,7 @@ var swiperTestimonials<?php echo $count ?> = new Swiper('#services-swiper_<?php 
                     <div class="swiper-slide text-center">
                       <div class="bc_color_primary_bg p-3">
                         <div class="border_dashed text-center py-4 px-3 pt-0 ">
-                            <span class="mb-2 d-block bc_font_alt_1 bc_text_50 bc_line_height_40 bc_color_secondary text-uppercase bc_text_bold"><?php echo $title;?></span>
+                            <span class="mb-2 d-block bc_font_alt_1 bc_text_50 bc_line_height_40 bc_color_secondary text-uppercase bc_text_semibold"><?php echo $title;?></span>
                             <span class="bc_text_20 bc_line_height_26 bc_font_default bc_color_white my-4 d-block"><?php echo $subheading;?> </span>
                             <span onclick="window.open('<?php the_permalink(get_the_ID()); ?>')" class="cursor_pointer bc_text_24 bc_line_height_40 bc_font_alt_1 d-block mb-2 bc_text_normal bc_color_secondary text-uppercase"><?php echo $footer_heading;?></span>
                         </div>
@@ -269,8 +269,8 @@ function custom_testimonial_shortcode($atts , $content = null){
               <!-- Add Pagination -->
               <div class="swiper-pagination customer-pagination d-md-none mt-2"></div>
 
-              <span class="d-none d-md-block">
-                <a href="<?php echo get_home_url();?>/testimonials/" class="btn_secondary mt-4">Read Our Testimonials</a>
+              <span class="d-none d-md-block mb-1">
+                <a href="<?php echo get_home_url();?>/testimonials/" class="btn_secondary my-5 d-inline-block">Read Our Testimonials</a>
               </span>
               <a href="<?php echo get_home_url();?>/testimonials/" class="btn_secondary mt-5 d-md-none">Read More</a>
           </div>

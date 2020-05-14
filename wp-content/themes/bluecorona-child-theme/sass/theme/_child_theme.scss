@@ -491,9 +491,10 @@ margin-top: 0px !important;
 .why_choose_section{
 	background-image: url(../img/home_img2.jpg);
 	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
 	@media only screen and (max-width: 740px) {
 		background-image: url(../img/mobile_img2.jpg);
-		background-size: cover;
 	}
 }
 
