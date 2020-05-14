@@ -8466,7 +8466,7 @@ li a, p a {
   font-weight: inherit; }
 
 li a, p a:hover {
-  color: #af252b;
+  color: #29265f;
   text-decoration: none;
   font-weight: inherit; }
 
@@ -9356,7 +9356,7 @@ svg.svg-inline--fa.fa-chevron-down {
   color: #29265f !important; }
 
 .dropdown-menu li .dropdown-menu {
-  top: 0 !important;
+  top: -6px !important;
   left: 100% !important;
   background: #D6D6D6 !important; }
   @media (hover: none), only screen and (max-width: 760px) {
