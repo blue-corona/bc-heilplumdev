@@ -8427,7 +8427,7 @@ body, p, .p {
 
 ::-webkit-input-placeholder {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: none;
   /*line-height: 36px;*/
@@ -8436,7 +8436,7 @@ body, p, .p {
 
 ::-moz-placeholder {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: none;
   /*line-height: 36px;*/
@@ -8445,7 +8445,7 @@ body, p, .p {
 
 ::-ms-input-placeholder {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: none;
   /*line-height: 36px;*/
@@ -8454,7 +8454,7 @@ body, p, .p {
 
 ::placeholder {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: none;
   /*line-height: 36px;*/
