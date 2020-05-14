@@ -462,7 +462,7 @@ input[type="checkbox"]{
 }
 
 #gform_2{
-	ul {
+	ul:not(.gfield_checkbox) {
 		li {
 			label {
 			    margin-left: 20px !important;
@@ -482,7 +482,6 @@ input[type="checkbox"]{
 	    font-size: 12px!important;
 	    font-weight: 600!important;
 	    margin: 7px 10px!important;
-	    margin-left: 10px !important;
 	 }
 	}
 }
