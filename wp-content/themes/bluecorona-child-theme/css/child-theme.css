@@ -9071,12 +9071,6 @@ input[type="checkbox"] {
     position: relative;
     padding: 15px 8px !important;
     text-transform: uppercase; }
-    #gform_1 ul li.gfield .gfield_select:after {
-      position: absolute;
-      content: "hj";
-      border-right: 0;
-      top: 20px;
-      color: red; }
 
 #gform_1 .gform_footer {
   padding-left: 0 !important; }
@@ -9117,6 +9111,52 @@ input[type="checkbox"] {
   font-size: 12px !important;
   font-weight: 600 !important;
   margin: 7px 10px !important; }
+
+#gform_wrapper_7 {
+  margin-bottom: 0 !important;
+  margin-top: -25px !important; }
+
+#gform_7 .gform_heading {
+  display: none !important; }
+
+#gform_7 ul li.gfield .large {
+  padding: 8px 10px !important;
+  border-radius: 5px !important;
+  height: 40px !important;
+  border: 1px solid #898989 !important;
+  margin-bottom: 5px; }
+
+#gform_7 ul li.gfield .gfield_label {
+  color: #ffffff !important;
+  font-size: 12px;
+  line-height: 36px; }
+  #gform_7 ul li.gfield .gfield_label span {
+    color: #ffffff !important; }
+
+#gform_7 ul li.gfield .gfield_select {
+  margin-top: 0px !important; }
+
+#gform_7 ul li.gfield .gfield_checkbox {
+  margin-top: -13px !important;
+  padding-left: 35px; }
+  #gform_7 ul li.gfield .gfield_checkbox li label {
+    color: #ffffff !important;
+    font-size: 12px !important;
+    line-height: 36px !important;
+    font-family: "Open Sans" !important;
+    margin-top: -9px !important; }
+
+#gform_7 input[type=submit] {
+  background-color: #70a3d7 !important;
+  font-size: 24px;
+  line-height: 50px;
+  padding: 7px 10px;
+  margin-top: -18px !important;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400 !important;
+  color: #fff !important; }
+  #gform_7 input[type=submit]:hover {
+    background: #69161A !important; }
 
 .bc_nav_container {
   background-color: #29265f !important;
