@@ -8995,7 +8995,7 @@ li strong, p strong {
   font-family: "Open Sans" !important;
   font-size: 12px !important;
   font-weight: 600 !important;
-  margin: 9px 10px !important; }
+  margin: 7px 10px !important; }
 
 input[type="submit"] {
   background: #f38527;
@@ -9103,6 +9103,14 @@ input[type="checkbox"] {
 
 #gform_2 ul li .gfield_select {
   padding: 8px 20px !important; }
+
+.gfield_checkbox li label {
+  color: #ffffff;
+  font-family: "Open Sans" !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  margin: 7px 10px !important;
+  margin-left: 10px !important; }
 
 .bc_nav_container {
   background-color: #29265f !important;

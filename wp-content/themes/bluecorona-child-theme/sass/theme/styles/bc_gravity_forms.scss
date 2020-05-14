@@ -332,7 +332,7 @@
   font-family: "Open Sans" !important;
     font-size: 12px !important;
     font-weight: 600 !important;
-    margin: 9px 10px !important;
+    margin: 7px 10px !important;
 }
 input[type="submit"]{
 	background:map-get($submit_btn, background);
@@ -471,5 +471,18 @@ input[type="checkbox"]{
 				padding: 8px 20px !important;
 			}
 		}
+	}
+}
+
+.gfield_checkbox {
+	li {
+	 label {
+	 	color: $white_color;
+	    font-family: "Open Sans"!important;
+	    font-size: 12px!important;
+	    font-weight: 600!important;
+	    margin: 7px 10px!important;
+	    margin-left: 10px !important;
+	 }
 	}
 }
