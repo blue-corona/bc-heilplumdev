@@ -332,7 +332,7 @@
   font-family: "Open Sans" !important;
     font-size: 12px !important;
     font-weight: 600 !important;
-    margin: 9px 10px !important;
+    margin: 7px 10px !important;
 }
 input[type="submit"]{
 	background:map-get($submit_btn, background);
@@ -440,7 +440,7 @@ input[type="checkbox"]{
 	}
 	.float_label{
 		margin-top: 0 !important;
-		font-size: 12px !important;
+		font-size: 10px !important;
 	}
 }
 #gform_1 .validation_message--float {
@@ -469,11 +469,23 @@ input[type="checkbox"]{
 	ul {
 		li {
 			label {
-			    margin-left: 20px !important;
+			    margin-left: 10px !important;
 				}
 			.gfield_select{
-				padding: 8px 20px !important;
+				padding: 20px 10px !important;
 			}
 		}
+	}
+}
+
+.gfield_checkbox {
+	li {
+	 label {
+	 	color: $white_color;
+	    font-family: "Open Sans"!important;
+	    font-size: 12px!important;
+	    font-weight: 600!important;
+	    margin: 7px 10px!important;
+	 }
 	}
 }
