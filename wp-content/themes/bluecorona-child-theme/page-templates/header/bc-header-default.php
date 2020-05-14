@@ -2,8 +2,8 @@
     <div class="container  pt-3">
         <div class="row no-gutters">
             <div class=" col-md-3 col-lg-3 col-sm-3 col-12 ">
-            	<a href="<?php echo get_home_url();?>" class="position-absolute mt-n3">
-                    <img src="<?php echo bc_get_theme_mod('bc_theme_options', 'bc_logo_upload',false, get_template_directory_uri().'/img/logo.jpg'); ?>" class="bc_branding_logo" alt="logo" style="max-width:<?php echo bc_get_theme_mod('bc_theme_options', 'bc_max_width',false, 250);?>px">
+            	<a href="<?php echo get_home_url();?>" class="position-absolute mt-2">
+                    <img src="<?php echo bc_get_theme_mod('bc_theme_options', 'bc_logo_upload',false, get_template_directory_uri().'/img/logo.jpg'); ?>" class="bc_branding_logo" alt="logo" style="max-width:<?php echo bc_get_theme_mod('bc_theme_options', 'bc_max_width',false, 206);?>px">
             	</a>
             </div>
             <div class=" col-md-8 col-lg-9 col-sm-8  text-right">
