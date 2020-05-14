@@ -4,7 +4,7 @@
             <div class="col-lg-7"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sub_heil_truck.png" class="img-fluid"></div>
             <div class="col-lg-5">
                   <h2>The Heil Difference</h2>
-                  <p class="bc_color_black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                  <p class="bc_color_black">We’re dedicated to offering the highest quality residential and commercial plumbing services for every customer. Our plumbers are available to respond to your call 24 hours a day, seven days a week. Our residential and commercial plumbers in Columbia and Ellicott City cover every need, from simple fixture repairs to complex drain and sewer problems.</p>
                   <div class="p-2"><a href="<?php echo get_home_url();?>/our-history/" class="btn px-5 btn-secondary border-0 py-2">Learn More</a></div>     
             </div>
           </div>
