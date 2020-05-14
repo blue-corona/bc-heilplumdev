@@ -20,6 +20,11 @@ class BC_Static_Widget extends WP_Widget {
 		    nextEl: '.swiper-button-next',
 		    prevEl: '.swiper-button-prev',
 		    },
+		    loop: true,
+            effect: 'fade',
+            fadeEffect: {
+                          crossFade: true
+            },
 		  });
 		</script>";
 	}
