@@ -8461,11 +8461,11 @@ body, p, .p {
   letter-spacing: default;
   color: #29265f; }
 
-li a, p a {
+h2 a, li a, p a {
   color: #af252b;
   font-weight: inherit; }
 
-li a, p a:hover {
+h2 a, li a, p a:hover {
   color: #29265f;
   text-decoration: none;
   font-weight: inherit; }

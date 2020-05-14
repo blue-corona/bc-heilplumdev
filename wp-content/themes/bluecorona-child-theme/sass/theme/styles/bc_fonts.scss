@@ -168,7 +168,7 @@ body, p, .p{
 	color: $primary_color;
 }
 
-li a, p a{color:$error_color; font-weight: inherit;}
-li a, p a:hover{color:#29265f; text-decoration: none; font-weight: inherit;}
+h2 a,li a, p a{color:$error_color; font-weight: inherit;}
+h2 a,li a, p a:hover{color:#29265f; text-decoration: none; font-weight: inherit;}
 li strong, p strong{color: $quaternary_color;}
 /*li strong a, p strong a{font-weight: bold;}*/
