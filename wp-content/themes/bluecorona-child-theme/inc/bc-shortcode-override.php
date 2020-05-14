@@ -241,6 +241,9 @@ function custom_testimonial_shortcode($atts , $content = null){
                         while($query->have_posts()) : $query->the_post();
                     $title = get_post_meta( get_the_ID(), 'testimonial_title', true );
                     $message = get_post_meta( get_the_ID(), 'testimonial_message', true );
+                    if(strlen($message) > 300) {
+                      $message = substr($message, 0, 299) . '...';
+                    };
                     $name = get_post_meta( get_the_ID(), 'testimonial_name', true );
                     ?>
                         <div class="swiper-slide text-center">

@@ -23,7 +23,7 @@ defined( 'ABSPATH' ) || exit;
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 </head>
-<body>
+<body <?php body_class();?> >
 <!-- Show header accordingly fixed or default -->
 <?php if(bc_get_theme_mod('bc_theme_options', 'header', 'type', 'fixed') == 'fixed'){
     echo '<header class="bc_header sticky-top bc_color_secondary_bg">';
