@@ -8467,11 +8467,10 @@ body, p, .p {
 h2 a, li a, p a {
   color: #af252b;
   font-weight: inherit; }
-
-h2 a, li a, p a:hover {
-  color: #29265f;
-  text-decoration: none;
-  font-weight: inherit; }
+  h2 a:hover, li a:hover, p a:hover {
+    color: #29265f;
+    text-decoration: none;
+    font-weight: inherit; }
 
 li strong, p strong {
   color: #000000; }
