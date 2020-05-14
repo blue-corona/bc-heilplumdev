@@ -9,8 +9,8 @@
                 </div>
                 <div class="col-lg-7 px-4 d-none d-md-block">
                     <div class="hero_banner_form rounded overflow-hidden bc_color_white_bg">
-                        <div class="row no-gutters bc_color_4_bg py-3 px-2">
-                            <div class="col-md-3">
+                        <div class="row no-gutters bc_color_4_bg py-4 px-2">
+                            <div class="col-md-3 py-2">
                                 <div class="media border_right position-relative">
                                     <i class="fal fa-award bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                                     <div class="media-body bc_line_height_17">
@@ -18,7 +18,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 py-2">
                                 <div class="media border_right position-relative">
                                     <i class="fal fa-user-clock bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                                     <div class="media-body bc_line_height_17">
@@ -26,7 +26,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 py-2">
                                 <div class="media border_right position-relative">
                                     <i class="fal fa-hands-heart bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                                     <div class="media-body bc_line_height_17">
@@ -34,7 +34,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 py-2">
                                 <div class="media">
                                     <i class="fal fa-calendar-star bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                                     <div class="media-body bc_line_height_17">
@@ -47,8 +47,8 @@
                            <div class="col-12 px-5">
                                 <span class="bc_text_28 bc_line_height_27 bc_font_alt_1 bc_text_bold bc_color_3 d-block mt-3"> Request Service</span>
                                <?php echo do_shortcode('[gravityform id=1 ajax=true]')?>
-                               <span class="d-block mt-n2 bc_text_12 bc_line_height_36 bc_font_default bc_color_5 bc_text_bold ml-2 pb-2">
-                                   <i class="fas fa-check-square bc_text_18 bc_line_height_50 bc_color_5 mr-2"></i>
+                               <span class="d-block mt-n2 bc_text_12 bc_line_height_36 bc_font_default bc_color_5 bc_text_bold">
+                                   <input type="checkbox" class="bc_text_18 bc_line_height_50 bc_color_5" style="height: 13px;">
                                     Yes, sign me up for the newsletter.
                                </span>
                            </div>
