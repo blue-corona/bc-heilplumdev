@@ -8430,7 +8430,7 @@ body, p, .p {
 
 ::-webkit-input-placeholder {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: none;
   /*line-height: 36px;*/
@@ -8439,7 +8439,7 @@ body, p, .p {
 
 ::-moz-placeholder {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: none;
   /*line-height: 36px;*/
@@ -8448,7 +8448,7 @@ body, p, .p {
 
 ::-ms-input-placeholder {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: none;
   /*line-height: 36px;*/
@@ -8457,18 +8457,18 @@ body, p, .p {
 
 ::placeholder {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: none;
   /*line-height: 36px;*/
   letter-spacing: default;
   color: #29265f; }
 
-li a, p a {
+h2 a, li a, p a {
   color: #af252b;
   font-weight: inherit; }
 
-li a, p a:hover {
+h2 a, li a, p a:hover {
   color: #29265f;
   text-decoration: none;
   font-weight: inherit; }
@@ -8998,7 +8998,7 @@ li strong, p strong {
   font-family: "Open Sans" !important;
   font-size: 12px !important;
   font-weight: 600 !important;
-  margin: 9px 10px !important; }
+  margin: 7px 10px !important; }
 
 input[type="submit"] {
   background: #f38527;
@@ -9083,7 +9083,7 @@ input[type="checkbox"] {
 
 #gform_1 .float_label {
   margin-top: 0 !important;
-  font-size: 12px !important; }
+  font-size: 10px !important; }
 
 #gform_1 .validation_message--float {
   margin-top: -30px !important; }
@@ -9106,10 +9106,17 @@ input[type="checkbox"] {
     background: #69161A !important; }
 
 #gform_2 ul li label {
-  margin-left: 20px !important; }
+  margin-left: 10px !important; }
 
 #gform_2 ul li .gfield_select {
-  padding: 8px 20px !important; }
+  padding: 20px 10px !important; }
+
+.gfield_checkbox li label {
+  color: #ffffff;
+  font-family: "Open Sans" !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  margin: 7px 10px !important; }
 
 .bc_nav_container {
   background-color: #29265f !important;
