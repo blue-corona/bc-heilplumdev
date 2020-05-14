@@ -8323,6 +8323,9 @@ body, p, .p {
 .bc_text_28 {
   font-size: 28px; }
 
+.bc_text_29 {
+  font-size: 29px; }
+
 .bc_text_30 {
   font-size: 30px; }
 
@@ -9866,11 +9869,12 @@ div {
 
 .why_choose_section {
   background-image: url(../img/home_img2.jpg);
-  background-position: center; }
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   @media only screen and (max-width: 740px) {
     .why_choose_section {
-      background-image: url(../img/mobile_img2.jpg);
-      background-size: cover; } }
+      background-image: url(../img/mobile_img2.jpg); } }
 
 .shadow_lg {
   -webkit-box-shadow: 0 7px 46px 5px rgba(0, 0, 0, 0.3);
