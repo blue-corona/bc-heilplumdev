@@ -7,7 +7,7 @@ class BC_Licenses_Widget extends WP_Widget {
         $id = 'BC_Licenses_widget';
         $title = esc_html__('BC Licenses', 'bc-licenses-custom-widget');
         $options = array(
-            'classname' => 'bc-licenses-markup-widget col-lg-3',
+            'classname' => 'bc-licenses-markup-widget col-lg-3 col-md-6',
             'description' => esc_html__('Add Custom HTML in inputbox', 'bc-licenses-custom-widget')
         );
         parent::__construct( $id, $title, $options );

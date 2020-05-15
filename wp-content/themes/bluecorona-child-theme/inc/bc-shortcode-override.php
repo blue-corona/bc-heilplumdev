@@ -36,7 +36,7 @@ function custom_location_shortcode ( $atts ) {
         while($query->have_posts()) : $query->the_post();
         ?>
             <div class="col-md-3 bc_geolocation_list_item">
-                <h5 class="nav-item mr-5">
+                <h5 class="nav-item mr-lg-5">
                     <a class="nav-link" href="<?php the_permalink(); ?>"><?php echo ( $query->post->custom_city ? $query->post->custom_city : the_title() ); ?> </a>
                 </h5>
             </div>
