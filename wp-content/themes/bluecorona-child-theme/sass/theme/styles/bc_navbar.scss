@@ -23,7 +23,7 @@
 	 
 	background-color: $primary_color; // Nav bar Background
 	@media (hover: none), only screen and (max-width: 991px) {
-		background-color: $primary_color; // Mobile nav bar Background
+		background-color: $primary_color !important; // Mobile nav bar Background
 	}
 	.navbar-nav{
 		& > li {
@@ -105,9 +105,9 @@
 		}
 		.dropdown-menu{ 
 			/*background-color: #E0E0E0 !important; // Dropdown background*/
-			@media (hover: none), only screen and (max-width: 991px) {
+			/*@media (hover: none), only screen and (max-width: 991px) {
 				 background-color: #ffffff00 !important; 
-			} 
+			} */
 		} 
 	}
 

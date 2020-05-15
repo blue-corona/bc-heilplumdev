@@ -9188,7 +9188,7 @@ input[type="checkbox"] {
       background-color: #ffffff00 !important; } }
   @media (hover: none), only screen and (max-width: 991px) {
     .bc_nav_container {
-      background-color: #29265f; } }
+      background-color: #29265f !important; } }
   .bc_nav_container .navbar-nav > li > a svg {
     display: none !important; }
   .bc_nav_container .navbar-nav > li:hover > a.nav-link {
@@ -9253,10 +9253,10 @@ input[type="checkbox"] {
           .bc_nav_container .navbar-nav li:hover::after {
             display: none !important; } }
   .bc_nav_container .navbar-nav .dropdown-menu {
-    /*background-color: #E0E0E0 !important; // Dropdown background*/ }
-    @media (hover: none), only screen and (max-width: 991px) {
-      .bc_nav_container .navbar-nav .dropdown-menu {
-        background-color: #ffffff00 !important; } }
+    /*background-color: #E0E0E0 !important; // Dropdown background*/
+    /*@media (hover: none), only screen and (max-width: 991px) {
+				 background-color: #ffffff00 !important; 
+			} */ }
   .bc_nav_container .dropdown li::after, .bc_nav_container .dropdown .dropdown-item::after {
     display: none; }
   .bc_nav_container .dropdown li a, .bc_nav_container .dropdown .dropdown-item a {
