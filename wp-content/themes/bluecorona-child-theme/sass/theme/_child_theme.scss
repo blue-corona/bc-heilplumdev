@@ -411,6 +411,13 @@ margin-top: 0px !important;
 				text-decoration: none;
 			}
 	}
+	.bc_md_text_25{
+		a{
+			@media only screen and (max-width: 1024px) {
+				font-size: 25px !important;
+			}
+		}
+	}
 
 }
 .bc_white_gradiont{
@@ -563,6 +570,7 @@ margin-top: 0px !important;
 	height: 230px;
 	@media only screen and (max-width: 760px) {
 		height: 50px !important;
+		margin-top: 30px;
 	}
 }
 .customer-pagination{
@@ -630,6 +638,9 @@ margin-top: 0px !important;
 }
 .mt-100{
 	@media only screen and (max-width: 760px) {
+		margin-top: 100px !important;
+	}
+	@media only screen and (max-width: 1024px) {
 		margin-top: 100px !important;
 	}
 }

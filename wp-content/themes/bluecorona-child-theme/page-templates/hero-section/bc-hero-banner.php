@@ -1,8 +1,8 @@
 <div class="container-fluid p-0 bc_hero_container bc_home_section_bg" style="background-image:url('<?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_upload', false);?>')">
     <div class="hero-overlay-gradient">
         <div class="container px-4 pt-lg-4">
-            <div class="row text-center text-lg-left text-md-left pt-5 pt-md-0">
-                <div class="col-lg-5 py-lg-5 mt-md-5 mt-5">
+            <div class="row text-center text-lg-left text-md-left pt-5 pt-lg-0">
+                <div class="col-lg-5 py-lg-5 mt-md-5 mt-5 pl-4">
                     <span class="bc_text_55 bc_line_height_50 bc_sm_text_32 bc_sm_line_height_33 bc_font_alt_1 bc_text_bold bc_color_primary">
                         <?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_image_overlay_text', 'From our family <br> to yours.');?>
                     </span>

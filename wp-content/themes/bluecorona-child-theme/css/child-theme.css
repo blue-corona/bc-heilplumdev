@@ -9107,8 +9107,14 @@ input[type="checkbox"] {
 #gform_9 ul li label {
   margin-left: 10px !important; }
 
+#gform_9 input[type=submit] {
+  color: #fff !important; }
+
 #gform_10 ul li label {
   margin-left: 30px !important; }
+
+#gform_10 input[type=submit] {
+  color: #fff !important; }
 
 .gfield_checkbox li label {
   color: #ffffff;
@@ -9215,7 +9221,7 @@ input[type="checkbox"] {
             display: block !important; } }
       @media (hover: none), only screen and (max-width: 991px) {
         .bc_nav_container .navbar-nav li a {
-          color: #2A265F !important;
+          color: #ffffff !important;
           font-family: "Oswald", sans-serif !important;
           font-size: 20px !important;
           letter-spacing: 0;
@@ -9402,6 +9408,10 @@ svg.svg-inline--fa.fa-home-lg-alt.fa-w-18 {
   left: -10px; }
 
 @media (hover: none), only screen and (max-width: 760px) {
+  li#menu-item-273 {
+    display: none !important; } }
+
+@media (hover: none), only screen and (max-width: 1024px) {
   li#menu-item-273 {
     display: none !important; } }
 
@@ -9842,6 +9852,10 @@ div {
   .mobile_anchor_footer a:hover {
     text-decoration: none; }
 
+@media only screen and (max-width: 1024px) {
+  .mobile_anchor_footer .bc_md_text_25 a {
+    font-size: 25px !important; } }
+
 .bc_white_gradiont {
   background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#ffffff));
   background-image: linear-gradient(transparent, #ffffff); }
@@ -9983,7 +9997,8 @@ div {
   height: 230px; }
   @media only screen and (max-width: 760px) {
     .sub_banner {
-      height: 50px !important; } }
+      height: 50px !important;
+      margin-top: 30px; } }
 
 .customer-pagination {
   margin-left: 50%;
@@ -10042,6 +10057,10 @@ div {
     color: #af252b !important; }
 
 @media only screen and (max-width: 760px) {
+  .mt-100 {
+    margin-top: 100px !important; } }
+
+@media only screen and (max-width: 1024px) {
   .mt-100 {
     margin-top: 100px !important; } }
 
