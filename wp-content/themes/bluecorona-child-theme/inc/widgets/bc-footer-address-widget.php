@@ -16,7 +16,7 @@ class BC_Footer_Address_Widget extends WP_Widget {
     public function widget( $args, $instance ) {
         echo $args['before_widget'];
         ?>
-    <a href="<?php echo get_home_url();?>/https://heilplumdev.wpengine.com/">
+    <a href="<?php echo get_home_url();?>">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/heil_footer_logo.png">
     </a>
     <div class="media border_bottom_primary_3 d-inline-flex pl-md-0 ml-4 ml-md-0">
