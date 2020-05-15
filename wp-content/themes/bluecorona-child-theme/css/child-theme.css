@@ -9104,6 +9104,12 @@ input[type="checkbox"] {
 #gform_2 ul li .gfield_select {
   padding: 20px 10px !important; }
 
+#gform_10 ul li label {
+  margin-left: 15px !important; }
+
+#gform_10 ul li label {
+  margin-left: 10px !important; }
+
 .gfield_checkbox li label {
   color: #ffffff;
   font-family: "Open Sans" !important;

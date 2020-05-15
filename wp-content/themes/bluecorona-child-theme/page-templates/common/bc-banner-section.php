@@ -3,8 +3,8 @@ else{ ?> style="background-size: 100%; background-position: top; background-repe
     <div class="container d-none d-lg-block pt-5">
         <div class="row no-gutters">
             <div class="col-lg-8 offset-lg-2">
-                <div class="row no-gutters bc_color_4_bg py-3 px-2" style="border-radius: 5px;">
-                    <div class="col-md-3">
+                <div class="row no-gutters bc_color_4_bg py-4 px-2" style="border-radius: 5px;">
+                    <div class="col-md-3 py-1">
                         <div class="media border_right position-relative d-flex">
                             <i class="fal fa-award bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                             <div class="media-body bc_line_height_17 m-auto">
@@ -12,7 +12,7 @@ else{ ?> style="background-size: 100%; background-position: top; background-repe
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 py-1">
                         <div class="media border_right position-relative d-flex">
                             <i class="fal fa-user-clock bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                             <div class="media-body bc_line_height_17 m-auto">
@@ -20,7 +20,7 @@ else{ ?> style="background-size: 100%; background-position: top; background-repe
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 py-1">
                         <div class="media border_right position-relative d-flex">
                             <i class="fal fa-hands-heart bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                             <div class="media-body bc_line_height_17 m-auto">
@@ -28,7 +28,7 @@ else{ ?> style="background-size: 100%; background-position: top; background-repe
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 py-1">
                         <div class="media d-flex">
                             <i class="fal fa-calendar-star bc_text_42 bc_line_height_35 bc_color_secondary align-self-center mx-2"></i>
                             <div class="media-body bc_line_height_17 m-auto">
