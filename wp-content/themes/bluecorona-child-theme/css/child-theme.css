@@ -9739,24 +9739,24 @@ div {
   line-height: 36px;
   letter-spacing: default;
   color: #000000; }
+  .subpage ul li {
+    list-style: none; }
+    .subpage ul li before {
+      content: "• ";
+      color: #70a3d7;
+      /* or whatever color you prefer */
+      vertical-align: sub;
+      font-size: 35px; }
 
 .subpage li {
   padding-left: 0.1em;
-  text-indent: -.7em;
-  list-style: none; }
+  text-indent: -.7em; }
   .subpage li > a {
     color: #78A8DA;
     font-weight: inherit; }
     .subpage li > a:hover {
       color: #422D6B;
       text-decoration: none; }
-
-.subpage li::before {
-  content: "• ";
-  color: #70a3d7;
-  /* or whatever color you prefer */
-  vertical-align: sub;
-  font-size: 35px; }
 
 .subpage ol {
   font-family: "Open Sans";
