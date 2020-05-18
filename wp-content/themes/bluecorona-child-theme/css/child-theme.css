@@ -9108,7 +9108,14 @@ input[type="checkbox"] {
   margin-left: 10px !important; }
 
 #gform_9 input[type=submit] {
-  color: #fff !important; }
+  color: #fff !important;
+  color: #fff !important;
+  font-family: Oswald, sans-serif !important;
+  background-color: #70a3d7 !important;
+  padding: 0.5rem 3rem !important;
+  border: none !important; }
+  #gform_9 input[type=submit]:hover {
+    background: #3170b0 !important; }
 
 #gform_10 ul li label {
   margin-left: 30px !important; }
@@ -9213,7 +9220,9 @@ input[type="checkbox"] {
       color: #70a3d7 !important;
       font-family: "Oswald", sans-serif;
       background-color: #ffffff00 !important;
-      line-height: 30px !important; }
+      line-height: 30px !important;
+      padding: 8px !important;
+      font-size: 18px !important; }
       .bc_nav_container .navbar-nav li a svg {
         /*display: none !important;*/ }
         @media (hover: none), only screen and (max-width: 740px) {
@@ -9223,7 +9232,7 @@ input[type="checkbox"] {
         .bc_nav_container .navbar-nav li a {
           color: #ffffff !important;
           font-family: "Oswald", sans-serif !important;
-          font-size: 20px !important;
+          font-size: 18px !important;
           letter-spacing: 0;
           font-weight: 400 !important;
           line-height: 55px !important; }

@@ -480,6 +480,14 @@ input[type="checkbox"]{
 	}
 	input[type=submit]{
 	    color: #fff!important;
+	    color: #fff!important;
+    	font-family: Oswald,sans-serif!important;
+    	background-color: #70a3d7 !important;
+    	padding: .5rem 3rem!important;
+    	border: none !important;
+    	&:hover{
+    		background: #3170b0!important;
+    	}
     }
 }
 #gform_10{

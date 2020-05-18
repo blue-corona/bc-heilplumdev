@@ -89,7 +89,7 @@ defined( 'ABSPATH' ) || exit;
         get_template_part( 'page-templates/header/bc-header-mobile');
     ?>
 <div class="d-none hide-on-touch d-lg-block bc_color_primary_bg"> 
-    <div class="col-lg-8 offset-lg-4">
+    <div class="col-lg-9 offset-lg-3">
         <?php get_template_part( 'page-templates/common/bc-nav-menu' ); ?>
     </div>
 </div>
