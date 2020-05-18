@@ -9108,7 +9108,14 @@ input[type="checkbox"] {
   margin-left: 10px !important; }
 
 #gform_9 input[type=submit] {
-  color: #fff !important; }
+  color: #fff !important;
+  color: #fff !important;
+  font-family: Oswald, sans-serif !important;
+  background-color: #70a3d7 !important;
+  padding: 0.5rem 3rem !important;
+  border: none !important; }
+  #gform_9 input[type=submit]:hover {
+    background: #3170b0 !important; }
 
 #gform_10 ul li label {
   margin-left: 30px !important; }
