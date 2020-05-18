@@ -10067,10 +10067,10 @@ div {
 
 @media only screen and (max-width: 760px) {
   .mt-100 {
-    margin-top: 100px !important; } }
+    margin-top: 10px !important; } }
 
 @media only screen and (max-width: 1024px) {
   .mt-100 {
-    margin-top: 100px !important; } }
+    margin-top: 10px !important; } }
 
 /*# sourceMappingURL=child-theme.css.map */
