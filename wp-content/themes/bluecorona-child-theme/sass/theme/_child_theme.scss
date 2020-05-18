@@ -277,17 +277,25 @@ margin-top: 0px !important;
 .subpage{
 	ul {
 	 	font-family: $default_font_family;
-	font-size: 20px;
-	font-weight: 400;
-	text-transform: none;
-	line-height: 36px;
-	letter-spacing: default;
-	color: $quaternary_color;
+		font-size: 20px;
+		font-weight: 400;
+		text-transform: none;
+		line-height: 36px;
+		letter-spacing: default;
+		color: $quaternary_color;
+		 li{
+		 	list-style: none;
+		 	before {
+				content: "• ";
+				color: $secondary_color; /* or whatever color you prefer */
+				vertical-align: sub;
+				font-size: 35px;
+			}
+		}
 	}
 	li {
 	  padding-left: 0.1em; 
 	  text-indent: -.7em;
-	  list-style: none;
 	  &>a{color:#78A8DA; font-weight: inherit;
 	  	&:hover{
 	  		color:#422D6B; text-decoration: none;
@@ -295,20 +303,15 @@ margin-top: 0px !important;
 	  }
 	}
 
-	 li::before {
-	  content: "• ";
-	  color: $secondary_color; /* or whatever color you prefer */
-	    vertical-align: sub;
-	    font-size: 35px;
-	}
+	
 	ol{
 		font-family: $default_font_family;
-	font-size: 20px;
-	font-weight: 400;
-	text-transform: none;
-	line-height: 36px;
-	letter-spacing: default;
-	color: $primary_color;
+		font-size: 20px;
+		font-weight: 400;
+		text-transform: none;
+		line-height: 36px;
+		letter-spacing: default;
+		color: $primary_color;
 	}
 	
 }
