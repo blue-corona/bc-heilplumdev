@@ -58,7 +58,7 @@ class BC_Footer_Menuone_widget extends WP_Widget {
         <ul class="list-unstyled mt-4">
         <?php foreach ($menu_items as $key => $value) {?>
             <li>
-                <a class="bc_text_20 bc_sm_text_16 bc_sm_line_height_20 bc_text_normal no_hover_underline bc_line_height_48 bc_color_secondary" href="<?php echo $value->url;?>">
+                <a class="bc_text_20 bc_sm_text_16 bc_sm_line_height_20 bc_text_normal no_hover_underline bc_line_height_48 bc_color_secondary <?php echo implode(" ",$value->classes);?>" target="<?php echo $value->target ?>" href="<?php echo $value->url;?>">
                 <?php echo $value->title; ?>
                 </a>
             </li>
