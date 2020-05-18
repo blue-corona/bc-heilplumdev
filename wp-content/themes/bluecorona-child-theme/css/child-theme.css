@@ -9113,6 +9113,8 @@ input[type="checkbox"] {
   font-family: Oswald, sans-serif !important;
   background-color: #70a3d7 !important;
   padding: 0.5rem 3rem !important;
+  border-radius: 10px !important;
+  margin-top: 20px !important;
   border: none !important; }
   #gform_9 input[type=submit]:hover {
     background: #3170b0 !important; }
@@ -9220,9 +9222,7 @@ input[type="checkbox"] {
       color: #70a3d7 !important;
       font-family: "Oswald", sans-serif;
       background-color: #ffffff00 !important;
-      line-height: 30px !important;
-      padding: 8px !important;
-      font-size: 18px !important; }
+      line-height: 30px !important; }
       .bc_nav_container .navbar-nav li a svg {
         /*display: none !important;*/ }
         @media (hover: none), only screen and (max-width: 740px) {
@@ -9232,7 +9232,6 @@ input[type="checkbox"] {
         .bc_nav_container .navbar-nav li a {
           color: #ffffff !important;
           font-family: "Oswald", sans-serif !important;
-          font-size: 18px !important;
           letter-spacing: 0;
           font-weight: 400 !important;
           line-height: 55px !important; }
@@ -9662,6 +9661,10 @@ div {
     width: 100% !important;
     height: 100%; } }
 
+@media only screen and (max-width: 991px) {
+  .mobile_anchor_footer .bc_md_text_23 a {
+    font-size: 25px !important; } }
+
 .bc_affliations_img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); }
@@ -9741,9 +9744,9 @@ div {
   color: #000000; }
   .subpage ul li {
     list-style: none; }
-    .subpage ul li before {
+    .subpage ul li:before {
       content: "• ";
-      color: #70a3d7;
+      color: #70a3d7 !important;
       /* or whatever color you prefer */
       vertical-align: sub;
       font-size: 35px; }
@@ -9757,6 +9760,8 @@ div {
     .subpage li > a:hover {
       color: #422D6B;
       text-decoration: none; }
+  .subpage li:berore {
+    color: #70a3d7 !important; }
 
 .subpage ol {
   font-family: "Open Sans";
@@ -10067,11 +10072,11 @@ div {
 
 @media only screen and (max-width: 760px) {
   .mt-100 {
-    margin-top: 100px !important; } }
+    margin-top: 10px !important; } }
 
 @media only screen and (max-width: 1024px) {
   .mt-100 {
-    margin-top: 100px !important; } }
+    margin-top: 10px !important; } }
 
 .staff-separator {
   margin: 20px 0;

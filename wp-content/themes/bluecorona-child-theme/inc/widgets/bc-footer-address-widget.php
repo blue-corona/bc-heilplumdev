@@ -24,7 +24,7 @@ class BC_Footer_Address_Widget extends WP_Widget {
         <div class="media modal-body mobile_anchor_footer text-center d-lg-flex">
             <i class="align-self-center fas fa-mobile-alt bc_text_30 bc_line_height_72 bc_color_primary d-md-none"></i> &nbsp; 
             
-            <span class="bc_text_32 bc_line_height_26 bc_sm_text_32 bc_md_text_25 bc_sm_line_height_36 bc_color_3 bc_text_bold text-uppercase mobile_anchor_footer"><?php echo do_shortcode("[site_info_phone_number]");?></span>
+            <span class="bc_text_32 bc_line_height_26 bc_sm_text_30 bc_md_text_23 bc_sm_line_height_36 bc_color_3 bc_text_bold text-uppercase mobile_anchor_footer"><?php echo do_shortcode("[site_info_phone_number]");?></span>
         </div>
 
     </div>

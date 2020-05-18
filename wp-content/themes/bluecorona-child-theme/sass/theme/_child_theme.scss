@@ -180,7 +180,10 @@ div, {
 		height: 100%;
 	}
 }
-
+@media only screen and (max-width: 991px) {
+  .mobile_anchor_footer .bc_md_text_23 a {
+    font-size: 25px !important; }
+}
 
 .bc_affliations_img{
 	-webkit-filter: grayscale(100%);
@@ -275,7 +278,7 @@ margin-left: 0px !important;
 margin-top: 0px !important;
 }
 .subpage{
-	ul {
+	ul{
 	 	font-family: $default_font_family;
 		font-size: 20px;
 		font-weight: 400;
@@ -285,9 +288,9 @@ margin-top: 0px !important;
 		color: $quaternary_color;
 		 li{
 		 	list-style: none;
-		 	before {
+		 	&:before {
 				content: "• ";
-				color: $secondary_color; /* or whatever color you prefer */
+				color: $secondary_color !important; /* or whatever color you prefer */
 				vertical-align: sub;
 				font-size: 35px;
 			}
@@ -300,6 +303,9 @@ margin-top: 0px !important;
 	  	&:hover{
 	  		color:#422D6B; text-decoration: none;
 	  	}
+	  }
+	  &:berore{
+	  	color: $secondary_color !important;
 	  }
 	}
 
@@ -641,10 +647,10 @@ margin-top: 0px !important;
 }
 .mt-100{
 	@media only screen and (max-width: 760px) {
-		margin-top: 100px !important;
+		margin-top: 10px !important;
 	}
 	@media only screen and (max-width: 1024px) {
-		margin-top: 100px !important;
+		margin-top: 10px !important;
 	}
 }
 
