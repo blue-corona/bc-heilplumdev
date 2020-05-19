@@ -30,7 +30,6 @@ get_header();
     <?php get_template_part( 'page-templates/common/testimonials');?>    
 
     <?php echo do_shortcode('[bc-promotion]')?>
-
     
 
 </main>
