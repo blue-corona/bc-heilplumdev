@@ -9178,6 +9178,12 @@ input[type="checkbox"] {
   #gform_7 input[type=submit]:hover {
     background: #69161A !important; }
 
+#gform_confirmation_message_2 {
+  color: #ffffff !important; }
+
+#gform_confirmation_message_7 {
+  color: #ffffff !important; }
+
 .bc_nav_container {
   background-color: #29265f !important;
   background-color: #29265f; }
@@ -9432,6 +9438,9 @@ svg.svg-inline--fa.fa-home-lg-alt.fa-w-18 {
 
 svg.svg-inline--fa.fa-chevron-down {
   color: #29265f !important; }
+  @media (hover: none), only screen and (max-width: 760px) {
+    svg.svg-inline--fa.fa-chevron-down {
+      color: #ffffff !important; } }
 
 .dropdown-menu li .dropdown-menu {
   top: -6px !important;

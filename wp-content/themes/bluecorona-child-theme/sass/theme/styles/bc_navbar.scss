@@ -314,6 +314,9 @@ li#menu-item-273 {
 }
 svg.svg-inline--fa.fa-chevron-down {
     color: $primary_color !important;
+    @media (hover: none), only screen and (max-width: 760px) {
+    	color: #ffffff !important;
+    }
 }
 .dropdown-menu{
 	li{
