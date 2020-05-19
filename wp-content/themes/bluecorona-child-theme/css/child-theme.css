@@ -9768,7 +9768,7 @@ div {
   letter-spacing: default;
   color: #29265f; }
   .subpage ol li {
-    padding-left: 0.1em;
+    padding-left: 1.1em;
     text-indent: -.7em; }
     .subpage ol li > a {
       color: #78A8DA;
@@ -9872,6 +9872,9 @@ div {
   font-weight: 600; }
   .mobile_anchor_footer a:hover {
     text-decoration: none; }
+  @media (hover: none), only screen and (max-width: 1024px) {
+    .mobile_anchor_footer a {
+      font-size: 25px !important; } }
 
 @media only screen and (max-width: 991px) {
   .mobile_anchor_footer .bc_md_text_22 a {
