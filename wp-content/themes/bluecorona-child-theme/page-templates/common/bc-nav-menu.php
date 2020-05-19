@@ -6,7 +6,7 @@
                     <span class="navbar-toggler-icon navbar-dark"></span>
                 </button>
                 <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler float-right mt-2" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
-                    <span class="fal fa-times bc_color_primary bc_text-30 bc_line_height_24"></span>
+                    <span class="fal fa-times text-white bc_text-30 bc_line_height_24"></span>
                 </button>
                 <?php 
                     $args = [
