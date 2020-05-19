@@ -10078,4 +10078,8 @@ div {
   .mt-100 {
     margin-top: 10px !important; } }
 
+.staff-separator {
+  margin: 20px 0;
+  border-bottom: 1px solid #70a3d7; }
+
 /*# sourceMappingURL=child-theme.css.map */
