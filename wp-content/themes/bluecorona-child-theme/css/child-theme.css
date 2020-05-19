@@ -9766,7 +9766,7 @@ div {
   text-transform: none;
   line-height: 36px;
   letter-spacing: default;
-  color: #29265f; }
+  color: #000000 !important; }
   .subpage ol li {
     padding-left: 1.1em;
     text-indent: -.7em; }
