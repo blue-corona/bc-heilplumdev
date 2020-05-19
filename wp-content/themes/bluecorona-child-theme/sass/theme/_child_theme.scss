@@ -6,7 +6,6 @@
 @import "styles/bc_swiper";
 @import "styles/bc_bootstrap_override";
 
-
 .no_hover_underline:hover{
 	text-decoration:none;
 }
@@ -658,4 +657,9 @@ margin-top: 0px !important;
 	@media only screen and (max-width: 1024px) {
 		margin-top: 10px !important;
 	}
+}
+
+.staff-separator {
+  margin: 20px 0;
+  border-bottom: 1px solid #70a3d7;
 }
