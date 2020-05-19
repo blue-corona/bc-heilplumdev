@@ -9743,25 +9743,21 @@ div {
   letter-spacing: default;
   color: #000000; }
   .subpage ul li {
+    padding-left: 0.1em;
+    text-indent: -.7em;
     list-style: none; }
+    .subpage ul li > a {
+      color: #78A8DA;
+      font-weight: inherit; }
+      .subpage ul li > a:hover {
+        color: #422D6B;
+        text-decoration: none; }
     .subpage ul li:before {
       content: "• ";
       color: #70a3d7 !important;
       /* or whatever color you prefer */
       vertical-align: sub;
       font-size: 35px; }
-
-.subpage li {
-  padding-left: 0.1em;
-  text-indent: -.7em; }
-  .subpage li > a {
-    color: #78A8DA;
-    font-weight: inherit; }
-    .subpage li > a:hover {
-      color: #422D6B;
-      text-decoration: none; }
-  .subpage li:berore {
-    color: #70a3d7 !important; }
 
 .subpage ol {
   font-family: "Open Sans";
@@ -9771,6 +9767,17 @@ div {
   line-height: 36px;
   letter-spacing: default;
   color: #29265f; }
+  .subpage ol li {
+    padding-left: 0.1em;
+    text-indent: -.7em; }
+    .subpage ol li > a {
+      color: #78A8DA;
+      font-weight: inherit; }
+      .subpage ol li > a:hover {
+        color: #422D6B;
+        text-decoration: none; }
+    .subpage ol li:berore {
+      display: none !important; }
 
 .btn_base {
   -webkit-box-shadow: 0 7px 46px 5px rgba(0, 0, 0, 0.3);
@@ -9866,9 +9873,9 @@ div {
   .mobile_anchor_footer a:hover {
     text-decoration: none; }
 
-@media only screen and (max-width: 1024px) {
-  .mobile_anchor_footer .bc_md_text_25 a {
-    font-size: 25px !important; } }
+@media only screen and (max-width: 991px) {
+  .mobile_anchor_footer .bc_md_text_22 a {
+    font-size: 22px !important; } }
 
 .bc_white_gradiont {
   background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#ffffff));
