@@ -312,7 +312,7 @@ margin-top: 0px !important;
 		letter-spacing: default;
 		color: $primary_color;
 		li {
-		  padding-left: 0.1em; 
+		  padding-left: 1.1em; 
 		  text-indent: -.7em;
 		  &>a{color:#78A8DA; font-weight: inherit;
 		  	&:hover{
@@ -424,6 +424,10 @@ margin-top: 0px !important;
 		  &:hover{
 				text-decoration: none;
 			}
+			@media (hover: none),only screen and (max-width: 1024px) {
+						 font-size: 25px !important;
+					}
+
 	}
 	.bc_md_text_22{
 		a{
