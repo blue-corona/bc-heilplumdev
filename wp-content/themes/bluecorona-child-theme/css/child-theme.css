@@ -9185,7 +9185,7 @@ input[type="checkbox"] {
   color: #ffffff !important; }
 
 .bc_nav_container {
-  background-color: #29265f !important;
+  background-color: transparent !important;
   background-color: #29265f; }
   @media only screen and (max-width: 768px) {
     .bc_nav_container {
@@ -9233,7 +9233,8 @@ input[type="checkbox"] {
         /*display: none !important;*/ }
         @media (hover: none), only screen and (max-width: 740px) {
           .bc_nav_container .navbar-nav li a svg {
-            display: block !important; } }
+            display: block !important;
+            color: #ffffff !important; } }
       @media (hover: none), only screen and (max-width: 991px) {
         .bc_nav_container .navbar-nav li a {
           color: #ffffff !important;
