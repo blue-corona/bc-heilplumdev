@@ -9982,6 +9982,7 @@ svg.svg-inline--fa.fa-chevron-down {
 .bc_icon_primary_color_dark {
   color: #ffffff; }
 
+/*//overrides bootstrap pagination class*/
 .page-item.active .page-link {
   background-color: #ffffff !important;
   border-color: #00395e !important;
@@ -9999,6 +10000,17 @@ svg.svg-inline--fa.fa-chevron-down {
 .bc_our_services .btn {
   padding: 5px 35px !important; }
 
+/*// div, {
+//  	&::-webkit-scrollbar {
+// 	 	width: 10px;
+// 	 	background-color: 'lightgrey';
+// 	}
+// 	&::-webkit-scrollbar-thumb {
+// 		background-color: #f38527;
+// 	}
+
+// 	scrollbar-color: #f38527 lightgrey;  
+// }*/
 @media screen and (min-width: 1024px) {
   .bc_branding_btn_1, .bc_branding_btn_2 {
     width: 210px !important; } }
@@ -10127,6 +10139,11 @@ svg.svg-inline--fa.fa-chevron-down {
         text-decoration: none; }
     .subpage ol li:berore {
       display: none !important; }
+
+.bc-recent-reviews ul li {
+  list-style: none !important; }
+  .bc-recent-reviews ul li:before {
+    display: none !important; }
 
 .btn_base {
   -webkit-box-shadow: 0 7px 46px 5px rgba(0, 0, 0, 0.3);
