@@ -9998,14 +9998,6 @@ svg.svg-inline--fa.fa-chevron-down {
 .bc_our_services .btn {
   padding: 5px 35px !important; }
 
-div {
-  scrollbar-color: #f38527 lightgrey; }
-  div::-webkit-scrollbar {
-    width: 10px;
-    background-color: 'lightgrey'; }
-  div::-webkit-scrollbar-thumb {
-    background-color: #f38527; }
-
 @media screen and (min-width: 1024px) {
   .bc_branding_btn_1, .bc_branding_btn_2 {
     width: 210px !important; } }
