@@ -9981,6 +9981,7 @@ svg.svg-inline--fa.fa-chevron-down {
 .bc_icon_primary_color_dark {
   color: #ffffff; }
 
+/*//overrides bootstrap pagination class*/
 .page-item.active .page-link {
   background-color: #ffffff !important;
   border-color: #00395e !important;

@@ -132,7 +132,7 @@ border-width:$border_width_custom_2;
 	color: #ffffff;
 }
 
-//overrides bootstrap pagination class
+/*//overrides bootstrap pagination class*/
 .page-item{
 	&.active .page-link{
 		background-color: #ffffff !important;
@@ -192,7 +192,6 @@ div, {
   		filter: grayscale(0%);
   	}
 }
-	
 
 .bc_subpage_hero_overlay{
 	justify-content: center;
@@ -427,17 +426,16 @@ margin-top: 0px !important;
 }
 .mobile_anchor_footer{
 	a{
-		 color: $primary_color;
-		  font-family: $alternate_font_family_1;
-		  font-size: 32px;
-		  font-weight: 600;
-		  &:hover{
-				text-decoration: none;
-			}
-			@media (hover: none),only screen and (max-width: 1024px) {
-						 font-size: 25px !important;
-					}
-
+		color: $primary_color;
+		font-family: $alternate_font_family_1;
+		font-size: 32px;
+		font-weight: 600;
+		&:hover{
+			text-decoration: none;
+		}
+		@media (hover: none),only screen and (max-width: 1024px) {
+			 font-size: 25px !important;
+		}
 	}
 	.bc_md_text_22{
 		a{
@@ -446,7 +444,6 @@ margin-top: 0px !important;
 			}
 		}
 	}
-
 }
 .bc_white_gradiont{
 	background-image: linear-gradient(transparent, #ffffff);
