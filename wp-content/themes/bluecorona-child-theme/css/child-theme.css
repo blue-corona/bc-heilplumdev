@@ -9427,14 +9427,13 @@ input[type="checkbox"] {
 
 #gform_1 input[type=submit] {
   background-color: #af252b !important;
-  width: 257px !important;
+  width: 100% !important;
   /* float: right; */
   right: 69px;
   /*border-radius: 0!important;*/
   font-size: 24px;
   line-height: 27px;
   bottom: 40px;
-  position: absolute;
   padding: 12px 10px;
   font-family: "Oswald", sans-serif;
   font-weight: 400 !important;
