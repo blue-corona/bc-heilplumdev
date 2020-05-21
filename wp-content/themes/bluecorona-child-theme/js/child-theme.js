@@ -7180,6 +7180,9 @@ jQuery(".nav-link").on('touchstart',function(e){
     jQuery(this).children('span').children('svg').removeClass("fa-chevron-down");
   }
   jQuery(this).parent('li').siblings('li').find('ul').hide();
+  jQuery(this).parent('li').siblings('li').find('svg').removeClass("fa-chevron-up");
+  jQuery(this).parent('li').siblings('li').find('svg').addClass("fa-chevron-down");
+
   jQuery(this).parent('li').children('ul').toggle();
   return false;
 });
