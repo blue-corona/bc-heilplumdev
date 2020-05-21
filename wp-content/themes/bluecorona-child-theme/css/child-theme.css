@@ -9427,14 +9427,13 @@ input[type="checkbox"] {
 
 #gform_1 input[type=submit] {
   background-color: #af252b !important;
-  width: 257px !important;
+  width: 100% !important;
   /* float: right; */
   right: 69px;
   /*border-radius: 0!important;*/
   font-size: 24px;
   line-height: 27px;
   bottom: 40px;
-  position: absolute;
   padding: 12px 10px;
   font-family: "Oswald", sans-serif;
   font-weight: 400 !important;
@@ -9501,14 +9500,16 @@ input[type="checkbox"] {
   margin-top: 0px !important; }
 
 #gform_7 ul li.gfield .gfield_checkbox {
-  margin-top: -13px !important;
-  padding-left: 35px; }
+  margin-top: -13px !important; }
+  #gform_7 ul li.gfield .gfield_checkbox li input {
+    margin-left: 1.2em !important; }
   #gform_7 ul li.gfield .gfield_checkbox li label {
     color: #ffffff !important;
     font-size: 12px !important;
     line-height: 36px !important;
     font-family: "Open Sans" !important;
-    margin-top: -9px !important; }
+    margin-top: -9px !important;
+    width: auto !important; }
 
 #gform_7 input[type=submit] {
   background-color: #70a3d7 !important;
@@ -9999,14 +10000,17 @@ svg.svg-inline--fa.fa-chevron-down {
 .bc_our_services .btn {
   padding: 5px 35px !important; }
 
-div {
-  scrollbar-color: #f38527 lightgrey; }
-  div::-webkit-scrollbar {
-    width: 10px;
-    background-color: 'lightgrey'; }
-  div::-webkit-scrollbar-thumb {
-    background-color: #f38527; }
+/*// div, {
+//  	&::-webkit-scrollbar {
+// 	 	width: 10px;
+// 	 	background-color: 'lightgrey';
+// 	}
+// 	&::-webkit-scrollbar-thumb {
+// 		background-color: #f38527;
+// 	}
 
+// 	scrollbar-color: #f38527 lightgrey;  
+// }*/
 @media screen and (min-width: 1024px) {
   .bc_branding_btn_1, .bc_branding_btn_2 {
     width: 210px !important; } }

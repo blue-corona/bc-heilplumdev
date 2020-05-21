@@ -47,10 +47,10 @@
                            <div class="col-12 px-5">
                                 <span class="bc_text_28 bc_line_height_27 bc_font_alt_1 bc_text_bold bc_color_3 d-block mt-3"> Request Service</span>
                                <?php echo do_shortcode('[gravityform id=1 ajax=true]')?>
-                               <span class="d-block mt-n2 bc_text_12 bc_line_height_36 bc_font_default bc_color_5 bc_text_bold">
+                              <!--  <span class="d-block mt-n2 bc_text_12 bc_line_height_36 bc_font_default bc_color_5 bc_text_bold">
                                    <input type="checkbox" class="bc_text_18 bc_line_height_50 bc_color_5" style="height: 13px;">
                                     Yes, sign me up for the newsletter.
-                               </span>
+                               </span> -->
                            </div>
                         </div>
                     </div>
