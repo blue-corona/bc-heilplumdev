@@ -97,23 +97,21 @@ jQuery(document).ready(function(){
 });
 
 jQuery(".nav-link").on('touchstart',function(e){
-  // e.preventDefault();
-  e.stopPropagation();                                                      
-  if(jQuery(e.target).is(".nav-link-title")){
+  e.preventDefault();
+  e.stopPropagation();
+  if(jQuery(e.target).is("a")){
     window.location = this.getAttribute('href');
   }
 
-  if(jQuery(e.target).is("a")){
-    return;
-  }
-  
   if(jQuery(this).children('span').children('svg').hasClass("fa-chevron-up")){
+
     jQuery(this).children('span').children('svg').removeClass("fa-chevron-up");
     jQuery(this).children('span').children('svg').addClass("fa-chevron-down");
   }else{
     jQuery(this).children('span').children('svg').addClass("fa-chevron-up");
     jQuery(this).children('span').children('svg').removeClass("fa-chevron-down");
   }
+  jQuery(this).parent('li').siblings('li').find('ul').hide();
   jQuery(this).parent('li').children('ul').toggle();
   return false;
 });
