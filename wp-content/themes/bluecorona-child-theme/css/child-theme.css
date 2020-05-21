@@ -9500,14 +9500,16 @@ input[type="checkbox"] {
   margin-top: 0px !important; }
 
 #gform_7 ul li.gfield .gfield_checkbox {
-  margin-top: -13px !important;
-  padding-left: 35px; }
+  margin-top: -13px !important; }
+  #gform_7 ul li.gfield .gfield_checkbox li input {
+    margin-left: 1.2em !important; }
   #gform_7 ul li.gfield .gfield_checkbox li label {
     color: #ffffff !important;
     font-size: 12px !important;
     line-height: 36px !important;
     font-family: "Open Sans" !important;
-    margin-top: -9px !important; }
+    margin-top: -9px !important;
+    width: auto !important; }
 
 #gform_7 input[type=submit] {
   background-color: #70a3d7 !important;

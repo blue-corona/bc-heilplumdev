@@ -552,14 +552,17 @@ input[type="checkbox"]{
 			}
 			.gfield_checkbox{
 				margin-top: -13px!important;
-    			padding-left: 35px;
     			li{
+    				input{
+    					margin-left: 1.2em !important;
+    				}
     				label{
     					color: $white_color !important;
     					font-size: 12px !important;
     					line-height: 36px !important;
     					font-family: $default_font_family !important;
     					margin-top: -9px !important;
+    					width: auto !important;
     				}
     			}
 			}
