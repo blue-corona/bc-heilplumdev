@@ -327,6 +327,17 @@ margin-top: 0px !important;
 	
 }
 
+.bc-recent-reviews{
+	ul{
+	    li{
+	         list-style: none !important;
+	         &:before {
+	            display: none !important;
+	        }
+	    }
+	}
+}
+
 .btn_base{
 	box-shadow: 0 7px 46px 5px rgba(0,0,0,0.3);
 }

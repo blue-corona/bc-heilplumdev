@@ -9789,6 +9789,11 @@ div {
     .subpage ol li:berore {
       display: none !important; }
 
+.bc-recent-reviews ul li {
+  list-style: none !important; }
+  .bc-recent-reviews ul li:before {
+    display: none !important; }
+
 .btn_base {
   -webkit-box-shadow: 0 7px 46px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0 7px 46px 5px rgba(0, 0, 0, 0.3); }
