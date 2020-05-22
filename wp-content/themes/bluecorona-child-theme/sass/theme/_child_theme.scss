@@ -291,10 +291,11 @@ margin-top: 0px !important;
 		li{
 			 padding-left: 0.1em; 
 			  text-indent: -.7em;
-			  &>a{color:#78A8DA; font-weight: inherit;
-			  	&:hover{
-			  		color:#422D6B; text-decoration: none;
-			  	}
+			  a{
+			  	color:$error_color; font-weight: inherit;
+				&:hover{
+					color:#29265f; text-decoration: none; font-weight: inherit;	
+				}
 			  }
 		 	list-style: none;
 		 	&:before {
