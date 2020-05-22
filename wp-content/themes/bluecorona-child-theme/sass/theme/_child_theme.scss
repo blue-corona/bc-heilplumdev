@@ -269,6 +269,10 @@ border-width:$border_width_custom_2;
 	.show-on-touch{
 		display: block !important;
 	}
+
+	.show-on-touch-inline{
+		display: inline-block !important;	
+	}
 }
 
 .subpage ul ul {

@@ -10087,7 +10087,9 @@ svg.svg-inline--fa.fa-chevron-down {
   .hide-on-touch {
     display: none !important; }
   .show-on-touch {
-    display: block !important; } }
+    display: block !important; }
+  .show-on-touch-inline {
+    display: inline-block !important; } }
 
 .subpage ul ul {
   margin-left: 0px !important;
