@@ -8449,6 +8449,14 @@ footer > p {
     line-height: 26px !important;
     letter-spacing: default;
     color: #000000 !important; }
+  .subpage ul {
+    font-family: "Open Sans";
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    text-transform: none;
+    line-height: 26px !important;
+    letter-spacing: default;
+    color: #000000 !important; }
   .bc_sm_text_thin {
     font-weight: 100 !important; }
   .bc_sm_text_xlight {
