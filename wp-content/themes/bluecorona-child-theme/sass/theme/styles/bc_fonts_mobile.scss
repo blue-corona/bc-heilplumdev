@@ -102,6 +102,16 @@ p, .p{
 
 }
 
+.subpage ul {
+    font-family: $default_font_family;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	text-transform: none;
+	line-height: 26px !important;
+	letter-spacing: default;
+	color: $quaternary_color !important;
+}
+
 
 
 	//Classes for font-weights
