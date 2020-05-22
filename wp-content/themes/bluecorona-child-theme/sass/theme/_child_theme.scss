@@ -562,7 +562,7 @@ margin-top: 0px !important;
     background-size: 100%;
     background-repeat: no-repeat;
 	@media only screen and (max-width: 740px) {
-		background-image: url(../img/wave.png);
+		background-image: url(../img/m_home_waves.png);
 		background-position: top;
 		background-repeat: no-repeat;
 	}
@@ -666,11 +666,11 @@ margin-top: 0px !important;
 	}
 }
 .mt-100{
-	@media only screen and (max-width: 760px) {
-		margin-top: 10px !important;
-	}
 	@media only screen and (max-width: 1024px) {
 		margin-top: 10px !important;
+	}
+	@media only screen and (max-width: 760px) {
+		margin-top: 0 !important;
 	}
 }
 

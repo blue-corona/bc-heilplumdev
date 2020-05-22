@@ -10354,7 +10354,7 @@ svg.svg-inline--fa.fa-chevron-down {
   background-repeat: no-repeat; }
   @media only screen and (max-width: 740px) {
     .customer_section {
-      background-image: url(../img/wave.png);
+      background-image: url(../img/m_home_waves.png);
       background-position: top;
       background-repeat: no-repeat; } }
 
@@ -10447,13 +10447,13 @@ svg.svg-inline--fa.fa-chevron-down {
   .bc_geolocation_list_item h5 a:hover {
     color: #af252b !important; }
 
-@media only screen and (max-width: 760px) {
-  .mt-100 {
-    margin-top: 10px !important; } }
-
 @media only screen and (max-width: 1024px) {
   .mt-100 {
     margin-top: 10px !important; } }
+
+@media only screen and (max-width: 760px) {
+  .mt-100 {
+    margin-top: 0 !important; } }
 
 .staff-separator {
   margin: 20px 0;
