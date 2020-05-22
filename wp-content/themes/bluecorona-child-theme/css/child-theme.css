@@ -9500,7 +9500,8 @@ input[type="checkbox"] {
   margin-top: 0px !important; }
 
 #gform_7 ul li.gfield .gfield_checkbox {
-  margin-top: -13px !important; }
+  margin-top: -13px !important;
+  padding-left: 0 !important; }
   #gform_7 ul li.gfield .gfield_checkbox li input {
     margin-left: 1.2em !important; }
   #gform_7 ul li.gfield .gfield_checkbox li label {
