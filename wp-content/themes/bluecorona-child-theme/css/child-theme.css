@@ -9455,11 +9455,20 @@ input[type="checkbox"] {
 #gform_2 ul li .gfield_select {
   padding: 20px 10px !important; }
 
+#gform_2 input[type=submit] {
+  background-color: #70a3d7 !important;
+  color: #ffffff !important;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 24px !important;
+  width: 85% !important;
+  margin: 0px; }
+  #gform_2 input[type=submit]:hover {
+    background: #3170b0 !important; }
+
 #gform_9 ul li label {
   margin-left: 10px !important; }
 
 #gform_9 input[type=submit] {
-  color: #fff !important;
   color: #fff !important;
   font-family: Oswald, sans-serif !important;
   background-color: #70a3d7 !important;
@@ -9474,7 +9483,16 @@ input[type="checkbox"] {
   margin-left: 30px !important; }
 
 #gform_10 input[type=submit] {
-  color: #fff !important; }
+  background-color: #70a3d7;
+  border-radius: 10px !important;
+  color: #fff !important;
+  font-family: "Open Sans";
+  -webkit-box-shadow: 0 0 32px 1px rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0 32px 1px rgba(0, 0, 0, 0.15) !important;
+  padding: 1rem 2rem;
+  font-size: 24px !important; }
+  #gform_10 input[type=submit]:hover {
+    background: #3170b0 !important; }
 
 .gfield_checkbox li label {
   color: #ffffff;
@@ -10116,12 +10134,13 @@ svg.svg-inline--fa.fa-chevron-down {
     padding-left: 0.1em;
     text-indent: -.7em;
     list-style: none; }
-    .subpage ul li > a {
-      color: #78A8DA;
+    .subpage ul li a {
+      color: #af252b;
       font-weight: inherit; }
-      .subpage ul li > a:hover {
-        color: #422D6B;
-        text-decoration: none; }
+      .subpage ul li a:hover {
+        color: #29265f;
+        text-decoration: none;
+        font-weight: inherit; }
     .subpage ul li:before {
       content: "• ";
       color: #70a3d7 !important;

@@ -475,6 +475,17 @@ input[type="checkbox"]{
 			}
 		}
 	}
+	input[type=submit]{
+	   background-color: $secondary_color !important;
+		color:$white_color !important;
+		font-family: $alternate_font_family_1 !important;
+		 font-size: 24px !important;
+		 width: 85% !important;
+		 margin: 0px;
+		 &:hover{
+		 	background: #3170b0 !important;
+		 }
+    }
 }
 #gform_9{
 	ul {
@@ -485,7 +496,6 @@ input[type="checkbox"]{
 		}
 	}
 	input[type=submit]{
-	    color: #fff!important;
 	    color: #fff!important;
     	font-family: Oswald,sans-serif!important;
     	background-color: #70a3d7 !important;
@@ -507,7 +517,16 @@ input[type="checkbox"]{
 		}
 	}
 	input[type=submit]{
-	    color: #fff!important;
+	    background-color: $secondary_color;
+	    border-radius: 10px!important;
+    	color: #fff!important;
+	    font-family: $default_font_family;
+	    box-shadow: 0 0 32px 1px rgba(0,0,0,.15)!important;
+	    padding: 1rem 2rem;
+	    font-size: 24px!important;
+	    &:hover{
+	    	background: #3170b0 !important;
+	    }
     }
 }
 
