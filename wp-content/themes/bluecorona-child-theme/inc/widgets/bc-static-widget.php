@@ -54,7 +54,7 @@ public function widget( $args, $instance ) {
 		</div>
 		
 		<div class="swiper-slide">
-		<i class="fas fa-user bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_color_primary bc_font_alt_1 d-block">14,638</span>
+		<i class="fas fa-users bc_text_40 bc_color_primary bc_line_height_50"></i><span class="my-3 bc_text_55 bc_text_bold bc_line_height_24 bc_color_primary bc_font_alt_1 d-block">14,638</span>
 		<h7>Customers Helped</h7>
 		</div>
 
