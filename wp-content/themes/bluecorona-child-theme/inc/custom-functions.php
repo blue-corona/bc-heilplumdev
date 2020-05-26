@@ -317,4 +317,66 @@ function bc_contact_us_shortcode(){
     return $output;
 }
 
-?>
+add_shortcode( 'custom-bg-srcset', 'custom_bg_srcset_shortcode' );
+function custom_bg_srcset_shortcode($attr , $content = null ) {
+    
+    if(!isset($attr['class']) || in_array($attr['class'], [null, false, ''])){
+        return;
+    }
+    $class = $attr['class'];
+
+    if(!isset($attr['img1x']) || in_array($attr['img1x'], [null, false, ''])){
+        return;
+    }
+    $img1x = $attr['img1x']; 
+
+    $img2x = $img1x; 
+    if(isset($attr['img2x']) && !in_array($attr['img2x'], [null, false, ''])){
+        $img2x = $attr['img2x'];
+    }
+
+    $img3x = $img1x; 
+    if(isset($attr['img3x']) && !in_array($attr['img3x'], [null, false, ''])){
+        $img3x = $attr['img3x'];
+    }
+
+    $size1x = "100%";
+    if(isset($attr['size1x']) && !in_array($attr['size1x'], [null, false, ''])){
+        $size1x = $attr['size1x'];
+    }    
+
+    $size2x = "100%";
+    if(isset($attr['size2x']) && !in_array($attr['size2x'], [null, false, ''])){
+        $size2x = $attr['size2x'];
+    } 
+
+    $size3x = "100%";
+    if(isset($attr['size3x']) && !in_array($attr['size3x'], [null, false, ''])){
+        $size3x = $attr['size3x'];
+    } 
+
+    return'<style>
+        @media only screen and (max-width: 767px){
+            .'.$class.'{  
+                background-image: url('.$img3x.');
+                background-size: '.$size3x.';
+                background-repeat: no-repeat;
+                background-position: center center !important;
+            }
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1024px){
+            .'.$class.'{  
+                background-image: url('.$img2x.');
+                background-size: '.$size2x.';
+                background-repeat: no-repeat;
+            }
+        }
+        @media only screen and (min-width: 1025px){
+            .'.$class.'{  
+                background-image: url('.$img1x.');
+                background-size: '.$size1x.';
+                background-repeat: no-repeat;
+            }
+        }
+    </style>';
+}
