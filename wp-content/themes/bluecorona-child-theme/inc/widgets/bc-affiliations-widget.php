@@ -31,7 +31,7 @@ public function widget( $args, $instance ) {
 	add_action('wp_footer', function() use ( $widgetInstance ) { 
     $this->addSwiperInitAffiliationJsToFooter( $widgetInstance ); });
 ?>
-<div class="row no-gutters px-4" style="background-repeat: no-repeat; background-position: center; background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/sidebar_shape.png">
+<div class="row no-gutters px-5" style="background-repeat: no-repeat; background-position: center; background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/sidebar_shape.png">
 	<div class="col-1 my-auto">
         <div class="swiper-button-prev swiper-affiliations-button-prev"><i class="far fa-chevron-left"></i></div>
 	</div>
@@ -72,7 +72,7 @@ public function widget( $args, $instance ) {
 		</div>
 	</div>
 	<div class="col-1 my-auto">
-        <div class="swiper-button-next swiper-affiliations-button-next"><i class="far fa-chevron-right"></i></div>
+        <div style="right:0px !important;" class="swiper-button-next swiper-affiliations-button-next"><i class="far fa-chevron-right"></i></div>
 	</div>
 </div>
 
