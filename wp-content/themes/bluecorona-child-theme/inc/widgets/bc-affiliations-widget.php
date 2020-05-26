@@ -31,7 +31,7 @@ public function widget( $args, $instance ) {
 	add_action('wp_footer', function() use ( $widgetInstance ) { 
     $this->addSwiperInitAffiliationJsToFooter( $widgetInstance ); });
 ?>
-<div class="row no-gutters px-5">
+<div class="row no-gutters">
 	<div class="col-1 my-auto">
         <div class="swiper-button-prev swiper-affiliations-button-prev"><i class="far fa-chevron-left"></i></div>
 	</div>
