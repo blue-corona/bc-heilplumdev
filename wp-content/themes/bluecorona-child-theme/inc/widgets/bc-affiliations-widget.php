@@ -20,11 +20,7 @@ class BC_Affiliations_Widget extends WP_Widget {
 			    nextEl: '.swiper-affiliations-button-next',
 			    prevEl: '.swiper-affiliations-button-prev',
 		    },
-            loop: true,
-            effect: 'fade',
-            fadeEffect: {
-                          crossFade: true
-            },
+            loop: true
 		});
 		</script>";
 	}
