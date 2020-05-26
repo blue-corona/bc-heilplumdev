@@ -7167,7 +7167,8 @@ jQuery(document).ready(function(){
 jQuery(".nav-link").on('touchstart',function(e){
   e.preventDefault();
   e.stopPropagation();
-  if(jQuery(e.target).is("a")){
+
+  if(jQuery(e.target).is("a") && !jQuery(this).hasClass('dropdown-toggle') ){
     window.location = this.getAttribute('href');
   }
 
