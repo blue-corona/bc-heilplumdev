@@ -32,7 +32,7 @@ public function widget( $args, $instance ) {
     $this->addSwiperInitAffiliationJsToFooter( $widgetInstance ); });
 ?>
 
-<div id="<?php echo $this->id ?>" class="swiper-container swiper-container-affiliation text-center my-5 pt-5" style="background-repeat: no-repeat; background-position: center; background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/sidebar_shape.png">
+<div id="<?php echo $this->id ?>" class="swiper-container swiper-container-affiliation text-center my-5 pt-5 px-5" style="background-repeat: no-repeat; background-position: center; background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/sidebar_shape.png">
   <!-- <h4>Trusted By</h4>
   <p></p> -->
 
