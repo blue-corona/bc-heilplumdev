@@ -7257,7 +7257,10 @@ jQuery(".bc_toggle_content").on('click', function(e){
     });
   }
 });
-
+jQuery('.join_newsletter[href$="#join_newsletter"]').on( "click", function(ev) {
+  ev.preventDefault();
+  jQuery('#join_newsletter').modal('show');
+});
 
 /*******************************
 * ACCORDION WITH TOGGLE ICONS

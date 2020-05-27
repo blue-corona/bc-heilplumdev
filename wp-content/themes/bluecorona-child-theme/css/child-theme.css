@@ -9565,6 +9565,62 @@ input[type="checkbox"] {
 #gform_confirmation_message_7 {
   color: #ffffff !important; }
 
+#gform_12 ul li {
+  padding-left: 0; }
+  #gform_12 ul li label {
+    color: #666666;
+    font-size: 12px !important;
+    margin-top: 14px;
+    font-family: "Open Sans";
+    font-weight: 400 !important;
+    text-transform: uppercase; }
+    #gform_12 ul li label .gfield_required {
+      color: #666666; }
+  #gform_12 ul li.gfield {
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    width: 250px;
+    margin: 0 auto 20px !important; }
+    #gform_12 ul li.gfield .large {
+      padding: 5px 3px 0px !important;
+      border-radius: 4px !important;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #b7b7b7; }
+    #gform_12 ul li.gfield .gfield_select {
+      position: relative;
+      padding: 15px 8px !important;
+      text-transform: uppercase; }
+
+#gform_12 .gform_footer {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+#gform_12 .float_label {
+  margin-top: 0 !important;
+  font-size: 10px !important; }
+
+#gform_12 .validation_message--float {
+  margin-top: -30px !important; }
+
+#gform_12 input[type=submit] {
+  background-color: #af252b !important;
+  width: 280px !important;
+  /* float: right; */
+  /*border-radius: 0!important;*/
+  font-size: 24px;
+  line-height: 27px;
+  padding: 12px 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400 !important;
+  color: #fff !important;
+  margin-right: 0 !important;
+  border-radius: 10px !important;
+  -webkit-box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2); }
+  #gform_12 input[type=submit]:hover {
+    background: #69161A !important; }
+
 .bc_nav_container {
   background-color: transparent !important;
   background-color: #29265f; }
