@@ -20,11 +20,7 @@ class BC_Affiliations_Widget extends WP_Widget {
 			    nextEl: '.swiper-affiliations-button-next',
 			    prevEl: '.swiper-affiliations-button-prev',
 		    },
-            loop: true,
-            effect: 'fade',
-            fadeEffect: {
-                          crossFade: true
-            },
+            loop: true
 		});
 		</script>";
 	}
@@ -35,45 +31,51 @@ public function widget( $args, $instance ) {
 	add_action('wp_footer', function() use ( $widgetInstance ) { 
     $this->addSwiperInitAffiliationJsToFooter( $widgetInstance ); });
 ?>
+<div class="row no-gutters px-5" style="background-repeat: no-repeat; background-position: center; background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/sidebar_shape.png">
+	<div class="col-1 my-auto">
+        <div class="swiper-button-prev swiper-affiliations-button-prev"><i class="far fa-chevron-left"></i></div>
+	</div>
+	<div class="col-10">
+		<div id="<?php echo $this->id ?>" class="swiper-container swiper-container-affiliation text-center my-5 pt-5">
 
-<div id="<?php echo $this->id ?>" class="swiper-container swiper-container-affiliation text-center my-5 pt-5" style="background-repeat: no-repeat; background-position: center; background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/sidebar_shape.png">
-  <!-- <h4>Trusted By</h4>
-  <p></p> -->
-
-<h4>
-<?php 
-	if ( isset( $instance['title'] ) && !empty($instance['title']) ) {
-		echo $args['before_title'] . $instance['title'] . $args['after_title']; 
-	}
-?>
-</h4>
-<p></p>
-		<!-- before pase -->
-		<div class="swiper-wrapper" style="padding-bottom: 5rem;">
-            <?php 
-			$affiliations_args  = array( 'post_type' => 'bc_affiliations', 'posts_per_page' => -1, 'order'=> 'DESC','post_status'  => 'publish');
-	        $query = new WP_Query( $affiliations_args );
-	        if ( $query->have_posts() ) :
-	            while($query->have_posts()) : $query->the_post();
-				$affiliation_custom_image = get_post_meta( get_the_ID(), 'affiliation_custom_image', true );
-			?>
-        	<?php 
-        	if(isset($affiliation_custom_image) && !empty($affiliation_custom_image)){
-        	?>
-            <div class="swiper-slide">
-            	<img src="<?php echo $affiliation_custom_image;?>">
-            </div>
-            <?php }?>
-	        <?php
-            	endwhile; 
-            wp_reset_query();
-        	endif;
-        	?>
-        </div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next swiper-affiliations-button-next mr-5"><i class="far fa-chevron-right"></i></div>
-        <div class="swiper-button-prev swiper-affiliations-button-prev ml-5"><i class="far fa-chevron-left"></i></div>
+		<h4>
+		<?php 
+			if ( isset( $instance['title'] ) && !empty($instance['title']) ) {
+				echo $args['before_title'] . $instance['title'] . $args['after_title']; 
+			}
+		?>
+		</h4>
+		<p></p>
+				<!-- before pase -->
+				<div class="swiper-wrapper" style="padding-bottom: 5rem;">
+		            <?php 
+					$affiliations_args  = array( 'post_type' => 'bc_affiliations', 'posts_per_page' => -1, 'order'=> 'DESC','post_status'  => 'publish');
+			        $query = new WP_Query( $affiliations_args );
+			        if ( $query->have_posts() ) :
+			            while($query->have_posts()) : $query->the_post();
+						$affiliation_custom_image = get_post_meta( get_the_ID(), 'affiliation_custom_image', true );
+					?>
+		        	<?php 
+		        	if(isset($affiliation_custom_image) && !empty($affiliation_custom_image)){
+		        	?>
+		            <div class="swiper-slide">
+		            	<img src="<?php echo $affiliation_custom_image;?>">
+		            </div>
+		            <?php }?>
+			        <?php
+		            	endwhile; 
+		            wp_reset_query();
+		        	endif;
+		        	?>
+		        </div>
+		        <!-- Add Arrows -->
+		</div>
+	</div>
+	<div class="col-1 my-auto">
+        <div style="right:0px !important;" class="swiper-button-next swiper-affiliations-button-next"><i class="far fa-chevron-right"></i></div>
+	</div>
 </div>
+
 
 <?php echo $args['after_widget'];
 // }

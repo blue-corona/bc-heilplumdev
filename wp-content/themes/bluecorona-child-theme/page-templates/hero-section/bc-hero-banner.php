@@ -1,4 +1,10 @@
-<div class="container-fluid p-0 bc_hero_container bc_home_section_bg d-none d-md-block" style="background-image:url('<?php echo bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_upload', false);?>')">
+<?php
+    $img1x = bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_upload', false);
+    $img2x = bc_get_theme_mod('bc_theme_home_options', 'background_image', 'bc_background_upload', false);
+    $img3x = get_template_directory_uri()."/img/mobile_banner.jpg";
+?>
+<?php echo do_shortcode('[custom-bg-srcset class="home-page-banner" img1x="'.$img1x.'" img2x="'.$img2x.'" img3x="'.$img3x.'" size1x="cover" size2x="cover" size3x="cover"]'); ?>
+<div class="container-fluid p-0 bc_hero_container home-page-banner bc_home_section_bg d-none d-md-block">
 
     <div class="hero-overlay-gradient">
         <div class="container px-4 pt-lg-4">

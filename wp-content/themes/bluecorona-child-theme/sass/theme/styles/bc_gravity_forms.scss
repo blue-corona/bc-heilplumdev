@@ -487,6 +487,19 @@ input[type="checkbox"]{
 		 }
     }
 }
+
+#gform_8, #gform_11{
+	input[type=submit]{
+	   background-color: $secondary_color !important;
+		color:$white_color !important;
+		font-family: $alternate_font_family_1 !important;
+		 font-size: 24px !important;
+		 margin: 0px;
+		 &:hover{
+		 	background: #3170b0 !important;
+		 }
+    }
+}
 #gform_9{
 	ul {
 		li {
