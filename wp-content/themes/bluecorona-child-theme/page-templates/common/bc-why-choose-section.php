@@ -44,7 +44,7 @@
         <div class="col-lg-6 mt-4">
           <div class="trusted_by">
             <div class="row no-gutters">
-              <div class="whychoose-btn-prev col-1 text-center no-focus" tabindex="0" aria-label="Previous slide">
+              <div class="whychoose-btn-prev col-1 text-center no-focus my-auto" tabindex="0" aria-label="Previous slide">
                 <i class="far fa-chevron-left bc_text_20 bc_line_height_40 bc_sm_text_32 bc_sm_line_height_37 bc_color_primary h-100 mt-100"></i>
               </div>
               <div class="col-10">
@@ -73,7 +73,7 @@
                   </div>
                 </div>
               </div>
-              <span class="whychoose-btn-next col-1 text-center no-focus" tabindex="0" aria-label="Next slide">
+              <span class="whychoose-btn-next col-1 text-center no-focus my-auto" tabindex="0" aria-label="Next slide">
                 <i class="far fa-chevron-right bc_text_20 bc_line_height_40 bc_sm_text_32 bc_sm_line_height_37 bc_color_primary h-100 mt-100"></i>
               </span>
             </div>

@@ -8441,7 +8441,7 @@ footer > p {
     line-height: 24px !important;
     letter-spacing: default;
     color: #29265f; }
-  p, .p {
+  body, p, .p {
     font-family: "Open Sans";
     font-size: 16px !important;
     font-weight: 400 !important;
@@ -9465,6 +9465,15 @@ input[type="checkbox"] {
   #gform_2 input[type=submit]:hover {
     background: #3170b0 !important; }
 
+#gform_8 input[type=submit], #gform_11 input[type=submit] {
+  background-color: #70a3d7 !important;
+  color: #ffffff !important;
+  font-family: "Oswald", sans-serif !important;
+  font-size: 24px !important;
+  margin: 0px; }
+  #gform_8 input[type=submit]:hover, #gform_11 input[type=submit]:hover {
+    background: #3170b0 !important; }
+
 #gform_9 ul li label {
   margin-left: 10px !important; }
 
@@ -10215,6 +10224,9 @@ svg.svg-inline--fa.fa-chevron-down {
     width: 655px;
     -webkit-box-shadow: 0 12px 50px 5px rgba(0, 0, 0, 0.45);
             box-shadow: 0 12px 50px 5px rgba(0, 0, 0, 0.45); }
+    @media (hover: none), only screen and (max-width: 991px) {
+      .hero-overlay-gradient .hero_banner_form {
+        width: 30em; } }
 
 .btn_error {
   color: #FFFFFF;

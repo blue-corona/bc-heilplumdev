@@ -62,7 +62,7 @@ var swiperTestimonials<?php echo $count ?> = new Swiper('#services-swiper_<?php 
             paginationClickable: true,
             spaceBetween: 50,
             pagination: {
-                el: '.swiper-pagination',
+                el: '.promotions-pagination',
                 type: 'bullets',
                 clickable: true,
             },
@@ -128,7 +128,7 @@ var swiperTestimonials<?php echo $count ?> = new Swiper('#services-swiper_<?php 
               </div>
             </div>
               <!-- Add Pagination -->
-            <div class="swiper-pagination services-pagination d-md-none"></div>
+            <div class="swiper-pagination services-pagination promotions-pagination d-md-none"></div>
             <a href="<?php echo get_home_url();?>/specials/" class="btn_secondary mt-5">View All Deals</a>
           </div>
         </div>
@@ -145,33 +145,7 @@ function custom_testimonial_shortcode($atts , $content = null){
     add_action( 'wp_footer' , function() use($count){
     ?>
     <script>
-      var swiperService<?php echo $count ?> = new Swiper('#services-swiper_<?php echo $count ?>', {
-        navigation: {
-            nextEl: '.services-btn-next',
-            prevEl: '.services-btn-prev',
-        },
-         slidesPerView: 1,
-            loop: true,
-            speed: 400,
-            // autoplay: true,
-            paginationClickable: true,
-            spaceBetween: 50,
-            pagination: {
-                el: '.services-pagination',
-                type: 'bullets',
-                clickable: true,
-            },
-            breakpoints: {
-            640: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            1024: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-          }     
-        });
+     
 
     var swiperService<?php echo $count ?> = new Swiper('#customer-swiper_<?php echo $count ?>', {
         navigation: {
