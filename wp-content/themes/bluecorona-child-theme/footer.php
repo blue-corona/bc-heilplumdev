@@ -55,7 +55,7 @@ defined( 'ABSPATH' ) || exit;
         </div>
     <div class="modal-body px-3 pb-3 px-sm-5 pb-sm-5 mt-4">
 	 <div class="pop_up_logo col-6 mr-auto ml-auto mb-4">
-     <img src="<?php echo bc_get_theme_mod('bc_theme_options', 'bc_logo_upload',false, get_template_directory_uri().'/img/logo.jpg'); ?>" class="bc_branding_logo" alt="logo" style="max-width:<?php echo bc_get_theme_mod('bc_theme_options', 'bc_max_width',false, 206);?>px">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/heil_footer_logo.png" class="bc_branding_logo" alt="logo">
 	 </div>
         <div id="newsletterLabel" class="bc_text_36 bc_line_height_40 bc_sm_text_26 bc_color_3 bc_font_alt_1 bc_text_semibold mb-4">Join Our Newsletter </div>
        <?php echo do_shortcode('[gravityform id="12" title="false" description="false" ajax="true"]')?>
