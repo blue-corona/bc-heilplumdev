@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 <!-- Footer -->
 <footer class="page-footer font-small blue mobile-text-center margin_on_mobile">
 <!-- Include servicearea file here -->
-<?php if ( is_front_page() ) {?>
+<?php if ( is_front_page() || in_array($post->ID, [341,364,432,466,478]) ) {?>
 <?php get_template_part( 'page-templates/common/servicearea' ); ?>
 <?php }else{?>
     <div class="container py-3"></div>
