@@ -15,7 +15,21 @@ defined( 'ABSPATH' ) || exit;
 	    	</a>
 	    </h4>
 	    <div class="hide_div row">
-	        <?php echo do_shortcode('[bc-geotargeting category_id=11]'); ?>
+	        <?php 
+		    if ( is_front_page() ) {
+				echo do_shortcode('[bc-geotargeting category_id=11]'); //Home page
+			}else if($post->ID == 341){
+				echo do_shortcode('[bc-geotargeting category_id=23]'); //Commercial Plumbing Service 
+			}else if($post->ID == 364){
+				echo do_shortcode('[bc-geotargeting category_id=20]'); //Emergency Plumbing Service 
+			}else if($post->ID == 432){
+				echo do_shortcode('[bc-geotargeting category_id=26]'); //Sewer Line Repair Service 
+			}else if($post->ID == 466){
+				echo do_shortcode('[bc-geotargeting category_id=17]'); //Water Line Repair Service 
+			}else if($post->ID == 478){
+				echo do_shortcode('[bc-geotargeting category_id=14]'); //Water Line Replacement Service 
+			}
+		   ?>
 	    </div>
 	</div>
 </div>
