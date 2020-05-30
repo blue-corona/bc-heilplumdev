@@ -64,6 +64,17 @@ defined( 'ABSPATH' ) || exit;
 </div>
 </div>
 <?php wp_footer(); ?>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+    jQuery(".hide_div").hide();
+    jQuery("#minus").toggle();
+    jQuery(".abc").click(function(){
+        jQuery("#minus").toggle();
+        jQuery("#plus").toggle();
+        jQuery(".hide_div").toggle(500);
+    });
+});
+</script>
 </body>
 
 </html>
