@@ -52,7 +52,7 @@
                         </div>
                         <div class="row">
                            <div class="col-12 px-5">
-                                <span class="bc_text_28 bc_line_height_27 bc_font_alt_1 bc_text_bold bc_color_3 d-block mt-3"> Request Service</span>
+                                <span class="bc_text_28 bc_line_height_27 bc_font_alt_1 bc_text_bold bc_color_3 d-block mt-3"> How Can We Help?</span>
                                <?php echo do_shortcode('[gravityform id=1 ajax=true]')?>
                               <!--  <span class="d-block mt-n2 bc_text_12 bc_line_height_36 bc_font_default bc_color_5 bc_text_bold">
                                    <input type="checkbox" class="bc_text_18 bc_line_height_50 bc_color_5" style="height: 13px;">
@@ -67,7 +67,7 @@
     </div><!-- .hero-overlay-gradient-->
 </div>
 <!-- for mobile -->
-<div class="container-fluid p-0 bc_hero_container bc_home_section_bg d-md-none" style="background-image:url('<?php echo get_stylesheet_directory_uri();?>/img/mobile_banner.jpg')">
+<div class="container-fluid p-0 bc_hero_container bc_home_section_bg d-md-none" style="background-image:url('<?php echo get_stylesheet_directory_uri();?>/img/mobile_banner_heilplum.jpg')">
 
     <div class="hero-overlay-gradient">
         <div class="container px-4 pt-lg-4">
@@ -115,7 +115,7 @@
                         </div>
                         <div class="row">
                            <div class="col-12 px-5">
-                                <span class="bc_text_28 bc_line_height_27 bc_font_alt_1 bc_text_bold bc_color_3 d-block mt-3"> Request Service</span>
+                                <span class="bc_text_28 bc_line_height_27 bc_font_alt_1 bc_text_bold bc_color_3 d-block mt-3"> How Can We Help?</span>
                                <?php echo do_shortcode('[gravityform id=1 ajax=true]')?>
                               <!--  <span class="d-block mt-n2 bc_text_12 bc_line_height_36 bc_font_default bc_color_5 bc_text_bold">
                                    <input type="checkbox" class="bc_text_18 bc_line_height_50 bc_color_5" style="height: 13px;">
