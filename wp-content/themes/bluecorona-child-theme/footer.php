@@ -64,6 +64,11 @@ defined( 'ABSPATH' ) || exit;
 </div>
 </div>
 <?php wp_footer(); ?>
+
+<?php if(is_front_page()) { ?>
+
+<?php } else { ?>
+
 <script type="text/javascript">
 jQuery(document).ready(function(){
     jQuery(".hide_div").hide();
@@ -74,7 +79,9 @@ jQuery(document).ready(function(){
         jQuery(".hide_div").toggle(500);
     });
 });
-</script>
+</script> 
+
+<?php } ?>
 </body>
 
 </html>
