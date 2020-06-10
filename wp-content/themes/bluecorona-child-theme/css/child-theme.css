@@ -9621,6 +9621,9 @@ input[type="checkbox"] {
   #gform_12 input[type=submit]:hover {
     background: #69161A !important; }
 
+#field_11_12 .validation_message, #field_11_12 .bc_contact_form_sub_page .validation_message--float, .bc_contact_form_sub_page #field_11_12 .validation_message--float, #field_11_12 .gform_wrapper .validation_message--float, .gform_wrapper #field_11_12 .validation_message--float {
+  margin: 0; }
+
 .bc_nav_container {
   background-color: transparent !important;
   background-color: #29265f; }
