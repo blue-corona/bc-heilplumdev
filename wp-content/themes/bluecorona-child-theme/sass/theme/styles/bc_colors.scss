@@ -213,3 +213,8 @@
 .bc_color_7_hover_bg { &:hover{ background-color: $bc_color_7; } }
 .bc_color_8_hover_bg { &:hover{ background-color: $bc_color_8; } }
 .bc_color_9_hover_bg { &:hover{ background-color: $bc_color_9; } }
+.sub_banner{
+		.bc_color_4_bg{
+			background-color: $bc_color_11;
+		}
+} 

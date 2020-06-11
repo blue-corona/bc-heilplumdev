@@ -9102,6 +9102,9 @@ li strong, p strong {
 .bc_color_9_hover_bg:hover {
   background-color: #999999; }
 
+.sub_banner .bc_color_4_bg {
+  background-color: rgba(255, 255, 255, 0.7); }
+
 .floating_labels_wrapper {
   margin: 0px 0px !important;
   padding-right: 10px !important;
