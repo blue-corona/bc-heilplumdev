@@ -9102,6 +9102,9 @@ li strong, p strong {
 .bc_color_9_hover_bg:hover {
   background-color: #999999; }
 
+.sub_banner .bc_color_4_bg {
+  background-color: rgba(255, 255, 255, 0.7); }
+
 .floating_labels_wrapper {
   margin: 0px 0px !important;
   padding-right: 10px !important;
@@ -9620,6 +9623,9 @@ input[type="checkbox"] {
           box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2); }
   #gform_12 input[type=submit]:hover {
     background: #69161A !important; }
+
+#field_11_12 .validation_message, #field_11_12 .bc_contact_form_sub_page .validation_message--float, .bc_contact_form_sub_page #field_11_12 .validation_message--float, #field_11_12 .gform_wrapper .validation_message--float, .gform_wrapper #field_11_12 .validation_message--float {
+  margin: 0; }
 
 .bc_nav_container {
   background-color: transparent !important;
@@ -10553,5 +10559,9 @@ svg.svg-inline--fa.fa-chevron-down {
 .staff-separator {
   margin: 20px 0;
   border-bottom: 1px solid #70a3d7; }
+
+.desktop-logo-wrap {
+  left: -65px;
+  top: -70px; }
 
 /*# sourceMappingURL=child-theme.css.map */
