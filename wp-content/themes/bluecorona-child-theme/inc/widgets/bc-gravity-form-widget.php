@@ -29,6 +29,13 @@ class BC_Gravity_Widget extends WP_Widget {
           <?php echo do_shortcode($instance['gravityform']);?>
         </div>
     </div>
+    <script>
+    jQuery(document).on("gform_confirmation_loaded", function (e, form_id) {
+	if(form_id == 2){
+		jQuery(".bc_sidebar_form_title").html("Thank you!");
+	}
+    });
+    </script>
 
 
 <?php echo $args['after_widget'];
