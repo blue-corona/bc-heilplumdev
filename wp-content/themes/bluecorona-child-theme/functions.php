@@ -41,7 +41,7 @@ add_shortcode( 'site_info_phone_number', 'bc_site_info_phone_number' );
 function bc_site_info_phone_number ( $atts ) {
     $anchor = true;
     if(isset($atts['anchor'])){
-        $anchor = $atts['anchor'];
+        $anchor = (bool) $atts['anchor'];
     }
     $tel = bc_get_theme_mod('bc_theme_options', 'bc_phone',false, '3334357');
     ob_start();
